@@ -1,0 +1,639 @@
+<%- include('includes/head.ejs') %>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+    </head>
+
+    <body onload="loadHome('<%= imgLink %>', '<%= errorMessage %>')">
+        <%- include('includes/navigation.ejs') %>
+            <main>
+                <div id="boxes-grid-container">
+                    <div class="grid-element" id="math-grid-element">
+                        <div class="subject-container" id="math-container" onmouseenter="showMathHidden()" onmouseleave="hideMathHidden()">
+                            <div class="box" id="math-box">
+                                <div class="box-title" id="math-box-title" onmouseover="displayDefaultDescription('math')">
+                                    <b>Math</b></div>
+                                <div data-simplebar class="box-items" id="math-box-items">
+                                    <ul class="box-list" id="math-box-list">
+                                        <% for (let course of math) { %>
+                                            <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'math')">
+                                                <a class="box-link" id="test1" href="/review/<%= course.url %>">
+                                                    <%= course.title %>
+                                                </a>
+                                            </li>
+                                            <% } %>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div hidden class="hidden-div" id="math-hidden">
+                                <div class="description-all-container">
+                                    <div class="description-container">
+                                        <div class="description-title" id="math-description-title">No Course Selected</div>
+                                        <div class="description-extras" id="math-description-extras"></div>
+                                        <div class="description-content" id="math-description">
+                                            No Description Available
+                                        </div>
+                                    </div>
+                                    <div class="rating-container">
+                                        <div class="rating-number-container">
+                                            <div class="rating-number" id="math-rating-number">
+                                                0.0
+                                            </div>
+                                            <div>
+                                                <div class="stars-outer">
+                                                    <div id="math-course-rating-stars" class="stars-inner"></div>
+                                                </div>
+                                                <div class="nOfRatings">
+                                                    <span id="math-nOfRatings-number">0</span> <span id="math-nOfRatings-reviews">reviews</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="top-comment-container">
+                                            <div class="top-comment-title">Top Comment</div>
+                                            <div class="top-comment-extras" id="math-comment-extras">
+                                                <span class="top-comment-user" id="math-comment-user"></span>
+                                                <span>·</span>
+                                                <span class="top-comment-rating">
+                                                    <div class="stars-outer top-comment-stars">
+                                                        <div id="math-stars-inner" class="stars-inner top-comment-stars"></div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                            <div class="top-comment-content" id="math-comment-content">No Comments Yet</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-element" id="english-grid-element">
+                        <div class="subject-container medium-right" id="english-container" onmouseenter="showEnglishHidden()" onmouseleave="hideEnglishHidden()">
+                            <div class="box medium-right-box" id="english-box">
+                                <div class="box-title" id="english-box-title" onmouseover="displayDefaultDescription('english')">
+                                    <b>English</b></div>
+                                <div data-simplebar class="box-items" id="english-box-items">
+                                    <ul class="box-list" id="english-box-list">
+                                        <li>
+                                            <div class="box-electives english-electives" onmouseover="displayDefaultDescription('english')">Class IV Electives</div>
+                                        </li>
+                                        <% for (let course of english) { %>
+                                            <% if (course.class == "4" || course.class == "3+4") { %>
+                                                <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'english')">
+                                                    <a class="electives-item" href="/review/<%= course.url %>">
+                                                        <%= course.title %>
+                                                    </a>
+                                                </li>
+                                                <% } %>
+                                                    <% } %>
+    
+                                                        <li>
+                                                            <div class="box-electives english-electives" onmouseover="displayDefaultDescription('english')">Class III Electives</div>
+                                                        </li>
+                                                        <% for (let course of english) { %>
+                                                            <% if (course.class == "3" || course.class == "3+4" || course.class == "2+3" || course.class == "1+2+3") { %>
+                                                                <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'english')">
+                                                                    <a class="electives-item" href="/review/<%= course.url %>">
+                                                                        <%= course.title %>
+                                                                    </a>
+                                                                </li>
+                                                                <% } %>
+                                                                    <% } %>
+    
+                                                                        <li>
+                                                                            <div class="box-electives english-electives" onmouseover="displayDefaultDescription('english')">Class II Electives</div>
+                                                                        </li>
+                                                                        <% for (let course of english) { %>
+                                                                            <% if (course.class == "2" || course.class == "1+2" || course.class == "2+3" || course.class == "1+2+3") { %>
+                                                                                <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'english')">
+                                                                                    <a class="electives-item" href="/review/<%= course.url %>">
+                                                                                        <%= course.title %>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <% } %>
+                                                                                    <% } %>
+    
+                                                                                        <li>
+                                                                                            <div class="box-electives english-electives" onmouseover="displayDefaultDescription('english')">Class I Electives</div>
+                                                                                        </li>
+                                                                                        <% for (let course of english) { %>
+                                                                                            <% if (course.class == "1" || course.class == "1+2" || course.class == "1+2+3") { %>
+                                                                                                <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'english')">
+                                                                                                    <a class="electives-item" href="/review/<%= course.url %>">
+                                                                                                        <%= course.title %>
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <% } %>
+                                                                                                    <% } %>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div hidden class="hidden-div medium-right-hidden" id="english-hidden">
+                                <div class="description-all-container medium-right-description">
+                                    <div class="description-container">
+                                        <div class="description-title" id="english-description-title">No Course Selected</div>
+                                        <div class="description-extras" id="english-description-extras"></div>
+                                        <div class="description-content" id="english-description">
+                                            No Description Available
+                                        </div>
+                                    </div>
+                                    <div class="rating-container">
+                                        <div class="rating-number-container">
+                                            <div class="rating-number" id="english-rating-number">
+                                                0.0
+                                            </div>
+                                            <div>
+                                                <div class="stars-outer">
+                                                    <div id="english-course-rating-stars" class="stars-inner"></div>
+                                                </div>
+                                                <div class="nOfRatings">
+                                                    <span id="english-nOfRatings-number">0</span> <span id="english-nOfRatings-reviews">reviews</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="top-comment-container">
+                                            <div class="top-comment-title">Top Comment</div>
+                                            <div class="top-comment-extras" id="english-comment-extras">
+                                                <span class="top-comment-user" id="english-comment-user"></span>
+                                                <span>·</span>
+                                                <span class="top-comment-rating">
+                                                    <div class="stars-outer top-comment-stars">
+                                                        <div id="english-stars-inner" class="stars-inner top-comment-stars"></div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                            <div class="top-comment-content" id="english-comment-content">No Comments Yet</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-element" id="arts-grid-element">
+                        <div class="subject-container big-right" id="arts-container" onmouseenter="showArtsHidden()" onmouseleave="hideArtsHidden()">
+                            <div class="box big-right-box" id="arts-box">
+                                <div class="box-title" id="arts-box-title" onmouseover="displayDefaultDescription('arts')">
+                                    <b>Arts</b></div>
+                                <div data-simplebar class="box-items" id="arts-box-items">
+                                    <ul class="box-list" id="arts-box-list">
+                                        <li>
+                                            <div class="box-electives arts-electives" onmouseover="displayDefaultDescription('arts')">Music</div>
+                                        </li>
+                                        <% for (let course of arts) { %>
+                                            <% if (course.class == "music") { %>
+                                                <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'arts')">
+                                                    <a class="electives-item" href="/review/<%= course.url %>">
+                                                        <%= course.title %>
+                                                    </a>
+                                                </li>
+                                                <% } %>
+                                                    <% } %>
+    
+                                                        <li>
+                                                            <div class="box-electives arts-electives" onmouseover="displayDefaultDescription('arts')">Performing Arts</div>
+                                                        </li>
+                                                        <% for (let course of arts) { %>
+                                                            <% if (course.class == "performing") { %>
+                                                                <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'arts')">
+                                                                    <a class="electives-item" href="/review/<%= course.url %>">
+                                                                        <%= course.title %>
+                                                                    </a>
+                                                                </li>
+                                                                <% } %>
+                                                                    <% } %>
+    
+                                                                        <li>
+                                                                            <div class="box-electives arts-electives" onmouseover="displayDefaultDescription('arts')">Visual Arts</div>
+                                                                        </li>
+                                                                        <% for (let course of arts) { %>
+                                                                            <% if (course.class == "visual") { %>
+                                                                                <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'arts')">
+                                                                                    <a class="electives-item" href="/review/<%= course.url %>">
+                                                                                        <%= course.title %>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <% } %>
+                                                                                    <% } %>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div hidden class="hidden-div big-right-hidden" id="arts-hidden">
+                                <div class="description-all-container big-right-description">
+                                    <div class="description-container">
+                                        <div class="description-title" id="arts-description-title">No Course Selected</div>
+                                        <div class="description-extras" id="arts-description-extras"></div>
+                                        <div class="description-content" id="arts-description">
+                                            No Description Available
+                                        </div>
+                                    </div>
+                                    <div class="rating-container">
+                                        <div class="rating-number-container">
+                                            <div class="rating-number" id="arts-rating-number">
+                                                0.0
+                                            </div>
+                                            <div>
+                                                <div class="stars-outer">
+                                                    <div id="arts-course-rating-stars" class="stars-inner"></div>
+                                                </div>
+                                                <div class="nOfRatings">
+                                                    <span id="arts-nOfRatings-number">0</span> <span id="arts-nOfRatings-reviews">reviews</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="top-comment-container">
+                                            <div class="top-comment-title">Top Comment</div>
+                                            <div class="top-comment-extras" id="arts-comment-extras">
+                                                <span class="top-comment-user" id="arts-comment-user"></span>
+                                                <span>·</span>
+                                                <span class="top-comment-rating">
+                                                    <div class="stars-outer top-comment-stars">
+                                                        <div id="arts-stars-inner" class="stars-inner top-comment-stars"></div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                            <div class="top-comment-content" id="arts-comment-content">No Comments Yet</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-element" id="science-grid-element">
+                        <div class="subject-container medium-right" id="science-container" onmouseenter="showScienceHidden()" onmouseleave="hideScienceHidden()">
+                            <div class="box medium-right-box" id="science-box">
+                                <div class="box-title" id="science-box-title" onmouseover="displayDefaultDescription('science')">
+                                    <b>Science</b></div>
+                                <div data-simplebar class="box-items" id="science-box-items">
+                                    <ul class="box-list" id="science-box-list">
+                                        <% for (let course of science) { %>
+                                            <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'science')">
+                                                <a class="box-link" href="/review/<%= course.url %>">
+                                                    <%= course.title %>
+                                                </a>
+                                            </li>
+                                            <% } %>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div hidden class="hidden-div medium-right-hidden" id="science-hidden">
+                                <div class="description-all-container medium-right-description">
+                                    <div class="description-container">
+                                        <div class="description-title" id="science-description-title">No Course Selected</div>
+                                        <div class="description-extras" id="science-description-extras"></div>
+                                        <div class="description-content" id="science-description">
+                                            No Description Available
+                                        </div>
+                                    </div>
+                                    <div class="rating-container">
+                                        <div class="rating-number-container">
+                                            <div class="rating-number" id="science-rating-number">
+                                                0.0
+                                            </div>
+                                            <div>
+                                                <div class="stars-outer">
+                                                    <div id="science-course-rating-stars" class="stars-inner"></div>
+                                                </div>
+                                                <div class="nOfRatings">
+                                                    <span id="science-nOfRatings-number">0</span> <span id="science-nOfRatings-reviews">reviews</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="top-comment-container">
+                                            <div class="top-comment-title">Top Comment</div>
+                                            <div class="top-comment-extras" id="science-comment-extras">
+                                                <span class="top-comment-user" id="science-comment-user"></span>
+                                                <span>·</span>
+                                                <span class="top-comment-rating">
+                                                    <div class="stars-outer top-comment-stars">
+                                                        <div id="science-stars-inner" class="stars-inner top-comment-stars"></div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                            <div class="top-comment-content" id="science-comment-content">No Comments Yet</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="grid-element" id="languages-grid-element">
+                        <div class="subject-container" id="languages-container" onmouseenter="showLanguagesHidden()" onmouseleave="hideLanguagesHidden()">
+                            <div class="box" id="languages-box">
+                                <div class="box-title" id="languages-box-title" onmouseover="displayDefaultDescription('languages')"><b>Modern Languages</b></div>
+                                <div data-simplebar class="box-items" id="languages-box-items">
+                                    <ul class="box-list" id="languages-box-list">
+                                        <li>
+                                            <div class="box-electives languages-electives" onmouseover="displayDefaultDescription('languages')">French</div>
+                                        </li>
+                                        <% for (let course of languages) { %>
+                                            <% if (course.class == "french") { %>
+                                                <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'languages')">
+                                                    <a class="electives-item" href="/review/<%= course.url %>">
+                                                        <%= course.title %>
+                                                    </a>
+                                                </li>
+                                                <% } %>
+                                                    <% } %>
+    
+                                                        <li>
+                                                            <div class="box-electives languages-electives" onmouseover="displayDefaultDescription('languages')">Spanish</div>
+                                                        </li>
+                                                        <% for (let course of languages) { %>
+                                                            <% if (course.class == "spanish") { %>
+                                                                <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'languages')">
+                                                                    <a class="electives-item" href="/review/<%= course.url %>">
+                                                                        <%= course.title %>
+                                                                    </a>
+                                                                </li>
+                                                                <% } %>
+                                                                    <% } %>
+    
+                                                                        <li>
+                                                                            <div class="box-electives languages-electives" onmouseover="displayDefaultDescription('languages')">Chinese</div>
+                                                                        </li>
+                                                                        <% for (let course of languages) { %>
+                                                                            <% if (course.class == "chinese") { %>
+                                                                                <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'languages')">
+                                                                                    <a class="electives-item" href="/review/<%= course.url %>">
+                                                                                        <%= course.title %>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <% } %>
+                                                                                    <% } %>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div hidden class="hidden-div" id="languages-hidden">
+                                <div class="description-all-container">
+                                    <div class="description-container">
+                                        <div class="description-title" id="languages-description-title">No Course Selected</div>
+                                        <div class="description-extras" id="languages-description-extras"></div>
+                                        <div class="description-content" id="languages-description">
+                                            No Description Available
+                                        </div>
+                                    </div>
+                                    <div class="rating-container">
+                                        <div class="rating-number-container">
+                                            <div class="rating-number" id="languages-rating-number">
+                                                0.0
+                                            </div>
+                                            <div>
+                                                <div class="stars-outer">
+                                                    <div id="languages-course-rating-stars" class="stars-inner"></div>
+                                                </div>
+                                                <div class="nOfRatings">
+                                                    <span id="languages-nOfRatings-number">0</span> <span id="languages-nOfRatings-reviews">reviews</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="top-comment-container">
+                                            <div class="top-comment-title">Top Comment</div>
+                                            <div class="top-comment-extras" id="languages-comment-extras">
+                                                <span class="top-comment-user" id="languages-comment-user"></span>
+                                                <span>·</span>
+                                                <span class="top-comment-rating">
+                                                    <div class="stars-outer top-comment-stars">
+                                                        <div id="languages-stars-inner" class="stars-inner top-comment-stars"></div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                            <div class="top-comment-content" id="languages-comment-content">No Comments Yet</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="grid-element" id="history-grid-element">
+                        <div class="subject-container big-right medium-right" id="history-container" onmouseenter="showHistoryHidden()" onmouseleave="hideHistoryHidden()">
+                            <div class="box big-right-box medium-right-box" id="history-box">
+                                <div class="box-title" id="history-box-title" onmouseover="displayDefaultDescription('history')">
+                                    <b>History & Social Sciences</b></div>
+                                <div data-simplebar class="box-items" id="history-box-items">
+                                    <ul class="box-list" id="history-box-list">
+                                        <li>
+                                            <div class="box-electives history-electives" onmouseover="displayDefaultDescription('history')">History</div>
+                                        </li>
+                                        <% for (let course of history) { %>
+                                            <% if (course.class == "history") { %>
+                                                <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'history')">
+                                                    <a class="electives-item" href="/review/<%= course.url %>">
+                                                        <%= course.title %>
+                                                    </a>
+                                                </li>
+                                                <% } %>
+                                                    <% } %>
+    
+                                                        <li>
+                                                            <div class="box-electives history-electives" onmouseover="displayDefaultDescription('history')">Social Sciences (Classes I & II)
+                                                            </div>
+                                                        </li>
+                                                        <% for (let course of history) { %>
+                                                            <% if (course.class == "social") { %>
+                                                                <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'history')">
+                                                                    <a class="electives-item" href="/review/<%= course.url %>">
+                                                                        <%= course.title %>
+                                                                    </a>
+                                                                </li>
+                                                                <% } %>
+                                                                    <% } %>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div hidden class="hidden-div big-right-hidden medium-right-hidden" id="history-hidden">
+                                <div class="description-all-container big-right-description medium-right-description">
+                                    <div class="description-container">
+                                        <div class="description-title" id="history-description-title">No Course Selected</div>
+                                        <div class="description-extras" id="history-description-extras"></div>
+                                        <div class="description-content" id="history-description">
+                                            No Description Available
+                                        </div>
+                                    </div>
+                                    <div class="rating-container">
+                                        <div class="rating-number-container">
+                                            <div class="rating-number" id="history-rating-number">
+                                                0.0
+                                            </div>
+                                            <div>
+                                                <div class="stars-outer">
+                                                    <div id="history-course-rating-stars" class="stars-inner"></div>
+                                                </div>
+                                                <div class="nOfRatings">
+                                                    <span id="history-nOfRatings-number">0</span> <span id="history-nOfRatings-reviews">reviews</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="top-comment-container">
+                                            <div class="top-comment-title">Top Comment</div>
+                                            <div class="top-comment-extras" id="history-comment-extras">
+                                                <span class="top-comment-user" id="history-comment-user"></span>
+                                                <span>·</span>
+                                                <span class="top-comment-rating">
+                                                    <div class="stars-outer top-comment-stars">
+                                                        <div id="history-stars-inner" class="stars-inner top-comment-stars"></div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                            <div class="top-comment-content" id="history-comment-content">No Comments Yet</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-element" id="classics-grid-element">
+                        <div class="subject-container" id="classics-container" onmouseenter="showClassicsHidden()" onmouseleave="hideClassicsHidden()">
+                            <div class="box" id="classics-box">
+                                <div class="box-title" id="classics-box-title" onmouseover="displayDefaultDescription('classics')">
+                                    <b>Classics</b></div>
+                                <div data-simplebar class="box-items" id="classics-box-items">
+                                    <ul class="box-list" id="classics-box-list">
+                                        <li>
+                                            <div class="box-electives classics-electives" onmouseover="displayDefaultDescription('classics')">Latin</div>
+                                        </li>
+                                        <% for (let course of classics) { %>
+                                            <% if (course.class == "latin") { %>
+                                                <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'classics')">
+                                                    <a class="electives-item" href="/review/<%= course.url %>">
+                                                        <%= course.title %>
+                                                    </a>
+                                                </li>
+                                                <% } %>
+                                                    <% } %>
+    
+                                                        <li>
+                                                            <div class="box-electives classics-electives" onmouseover="displayDefaultDescription('classics')">Greek</div>
+                                                        </li>
+                                                        <% for (let course of classics) { %>
+                                                            <% if (course.class == "greek") { %>
+                                                                <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'classics')">
+                                                                    <a class="electives-item" href="/review/<%= course.url %>">
+                                                                        <%= course.title %>
+                                                                    </a>
+                                                                </li>
+                                                                <% } %>
+                                                                    <% } %>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div hidden class="hidden-div" id="classics-hidden">
+                                <div class="description-all-container">
+                                    <div class="description-container">
+                                        <div class="description-title" id="classics-description-title">No Course Selected</div>
+                                        <div class="description-extras" id="classics-description-extras"></div>
+                                        <div class="description-content" id="classics-description">
+                                            No Description Available
+                                        </div>
+                                    </div>
+                                    <div class="rating-container">
+                                        <div class="rating-number-container">
+                                            <div class="rating-number" id="classics-rating-number">
+                                                0.0
+                                            </div>
+                                            <div>
+                                                <div class="stars-outer">
+                                                    <div id="classics-course-rating-stars" class="stars-inner"></div>
+                                                </div>
+                                                <div class="nOfRatings">
+                                                    <span id="classics-nOfRatings-number">0</span> <span id="classics-nOfRatings-reviews">reviews</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="top-comment-container">
+                                            <div class="top-comment-title">Top Comment</div>
+                                            <div class="top-comment-extras" id="classics-comment-extras">
+                                                <span class="top-comment-user" id="classics-comment-user"></span>
+                                                <span>·</span>
+                                                <span class="top-comment-rating">
+                                                    <div class="stars-outer top-comment-stars">
+                                                        <div id="classics-stars-inner" class="stars-inner top-comment-stars"></div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                            <div class="top-comment-content" id="classics-comment-content">No Comments Yet</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-element" id="computer-grid-element">
+                        <div class="subject-container medium-right" id="computer-container" onmouseenter="showComputerHidden()" onmouseleave="hideComputerHidden()">
+                            <div class="box medium-right-box" id="computer-box">
+                                <div class="box-title" id="computer-box-title" onmouseover="displayDefaultDescription('computer')">
+                                    <b>Computer Science</b></div>
+                                <div data-simplebar class="box-items" id="computer-box-items">
+                                    <ul class="box-list" id="computer-box-list">
+                                        <% for (let course of computer) { %>
+                                            <li data-simplebar onmouseover="displayDescription('<%= JSON.stringify(course) %>', 'computer')">
+                                                <a class="box-link" href="/review/<%= course.url %>">
+                                                    <%= course.title %>
+                                                </a>
+                                            </li>
+                                            <% } %>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div hidden class="hidden-div medium-right-hidden" id="computer-hidden">
+                                <div class="description-all-container medium-right-description">
+                                    <div class="description-container">
+                                        <div class="description-title" id="computer-description-title">No Course Selected</div>
+                                        <div class="description-extras" id="computer-description-extras"></div>
+                                        <div class="description-content" id="computer-description">
+                                            No Description Available
+                                        </div>
+                                    </div>
+                                    <div class="rating-container">
+                                        <div class="rating-number-container">
+                                            <div class="rating-number" id="computer-rating-number">
+                                                0.0
+                                            </div>
+                                            <div>
+                                                <div class="stars-outer">
+                                                    <div id="computer-course-rating-stars" class="stars-inner"></div>
+                                                </div>
+                                                <div class="nOfRatings">
+                                                    <span id="computer-nOfRatings-number">0</span> <span id="computer-nOfRatings-reviews">reviews</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="top-comment-container">
+                                            <div class="top-comment-title">Top Comment</div>
+                                            <div class="top-comment-extras" id="computer-comment-extras">
+                                                <span class="top-comment-user" id="computer-comment-user"></span>
+                                                <span>·</span>
+                                                <span class="top-comment-rating">
+                                                    <div class="stars-outer top-comment-stars">
+                                                        <div id="computer-stars-inner" class="stars-inner top-comment-stars"></div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                            <div class="top-comment-content" id="computer-comment-content">No Comments Yet</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-content">Created By Diego Domenig '20. Credits to Jamie Lim and Shilo Liu '21</div>
+                </div>
+            </footer>
+            <script src="/javascript/home.js"></script>
+    </body>
+
+    </html>

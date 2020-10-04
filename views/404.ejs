@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="/css/404.css">
+    <link rel="stylesheet" href="/css/navigation.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar" id="navbar">
+            <div class="logo-div">
+                <img src="/images/myCurriculum.png" alt="logo" class="logo">
+            </div>
+        </div>
+    </header>
+    <% var links = ["https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://youtu.be/L_jWHffIx5E?t=37", "https://www.youtube.com/watch?v=HEXWRTEbj1I", "https://youtu.be/y6120QOlsfU?t=1", "https://www.youtube.com/watch?v=v2AC41dglnM", "https://www.youtube.com/watch?v=6Dh-RL__uN4", ]%>
+    <% var link = links[Math.floor(Math.random()*links.length)]%>
+    <h1 class="NF-title">Page Not Found</h1>
+    <div class="NF-links">
+        <a class="NF-link" href="/">Home</a>
+        <a class="NF-link" href="<%= link %>">lol</a>
+    </div>
+    
+</body>
+
+</html>

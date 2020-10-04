@@ -1,0 +1,680 @@
+.rating-float-container {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.top-comment-container {
+    height: 100%;
+    width: 75%;
+    float: right;
+    color: rgb(0, 0, 0);
+}
+
+.top-comment-title {
+    padding: 0.2rem 0 0 0.2rem;
+    font-size: 0.85rem;
+    line-height: 0.85rem;
+    height: 20%;
+    width: auto;
+    max-width: 6.7rem;
+    color: white;
+    border-radius: 3px;
+    background: rgb(82, 82, 82);
+}
+
+.top-comment-extras {
+    height: 20%;
+    padding: 0 0 0 0.2rem;
+}
+
+.top-comment-user {
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+}
+
+.top-comment-stars {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
+
+.top-comment-content {
+    padding: 0.2rem 0.2rem 0.1rem 0.2rem;
+    height: 60%;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    overflow: scroll;
+}
+
+#boxes-grid-container {
+    display: grid;
+    width: 100vw;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "math english arts"
+        "science languages history"
+        "classics computer placeholder";
+}
+
+#math-container {
+    grid-area: math;
+}
+
+#english-container {
+    grid-area: english;
+}
+
+#arts-container {
+    grid-area: arts;
+}
+
+#science-container {
+    grid-area: science;
+}
+
+#languages-container {
+    grid-area: languages;
+}
+
+#history-container {
+    grid-area: history;
+}
+
+#classics-container {
+    grid-area: classics;
+}
+
+#computer-container {
+    grid-area: computer;
+}
+
+.grid-element {
+    padding: 2rem 2.5vw;
+    width: 33.3vw;
+}
+
+.subject-container {
+    width: auto;
+    height: 40rem;
+    position: relative;
+    transform-origin: left;
+    transition: 0s;
+}
+
+.big-right {
+    transform-origin: right;
+}
+/*
+#arts-container {
+    transform-origin: right;
+}
+
+#history-container {
+    transform-origin: right;
+}
+*/
+
+.box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+    z-index: 1000;
+}
+
+.big-right-box {
+    right: 0;
+}
+/*
+.big-right-hidden {
+    right: 0;
+}
+*/
+
+/*
+#arts-box {
+    right: 0;
+}
+
+#arts-hidden {
+    right: 0;
+}
+
+
+#history-box {
+    right: 0;
+}
+
+#history-hidden {
+    right: 0;
+}
+*/
+
+
+.hidden-div {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 31vw;
+    border-radius: 2%;
+    background-color: rgb(237, 237, 237);
+    border: 1px solid rgb(228, 228, 228);
+    z-index: 1;
+}
+
+.description-all-container {
+    height: 100%;
+    padding: 0.2rem 0.2rem 0.2rem 1.3vw;
+}
+
+.big-right-description {
+    padding: 0.2rem 1.3rem 0.2rem 0.2vw;
+}
+/*
+.left-description-container {
+    padding: 0.2rem 1.3rem 0.2rem 0.2vw;
+}
+*/
+
+/*
+.right-description-all-container {
+    height: 100%;
+    padding: 0.2rem 1.3vw 0.2rem 0.2rem;
+}
+*/
+
+.description-container {
+    height: 80%;
+    overflow: scroll;
+}
+
+.description-title {
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    min-height: 3.5vh;
+    height: auto;
+    width: 100%;
+    background: rgb(82, 82, 82);
+    color: white;
+    text-align: center;
+    line-height: 2.5vh;
+    border: 2px solid rgb(82, 82, 82);
+    border-radius: 4px;
+}
+
+.description-content {
+    padding: 0.1rem 0.6rem 0.3rem 0.6rem;
+    font-size: 0.9rem;
+}
+
+.description-extras {
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+    padding: 0.3rem 0.6rem 0 0.6rem;
+    font-style: italic;
+    color: rgb(106, 106, 106);
+}
+
+.rating-container {
+    padding: 0.2rem 0 0.2rem 0;
+    height: 20%;
+    border-top: 2px solid rgb(82, 82, 82);
+}
+
+.rating-number-container {
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.rating-number {
+    height: 44%;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.7rem;
+}
+
+.stars-outer {
+    position: relative;
+    display: inline-block;
+}
+
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.stars-outer::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: FontAwesome;
+    color: rgb(215, 215, 215);
+}
+
+.stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: FontAwesome;
+    color: rgb(255, 180, 0);
+}
+
+#math-box {
+    border: 5px solid rgb(126, 157, 252);
+    background: rgb(172, 193, 255);
+}
+
+#english-box {
+    border: 5px solid rgb(255, 112, 112);
+    background: rgb(255, 174, 174);
+}
+
+#arts-box {
+    border: 5px solid rgb(255, 228, 108);
+    background: rgb(255, 236, 148);
+}
+
+#science-box {
+    border: 5px solid rgb(168, 151, 255);
+    background: rgb(217, 209, 255);
+}
+
+#languages-box {
+    border: 5px solid rgb(81, 211, 133);
+    background: rgb(168, 213, 186)
+}
+
+#history-box {
+    border: 5px solid rgb(255, 174, 102);
+    background: rgb(255, 208, 168);
+}
+
+#classics-box {
+    border: 5px solid rgb(233, 123, 150);
+    background: rgb(244, 182, 194);
+}
+
+#computer-box {
+    border: 5px solid rgb(89, 204, 194);
+    background: rgb(152, 211, 206);
+}
+
+.box-items {
+    height: 91.5%;
+    overflow: scroll;
+}
+
+.subject-container:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
+.box-title {
+    text-align: center;
+    vertical-align: middle;
+    height: 3rem;
+    line-height: 3rem;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+#math-box-title {
+    background-color: rgb(126, 157, 252);
+}
+
+#english-box-title {
+    background-color: rgb(255, 112, 112);
+}
+
+#arts-box-title {
+    background-color: rgb(255, 228, 108);
+}
+
+#science-box-title {
+    background-color: rgb(168, 151, 255);
+}
+
+#languages-box-title {
+    background-color: rgb(81, 211, 133);
+}
+
+#history-box-title {
+    background-color: rgb(255, 174, 102);
+}
+
+#classics-box-title {
+    background-color: rgb(233, 123, 150);
+}
+
+#computer-box-title {
+    background-color: rgb(89, 204, 194);
+}
+
+.box-list {
+    list-style: none;
+}
+
+#math-box-list li:nth-child(even) {
+    background: rgb(172, 193, 255);
+}
+
+#math-box-list li:nth-child(odd) {
+    background: rgb(149, 176, 255);
+}
+
+#english-box-list li:nth-child(even) {
+    background: rgb(255, 174, 174);
+}
+
+#english-box-list li:nth-child(odd) {
+    background: rgb(255, 152, 152);
+}
+
+#arts-box-list li:nth-child(even) {
+    background: rgb(255, 236, 148);
+}
+
+#arts-box-list li:nth-child(odd) {
+    background: rgb(255, 230, 118);
+}
+
+#science-box-list li:nth-child(even) {
+    background: rgb(217, 209, 255);
+}
+
+#science-box-list li:nth-child(odd) {
+    background: rgb(197, 186, 255);
+}
+
+#languages-box-list li:nth-child(even) {
+    background: rgb(168, 213, 186);
+}
+
+#languages-box-list li:nth-child(odd) {
+    background: rgb(136, 214, 167);
+}
+
+#history-box-list li:nth-child(even) {
+    background: rgb(255, 208, 168);
+}
+
+#history-box-list li:nth-child(odd) {
+    background: rgb(255, 190, 133);
+}
+
+#classics-box-list li:nth-child(even) {
+    background: rgb(244, 182, 194);
+}
+
+#classics-box-list li:nth-child(odd) {
+    background: rgb(233, 156, 175);
+}
+
+#computer-box-list li:nth-child(even) {
+    background: rgb(152, 211, 206);
+}
+
+#computer-box-list li:nth-child(odd) {
+    background: rgb(120, 207, 200);
+}
+
+.box-electives {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    color: black;
+    line-height: 3rem;
+}
+
+.english-electives {
+    background: rgb(255, 112, 112);
+}
+
+.arts-electives {
+    background: rgb(255, 228, 108);
+}
+
+.languages-electives {
+    background: rgb(81, 211, 133);
+}
+
+.history-electives {
+    background: rgb(255, 174, 102);
+}
+
+.classics-electives {
+    background: rgb(233, 123, 150);
+}
+
+.electives-item {
+    padding-left: 2vw;
+    line-height: 3rem;
+}
+
+.box-list li {
+    height: 3rem;
+    vertical-align: middle;
+    /*overflow: auto;*/
+    white-space: nowrap;
+    transition: 0.3s;
+}
+
+.box-list li a {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: black;
+    text-decoration: none;
+    line-height: 3rem;
+}
+
+.box-link {
+    display: inline-block;
+    /*transform-origin:left;*/
+}
+
+.box-link:hover {
+    transform: scale(1.04);
+    transition-duration: 0.15s;
+}
+
+.electives-item {
+    display: inline-block;
+    /*transform-origin:left;*/
+}
+
+.electives-item:hover {
+    transform: scale(1.04);
+    transition-duration: 0.15s;
+}
+
+#math-box-list li:hover {
+    background: rgb(33, 89, 255);
+}
+
+#math-box-list li:hover .box-link {
+    color: white;
+}
+
+#english-box-list li:hover {
+    background: rgb(255, 91, 91);
+}
+
+#english-box-list li:hover .electives-item {
+    color: white;
+}
+
+#arts-box-list li:hover {
+    background: rgb(255, 219, 59);
+}
+
+#arts-box-list li:hover .electives-item {
+    color: white;
+}
+
+#science-box-list li:hover {
+    background: rgb(134, 109, 255);
+}
+
+#science-box-list li:hover .box-link {
+    color: white;
+}
+
+#languages-box-list li:hover {
+    background: rgb(2, 139, 57)
+}
+
+#languages-box-list li:hover .electives-item {
+    color: white;
+}
+
+#history-box-list li:hover {
+    background: rgb(255, 131, 23);
+}
+
+#history-box-list li:hover .electives-item {
+    color: white;
+}
+
+#classics-box-list li:hover {
+    background: rgb(230, 69, 109);
+}
+
+#classics-box-list li:hover .electives-item {
+    color: white;
+}
+
+#computer-box-list li:hover {
+    background: rgb(31, 204, 190);
+}
+
+#computer-box-list li:hover .box-link {
+    color: white;
+}
+
+.nOfRatings {
+    font-size: 0.8rem;
+}
+
+.footer-container {
+    height: 4rem;
+    width: 100%;
+    background: rgb(236, 236, 236);
+}
+
+.footer-content {
+    color: rgb(40, 40, 40);
+    line-height: 4rem;
+    padding-left: 2rem;
+    overflow: wrap;
+    
+}
+
+@media only screen and (max-width: 1300px) {
+    #boxes-grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "math english"
+        "arts science"
+        "languages history"
+        "classics computer";
+    }
+    .grid-element {
+        width: 100%;
+        padding: 2rem 3.5vw;
+    }
+    .big-right {
+        transform-origin: left;
+    }
+    .big-right-box {
+        left: 0;
+    }
+    .big-right-hidden {
+        left: 0;
+    }
+    .big-right-description {
+        padding: 0.2rem 0.2rem 0.2rem 1.3vw;
+    }
+
+    .medium-right {
+        transform-origin: right;
+    }
+    .medium-right-box {
+        right: 0;
+    }
+    .medium-right-description {
+        padding: 0.2rem 1.3rem 0.2rem 0.2vw;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #boxes-grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "math"
+        "english"
+        "arts"
+        "science"
+        "languages"
+        "history"
+        "classics"
+        "computer";
+    }
+    .grid-element {
+        width: 100%;
+        padding: 2rem 8vw;
+    }
+    .subject-container {
+        transform-origin: center;
+        height: 30rem;
+    }
+    .box-items {
+        height: 90%;
+    }
+    .subject-container:hover {
+        transform: scale(1);
+        transition-duration: 0s;
+    }
+    .box-link:hover {
+        transform: scale(1);
+        transition-duration: 0s;
+    }
+    .electives-item:hover {
+        transform: scale(1);
+        transition-duration: 0s;
+    }
+
+    .footer-content {
+        padding-left: 0.5rem;
+        font-size: 0.90rem;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .footer-content {
+        font-size: 0.80rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footer-content {
+        font-size: 0.70rem;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .footer-content {
+        font-size: 0.60rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .footer-content {
+        font-size: 0.35rem;
+    }
+}

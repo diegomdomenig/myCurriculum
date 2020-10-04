@@ -1,0 +1,12 @@
+<header>
+    <div class="navbar" id="navbar">
+        <div class="logo-div">
+            <img src="/images/myCurriculum.png" alt="logo" class="logo">
+        </div>
+        <% if (imgLink === "none") { %>
+            <a href="/login" id="sign-in">Sign In</a>
+            <% } else {%>
+                <a href="/account"><img src="<%= imgLink %>" alt="" id="account-image"></a>
+                <% } %>
+    </div>
+</header>

@@ -1,0 +1,39 @@
+<%- include('../includes/head.ejs') %>
+
+<link rel="stylesheet" href="/css/admin.css">
+</head>
+
+<body>
+    <h1>Add Course</h1>
+    <div class="edit-div">
+        <form action="/admin/add-course" method="post">
+            title:<br>
+            <textarea class="text" cols="86" rows ="1" name="title"></textarea> <br>
+            <br>
+
+            Short Title: (Basically just the title without the Extra Info)<br>
+            <textarea class="text" cols="86" rows ="1" name="shortTitle"></textarea> <br>
+            <br>
+
+            Extra Info: (Example: Half, Classes I, II, & III)<br>
+            <textarea class="text" cols="86" rows ="1" name="extraInfo"></textarea> <br>
+            <br>
+
+            description:<br>
+            <textarea class="text" cols="86" rows ="30" name="description"></textarea> <br><br>
+
+            class: (for math, science, and computer science courses: -1, for english courses: 1, 2, 3, or 4, for arts courses: music, performing, or visual, for language courses: french, spanish, or chinese, for history courses: history or social, for classics courses: latin or greek)<br>
+            <input type="text" name="class"><br><br>
+    
+            subject: (math, english, arts, sciecne, languages, history, classics, computer)<br>
+            <input type="text" name="subject"><br><br>
+
+            url: (Sample: U2c9, at https://generate.plus/en/base64 , length in bytes: 3, URL safe: on)<br>
+            <input type="text" name="url"><br><br>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

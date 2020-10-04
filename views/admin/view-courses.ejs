@@ -1,0 +1,246 @@
+<%- include('../includes/head.ejs') %>
+
+<link rel="stylesheet" href="/css/admin.css">
+
+</head>
+
+<body>
+    <a class="add-course-link" href="/admin/add-course">Add Course</a>
+
+    <div class="subject-title">Math Courses</div>
+    <% for (let course of courses) { %>
+        <% if (course.subject == 'math') { %>
+            <% var nOfReports = 0 %>
+            <% for (let review of course.reviews.items) { %>
+                <% nOfReports += review.reports.items.length %>
+            <% } %>
+            <div class="subject-list-item">
+                <div class="list-course"><%= course.title %></div>
+                <div class="course-actions-container">
+                    <% if(nOfReports > 0) {%>
+                        <div class="course-reports"><%= nOfReports %></div>
+                    <% } %>
+                    <div class="everything-but-reports">
+                        <a class="list-reviews" href="/admin/reviews/<%= course._id %>">Reviews</a>
+                        <a class="list-link" href="/admin/edit/<%= course._id %>">Edit Course</a>
+                        <form action="/admin/delete-course" class="list-form" method="post">
+                            <input type="hidden" name="courseId" value="<%= course._id %>">
+                            <input type="submit" value="Delete">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    <% } %>
+
+    <div class="subject-title">English Courses</div>
+    <% for (let course of courses) { %>
+        <% if (course.subject == 'english') { %>
+            <% var nOfReports = 0 %>
+            <% for (let review of course.reviews.items) { %>
+                <% nOfReports += review.reports.items.length %>
+            <% } %>
+            <div class="subject-list-item">
+                <div class="list-course"><%= course.title %></div>
+                <div class="course-actions-container">
+                    <% if(nOfReports > 0) {%>
+                        <div class="course-reports"><%= nOfReports %></div>
+                    <% } %>
+                    <div class="everything-but-reports">
+                        <a class="list-reviews" href="/admin/reviews/<%= course._id %>">Reviews</a>
+                        <a class="list-link" href="/admin/edit/<%= course._id %>">Edit Course</a>
+                        <form action="/admin/delete-course" class="list-form" method="post">
+                            <input type="hidden" name="courseId" value="<%= course._id %>">
+                            <input type="submit" value="Delete">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    <% } %>
+
+    <div class="subject-title">Arts Courses</div>
+    <% for (let course of courses) { %>
+        <% if (course.subject == 'arts') { %>
+            <% var nOfReports = 0 %>
+            <% for (let review of course.reviews.items) { %>
+                <% nOfReports += review.reports.items.length %>
+            <% } %>
+            <div class="subject-list-item">
+                <div class="list-course"><%= course.title %></div>
+                <div class="course-actions-container">
+                    <% if(nOfReports > 0) {%>
+                        <div class="course-reports"><%= nOfReports %></div>
+                    <% } %>
+                    <div class="everything-but-reports">
+                        <a class="list-reviews" href="/admin/reviews/<%= course._id %>">Reviews</a>
+                        <a class="list-link" href="/admin/edit/<%= course._id %>">Edit Course</a>
+                        <form action="/admin/delete-course" class="list-form" method="post">
+                            <input type="hidden" name="courseId" value="<%= course._id %>">
+                            <input type="submit" value="Delete">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    <% } %>
+
+    <div class="subject-title">Science Courses</div>
+    <% for (let course of courses) { %>
+        <% if (course.subject == 'science') { %>
+            <% var nOfReports = 0 %>
+            <% for (let review of course.reviews.items) { %>
+                <% nOfReports += review.reports.items.length %>
+            <% } %>
+            <div class="subject-list-item">
+                <div class="list-course"><%= course.title %></div>
+                <div class="course-actions-container">
+                    <% if(nOfReports > 0) {%>
+                        <div class="course-reports"><%= nOfReports %></div>
+                    <% } %>
+                    <div class="everything-but-reports">
+                        <a class="list-reviews" href="/admin/reviews/<%= course._id %>">Reviews</a>
+                        <a class="list-link" href="/admin/edit/<%= course._id %>">Edit Course</a>
+                        <form action="/admin/delete-course" class="list-form" method="post">
+                            <input type="hidden" name="courseId" value="<%= course._id %>">
+                            <input type="submit" value="Delete">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    <% } %>
+
+    <div class="subject-title">Languages Courses</div>
+    <% for (let course of courses) { %>
+        <% if (course.subject == 'languages') { %>
+            <% var nOfReports = 0 %>
+            <% for (let review of course.reviews.items) { %>
+                <% nOfReports += review.reports.items.length %>
+            <% } %>
+            <div class="subject-list-item">
+                <div class="list-course"><%= course.title %></div>
+                <div class="course-actions-container">
+                    <% if(nOfReports > 0) {%>
+                        <div class="course-reports"><%= nOfReports %></div>
+                    <% } %>
+                    <div class="everything-but-reports">
+                        <a class="list-reviews" href="/admin/reviews/<%= course._id %>">Reviews</a>
+                        <a class="list-link" href="/admin/edit/<%= course._id %>">Edit Course</a>
+                        <form action="/admin/delete-course" class="list-form" method="post">
+                            <input type="hidden" name="courseId" value="<%= course._id %>">
+                            <input type="submit" value="Delete">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    <% } %>
+
+    <div class="subject-title">History/Social Sciences Courses</div>
+    <% for (let course of courses) { %>
+        <% if (course.subject == 'history') { %>
+            <% var nOfReports = 0 %>
+            <% for (let review of course.reviews.items) { %>
+                <% nOfReports += review.reports.items.length %>
+            <% } %>
+            <div class="subject-list-item">
+                <div class="list-course"><%= course.title %></div>
+                <div class="course-actions-container">
+                    <% if(nOfReports > 0) {%>
+                        <div class="course-reports"><%= nOfReports %></div>
+                    <% } %>
+                    <div class="everything-but-reports">
+                        <a class="list-reviews" href="/admin/reviews/<%= course._id %>">Reviews</a>
+                        <a class="list-link" href="/admin/edit/<%= course._id %>">Edit Course</a>
+                        <form action="/admin/delete-course" class="list-form" method="post">
+                            <input type="hidden" name="courseId" value="<%= course._id %>">
+                            <input type="submit" value="Delete">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    <% } %>
+
+    <div class="subject-title">Classics Courses</div>
+    <% for (let course of courses) { %>
+        <% if (course.subject == 'classics') { %>
+            <% var nOfReports = 0 %>
+            <% for (let review of course.reviews.items) { %>
+                <% nOfReports += review.reports.items.length %>
+            <% } %>
+            <div class="subject-list-item">
+                <div class="list-course"><%= course.title %></div>
+                <div class="course-actions-container">
+                    <% if(nOfReports > 0) {%>
+                        <div class="course-reports"><%= nOfReports %></div>
+                    <% } %>
+                    <div class="everything-but-reports">
+                        <a class="list-reviews" href="/admin/reviews/<%= course._id %>">Reviews</a>
+                        <a class="list-link" href="/admin/edit/<%= course._id %>">Edit Course</a>
+                        <form action="/admin/delete-course" class="list-form" method="post">
+                            <input type="hidden" name="courseId" value="<%= course._id %>">
+                            <input type="submit" value="Delete">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    <% } %>
+
+    <div class="subject-title">Computer Science Courses</div>
+    <% for (let course of courses) { %>
+        <% if (course.subject == 'computer') { %>
+            <% var nOfReports = 0 %>
+            <% for (let review of course.reviews.items) { %>
+                <% nOfReports += review.reports.items.length %>
+            <% } %>
+            <div class="subject-list-item">
+                <div class="list-course"><%= course.title %></div>
+                <div class="course-actions-container">
+                    <% if(nOfReports > 0) {%>
+                        <div class="course-reports"><%= nOfReports %></div>
+                    <% } %>
+                    <div class="everything-but-reports">
+                        <a class="list-reviews" href="/admin/reviews/<%= course._id %>">Reviews</a>
+                        <a class="list-link" href="/admin/edit/<%= course._id %>">Edit Course</a>
+                        <form action="/admin/delete-course" class="list-form" method="post">
+                            <input type="hidden" name="courseId" value="<%= course._id %>">
+                            <input type="submit" value="Delete">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    <% } %>
+
+    <div class="subject-title">Other</div>
+    <% for (let course of courses) { %>
+        <% if (course.subject != 'math' && course.subject != 'english' && course.subject != 'arts' && course.subject != 'science' && course.subject != 'languages' && course.subject != 'history' && course.subject != 'classics' && course.subject != 'computer') { %>
+            <% var nOfReports = 0 %>
+            <% for (let review of course.reviews.items) { %>
+                <% nOfReports += review.reports.items.length %>
+            <% } %>
+            <div class="subject-list-item">
+                <div class="list-course"><%= course.title %></div>
+                <div class="course-actions-container">
+                    <% if(nOfReports > 0) {%>
+                        <div class="course-reports"><%= nOfReports %></div>
+                    <% } %>
+                    <div class="everything-but-reports">
+                        <a class="list-reviews" href="/admin/reviews/<%= course._id %>">Reviews</a>
+                        <a class="list-link" href="/admin/edit/<%= course._id %>">Edit Course</a>
+                        <form action="/admin/delete-course" class="list-form" method="post">
+                            <input type="hidden" name="courseId" value="<%= course._id %>">
+                            <input type="submit" value="Delete">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    <% } %>
+
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+<%- include('includes/head.ejs') %>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/account.css">
+    <script type="text/javascript" src="/javascript/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+    <script src="/javascript/account.js"></script></script>
+    
+
+    </head>
+    <body onload="loadStuff('<%= JSON.stringify(user) %>')">
+        <header>
+            <div class="navbar" id="navbar">
+                <div class="logo-div">
+                    <img src="/images/myCurriculum.png" alt="logo" class="logo">
+                </div>
+            </div>
+        </header>
+        <div id="everything">
+            <section id="account-info">
+                <div id="account-info-div">
+                    <a href="/" id="home-link"><div id="home-link-link"> Home</div></a>
+                    <div id="account-title">Account</div>
+                    <div id="account-image-div"><img src="<%= user.imgLink %>" alt="" id="account-image"></div>
+                </div>
+            </section>
+            <section id="account-stats"
+                ><div id="left-stats">
+                    <div id="left-stats-box">
+                        <div id="left-stats-box-title" class="account-box-title">
+                            Rank
+                        </div>
+                        <div id="stats-rank">
+                            <div id="rank-newbie" class="rank-display">
+                                <div id="newbie-bars" class="rank-bars">
+                                    <div class="bars-and-number">
+                                        <div class="bars-outer">
+                                            <div class="bars-inner" id="bars-inner-newbie"></div>
+                                        </div
+                                        ><div class="bars-number" id="newbie-bars-number">1 / 1</div>
+                                    </div>
+                            </div
+                            ><div id="newbie-picture" class="rank-picture">
+                                <img src="/images/newbie-gray.png" id="newbie-logo">
+                            </div>
+    
+                            </div>
+                            <div id="rank-apprentice" class="rank-display">
+                                <div id="apprentice-bars" class="rank-bars">
+                                    <div class="bars-and-number">
+                                        <div class="bars-outer">
+                                            <div class="bars-inner" id="bars-inner-apprentice"></div>
+                                        </div
+                                        ><div class="bars-number" id="apprentice-bars-number">0 / 100</div>
+                                    </div>
+    
+                                </div
+                                ><div id="apprentice-picture" class="rank-picture">
+                                    <img src="/images/apprentice-gray.png" id="apprentice-logo">
+                                </div>
+    
+                            </div>
+                            <div id="rank-master" class="rank-display">
+                                <div id="master-bars" class="rank-bars">
+                                    <div class="bars-and-number">
+                                        <div class="bars-outer">
+                                            <div class="bars-inner" id="bars-inner-master"></div>
+                                        </div
+                                        ><div class="bars-number" id="master-bars-number">0 / 400</div>
+                                    </div>
+    
+                                </div
+                                ><div id="master-picture" class="rank-picture">
+                                    <img src="/images/master-gray.png" id="master-logo">
+                                </div>
+    
+                            </div>
+                            <div id="rank-veteran" class="rank-display">
+                                <div id="veteran-bars" class="rank-bars">
+                                    <div class="bars-and-number">
+                                        <div class="bars-outer">
+                                            <div class="bars-inner" id="bars-inner-veteran"></div>
+                                        </div
+                                        ><div class="bars-number" id="veteran-bars-number">0 / 1000</div>
+                                    </div>
+    
+                                </div
+                                ><div id="veteran-picture" class="rank-picture">
+                                    <img src="/images/veteran-gray.png" id="veteran-logo">
+                                </div>
+    
+                            </div>
+    
+                        </div>
+
+                    </div>
+
+                </div
+                ><div id="right-stats">
+                    <div id="anonymous-container">
+                        <div id="anonymous-box">
+                            <div id="anonymous-title" class="account-box-title">
+                                Privacy
+                            </div>
+                            <div id="anonymous-description">
+                                Your name will not be visible on reviews you post while being anonymous. Turning off the anonymous option will <ins>not</ins> display your name on any comments you posted while you were anonymous. This feature should not be used for spam or inappropriate behavior, as such actions can get your account blocked. Furthermore, reviews posted while being anonymous, as well as any upvotes received on said reviews, will not count towards your rank.
+                            </div>
+                            <div id="anonymous-toggle">
+                                <div id="toggle-description">
+                                    Anonymous:
+                                </div>
+                                <div id="toggle-wrapper">
+                                    <form action="/anonymous" method="post" id="anonymous-form">
+                                        <label class="switch">
+                                            <input type="hidden" name="anonymous" value="off" id="anonymous-hidden">
+                                            <input type="checkbox" id="anonymous-checkbox" onclick="submitAnonymousForm()">
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="progress-container">
+                        <div id="progress-box">
+                            <div id="progress-box-title" class="account-box-title">Stats</div>
+                            <div id="progress-stats">
+                                <div id="stats-name" class="stats-section">
+                                    <div id="name-desc" class="stats-desc">Name:</div>
+                                    <div id="name-name" class="stats-cont"><%= user.name %></div>
+                                </div>
+                                <div id="stats-rank" class="stats-section">
+                                    <div id="rank-desc" class="stats-desc">Rank:</div>
+                                    <div id="rank-rank" class="stats-cont"><%= user.rank %></div>
+                                </div>
+                                <div id="stats-score" class="stats-section">
+                                    <div id="score-desc" class="stats-desc">Score:</div>
+                                    <div id="score-score" class="stats-cont"></div>
+                                </div>
+                                <div id="stats-reviews" class="stats-section">
+                                    <div id="reviews-desc" class="stats-desc">Reviews:</div>
+                                    <div id="reviews-reviews" class="stats-cont"><%= user.reviews %></div>
+                                </div>
+                                <div id="stats-upvotes-received" class="stats-section">
+                                    <div id="upvotes-desc" class="stats-desc">Upvotes Received:</div>
+                                    <div id="upvotes-upvotes" class="stats-cont"><%= user.upvotesReceived %></div>
+                                </div>
+                                <div id="stats-anonymous" class="stats-section">
+                                    <div id="anonymous-desc" class="stats-desc">Anonymous:</div>
+                                    <% if (user.anonymous) { %>
+                                        <div id="anonymous-anonymous" class="stats-cont">On</div>
+                                    <% } else { %>
+                                        <div id="anonymous-anonymous" class="stats-cont">Off</div>
+                                    <% } %>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+        </div>
+        <footer id="footer">
+            <div id=logout>
+                <a href="/logout" id="logout-button">Logout</a>
+            </div>
+        </footer>
+    </body>
+</html>

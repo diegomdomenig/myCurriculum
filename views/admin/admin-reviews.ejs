@@ -1,0 +1,32 @@
+<%- include('../includes/head.ejs') %>
+
+<link rel="stylesheet" href="/css/admin.css">
+
+</head>
+
+<body>
+    <h1>Reviews</h1>
+    <h2><%= course.title %></h2>
+    <div class="reviews-container">
+        <% for (let review of course.reviews.items) { %>
+            <div class="review-container">
+                <div class="review-review"><%= review.review %></div>
+                <div class="reports-delete-container">
+                    <% if(review.reports.items.length>0) { %>
+                        <div class="review-reports"><%= review.reports.items.length %></div>
+                    <% } %>
+                    <div class="form-container">
+                        <form action="/admin/admin-delete-review" method="post">
+                            <input type="hidden" name="reviewId" value="<%= review.id %>">
+                            <input type="hidden" name="courseId" value="<%= course.id %>">
+                            <input type="hidden" name="userId" value="<%= review.userId %>">
+                            <button type="submit" class="review-delete">Delete</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    </div>
+</body>
+
+</html>

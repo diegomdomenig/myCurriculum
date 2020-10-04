@@ -1,0 +1,127 @@
+.subject-title{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    background: rgb(34, 34, 34);
+    color: white;
+    padding: 0.5rem;
+}
+
+.subject-list-item:nth-child(even) {
+    background: rgb(196, 196, 196);
+}
+.subject-list-item:nth-child(odd) {
+    background: rgb(129, 129, 129);
+}
+
+.list-course {
+    display: inline-block;
+    width: 50vw;
+}
+
+.course-actions-container {
+    display: inline-block;
+    width: 16rem;
+}
+
+.everything-but-reports {
+    float:right;
+}
+
+.list-link {
+    display: inline-block;
+    margin-right: 1rem;
+    color: black;
+}
+
+.list-form {
+    display: inline;
+}
+
+.add-course-link {
+    border: 3px solid black;
+    height: 3rem;
+    line-height: 3rem;
+    text-decoration: none;
+    margin-left: 4rem;
+    padding: 0.5rem;
+}
+
+.add-course-link:hover {
+    color: white;
+    background: black;
+}
+
+.list-reviews {
+    display: inline-block;
+    color: black;
+    margin-right: 1rem;
+}
+
+.review-container {
+    width: 100%;
+    height: 3rem;
+    overflow: scroll;
+    display: block;
+    position: relative;
+}
+
+.reports-delete-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.form-container {
+    display: inline-block;
+}
+
+.review-container:nth-child(even) {
+    background: rgb(196, 196, 196);
+    color: black;
+}
+
+.review-container:nth-child(odd) {
+    background: rgb(92, 92, 92);
+    color: white;
+}
+
+.review-review {
+    padding-left: 0.5rem;
+    line-height: 2rem;
+    width: 90%;
+    height: 99%;
+}
+
+.review-reports {
+    width: 2rem;
+    display: inline-block;
+    background: red;
+    height: 1.8rem;
+    border-radius: 5px;
+    line-height: 1.8rem;
+    text-align: center;
+    color: white;
+}
+
+.course-reports {
+    margin-top: 0.1rem;
+    display: inline-block;
+    background: red;
+    width: 1rem;
+    margin-right: 0.5rem;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    
+}
+
+.review-delete {
+    line-height: 1.5rem;
+    background: white;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}

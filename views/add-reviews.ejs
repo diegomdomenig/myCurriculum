@@ -1,0 +1,273 @@
+<%- include('includes/head.ejs') %>
+    <script src="/javascript/reviews.js"></script>
+    <!-- Bootstrap core CSS -->
+    <!--<link rel="stylesheet" href="/css/bootstrap.min.css">-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="/css/mdb.min.css">
+    <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="/css/review.css">
+    <script src="/javascript/reviews.js"></script>
+    <script src="/javascript/reviewsQuery.js"></script>
+
+
+    </head>
+
+
+    <body id="body" onload="loadStuff('<%= JSON.stringify(course.reviews.items) %>', '<%= user %>', '<%= course.extraInfo %>', '<%= course.subject %>', '<%= hasReviewed %>')" onclick="hidePopovers()">
+        <div class="everything" id="everything">
+            <%- include('includes/navigation.ejs') %>
+                <div id="all-container">
+                    <div class="course-title" id="course-title">
+                        <a href="/" id="back-link"><div id="back-link-link"> Back</div></a>
+                        <!--<div id="back-link"><a href="/" id="back-link-link"> Back</a></div>-->
+                        <div id="title-title"><%= course.title %></div>
+                    </div>
+                    <div class="details-container">
+                        <aside id="course-extras">
+                            <div id="course-specialties">
+                                <%= course.extraInfo %>
+                            </div>
+                            <div id="course-description">
+                                <%= course.description %>
+                            </div>
+                            <div id="rating">
+                                <div id="rating-container">
+                                    <div id="bars-container">
+                                        <div class="outer-inner-container">
+                                            <div class="bar-legend">5</div>
+                                            <div class="bars-outer">
+                                                <div class="bars-inner" id="bars-inner-5"></div>
+                                            </div>
+                                        </div>
+                                        <div class="outer-inner-container">
+                                            <div class="bar-legend">4</div>
+                                            <div class="bars-outer">
+                                                <div class="bars-inner" id="bars-inner-4"></div>
+                                            </div>
+                                        </div>
+                                        <div class="outer-inner-container">
+                                            <div class="bar-legend">3</div>
+                                            <div class="bars-outer">
+                                                <div class="bars-inner" id="bars-inner-3"></div>
+                                            </div>
+                                        </div>
+                                        <div class="outer-inner-container">
+                                            <div class="bar-legend">2</div>
+                                            <div class="bars-outer">
+                                                <div class="bars-inner" id="bars-inner-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="outer-inner-container">
+                                            <div class="bar-legend">1</div>
+                                            <div class="bars-outer">
+                                                <div class="bars-inner" id="bars-inner-1"></div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div id="rating-number-container">
+                                        <div id="rating-number">
+                                            0
+                                        </div>
+                                        <div id="rating-stars-container">
+                                            <div id="course-rating-stars-container">
+                                                <div class="stars-outer">
+                                                    <div id="course-rating-stars" class="stars-inner"></div>
+                                                </div>
+                                                <div id="nOfRatings">
+                                                    <% if (course.reviews.items.length == 1) { %>
+                                                        <span id="nOfRatings-number">0</span> review
+                                                    <% } else { %>
+                                                        <span id="nOfRatings-number">0</span> reviews
+                                                    <% } %>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </aside>
+                        <div class="reviews-container" id="reviews-container">
+                            <div class="all-reviews" id="submitted-reviews">
+                                <% if (!course.reviews.items.length > 0) { %>
+                                    <div id="noReviews">Be the first to comment!</div>
+                                    <% } else {%>
+                                        <% for (let [index, review] of course.reviews.items.entries()) { %>
+                                            <div class="review-container" id="rev-container-<%= index %>" onmouseover="showDots('<%= index %>')" onmouseout="hideDots('<%= index %>')">
+                                                <div class="upvotes-centering">
+                                                    <div class="upvotes-centering-2">
+                                                        <div class="upvotes-container">
+                                                            <div class="arrow-container">
+                                                                <form action="/upvote" method="post" id="form-<%= index %>">
+                                                                    <input type="hidden" name="action" value="upvote" id="action-<%= index %>">
+                                                                    <input type="hidden" name="reviewUser" value="<%= review.userId._id %>">
+                                                                    <input type="hidden" name="reviewId" value="<%= review._id %>">
+                                                                    <input type="hidden" name="courseId" value="<%= course._id %>">
+                                                                    <input type="checkbox" id="upvote-<%= index %>" class="upvote-radio" onclick="submitUpvote('<%= index %>', '<%= user %>')">
+                                                                    <label for="upvote-<%= index %>">
+                                                    <i class="upvotes-arrow fa fa-caret-up fa-4x"
+                                                        id="arrow-<%= index %>" aria-hidden="true"></i>
+                                                </label>
+                                                                </form>
+                                                            </div>
+                                                            <div class="upvotes-number" id="number-<%= index %>">
+                                                                <%= review.upvotes.items.length %>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="review-content">
+                                                    <div class="review-header">
+                                                        <% if (!review.anonymous) { %>
+                                                            <span id="userRank-<%= index %>"><%= review.userId.rank %></span>
+                                                            <span>·</span>
+                                                            <span><%= review.userId.name %></span>
+                                                        <% } else { %>
+                                                            <span class="user-anonymous">Anonymous</span>
+                                                        <% } %>
+                                                        <span>·</span>
+                                                        <span class="review-date"><%= review.createdAt %></span>
+
+                                                    </div>
+                                                    <div class="review-rating">
+                                                        <div class="comments-rating">
+                                                            <div class="stars-outer">
+                                                                <div id="review-<%= index %>" class="stars-inner"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="review-review">
+                                                        <span id="review-review-<%= index %>"><%= review.review %></span>
+                                                    </div>
+                                                </div>
+                                                <div class="menu-div" id="menu-<%= index %>"><button class="three-dots no-outline" onclick="showPopover('<%= index %>')"></button>
+                                                </div>
+                                                <div class="menu-popover" id="popover-<%= index %>" onclick="disableBody()">
+                                                    <div class="popover-report">
+                                                        <button type="button" class="popover-button report-button no-outline" id="report-<%= index %>" data-toggle="modal" data-target="#report-modal" onclick="fillModalForm('<%= course._id %>', '<%= review._id %>', '<%= review.userId._id %>', '<%= user %>', 'report')"> Report</button>
+                                                    </div>
+                                                    <div class="popover-edit">
+                                                        <button type="button" class="popover-button edit-button no-outline" id="edit-<%= index %>" onclick="showStars('<%= user %>', true, '<%= index %>')"> Edit</button>
+                                                    </div>
+                                                    <div class="popover-delete">
+                                                        <button type="button" class="popover-button delete-button no-outline" id="delete-<%= index %>" data-toggle="modal" data-target="#delete-modal" onclick="fillModalForm('<%= course._id %>', '<%= review._id %>', '<%= review.userId._id %>', '<%= user %>', 'delete')"> Delete</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <% } %>
+                                                <% }%>
+                            </div>
+                            <div class="add-reviews" id="add-reviews" onclick="disableBody()">
+                                <form action="/review" method="post" id="reviews-form">
+                                    <div class="add-a-review">
+                                        <button type="button" class="continue-button no-outline" id="add-a-review" onclick="showStars('<%= user %>', false, -1)">Add Review</button>
+                                    </div>
+                                    <div id="fieldset-container">
+                                        <fieldset id="rating-fieldset">
+                                            <div class="rating-stars" id="rating-stars">
+                                                <input type="radio" name="star" value="1" id="star1" class="rating-star" onclick="unDisable()"><label for="star1" class="star-labels"></label>
+                                                <input type="radio" name="star" value="2" id="star2" class="rating-star" onclick="unDisable()"><label for="star2" class="star-labels"></label>
+                                                <input type="radio" name="star" value="3" id="star3" class="rating-star" onclick="unDisable()"><label for="star3" class="star-labels"></label>
+                                                <input type="radio" name="star" value="4" id="star4" class="rating-star" onclick="unDisable()"><label for="star4" class="star-labels"></label>
+                                                <input type="radio" name="star" value="5" id="star5" class="rating-star" onclick="unDisable()"><label for="star5" class="star-labels"></label>
+                                            </div>
+                                            <span class="rating-buttons" id="rating-buttons">
+                                        <button type="button" class="cancel-button no-outline" id="star-cancel"
+                                            onclick="cancelRating()">Cancel</button>
+                                        <button disabled type="button" class="continue-button no-outline" id="star-continue"
+                                            onclick="showTextArea()">Next</button>
+                                    </span>
+                                        </fieldset>
+                                    </div>
+                                    <div id="rating-and-review">
+                                        <div id="textarea-rating">
+                                            <div class="stars-outer">
+                                                <div id="textarea-stars" class="stars-inner"></div>
+                                            </div>
+                                        </div>
+                                        <div class="md-form" id="just-review">
+                                            <textarea name="review" id="form7" class="md-textarea form-control review-textarea" rows="1" oninput="changedTextArea(this)" onclick="showButtons()" maxlength="500" placeholder="Add a public review..."></textarea>
+                                            <input type="hidden" name="courseId" value="<%= course._id %>">
+                                            <input type="hidden" name="login" value="false" id="form-login">
+                                            <input type="hidden" name="edit" value="false" id="form-edit">
+                                            <div id="review-buttons">
+                                                <div id="the-count">
+                                                    <span id="current">0</span>
+                                                    <span id="maximum">/ 500</span>
+                                                </div>
+                                                <div class="just-buttons">
+                                                    <button type="button" class="cancel-button no-outline" id="review-cancel" onclick="cancelReview()">Cancel</button>
+                                                    <input disabled type="button" class="continue-button" id="review-submit" value="Submit" onclick="submitReview()">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="modal fade" id="report-modal" tabindex="-1" role="dialog" aria-labelledby="report-modal-label" aria-hidden="true" onclick="disableBody()">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <form action="/report" method="post">
+                    <input type="hidden" name="reviewId" id="report-reviewId" value="">
+                    <input type="hidden" name="userId" id="report-userId" value="">
+                    <input type="hidden" name="courseId" id="report-courseId" value="">
+                    <input type="hidden" name="login" id="report-login" value="">
+                <div class="modal-header" id="report-modal-header">
+                  <h5 class="modal-title" id="report-modal-label">Report Comment</h5>
+                  <button type="button" class="close no-outline" id="report-x-close" data-dismiss="modal" aria-label="Close" onclick="hidePopovers()">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body" id="report-modal-body">
+                    <input type="radio" id="report-spam" name="reason" value="spam">
+                    <label for="report-spam">Spam</label><br>
+                    <input type="radio" id="report-harassment" name="reason" value="harassment">
+                    <label for="report-harassment">Harassment/Abuse</label><br>
+                    <input type="radio" id="report-language" name="reason" value="language">
+                    <label for="report-language">Offensive Language (Cussing, Swearing, etc.)</label><br>
+                    <input type="radio" id="report-inappropriate" name="reason" value="inappropriate">
+                    <label for="report-inappropriate">Inappropriate Comment</label><br>
+                </div>
+                <div class="modal-footer" id="report-footer">
+                    <button type="button" class="report-footer-button no-outline" id="report-cancel-button" data-dismiss="modal" onclick="hidePopovers()">Cancel</button>
+                    <button type="submit" class="report-footer-button no-outline" id="report-submit-button">Report</button>
+                </div>
+                </form>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="report-modal-label" aria-hidden="true" onclick="disableBody()">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <form action="/deleteReview" method="post">
+                    <input type="hidden" name="reviewId" id="delete-reviewId" value="">
+                    <input type="hidden" name="userId" id="delete-userId" value="">
+                    <input type="hidden" name="courseId" id="delete-courseId" value="">
+                    <input type="hidden" name="login" id="delete-login" value="">
+                <div class="modal-header" id="delete-modal-header">
+                  <h5 class="modal-title" id="delete-modal-label">Delete Comment</h5>
+                  <button type="button" class="close no-outline" id="delete-x-close" data-dismiss="modal" aria-label="Close" onclick="hidePopovers()">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body" id="delete-modal-body">
+                    <p>Are you sure you want to delete your review?</p>
+                </div>
+                <div class="modal-footer" id="delete-footer">
+                    <button type="button" class="report-footer-button no-outline" id="delete-cancel-button" data-dismiss="modal" onclick="hidePopovers()">Cancel</button>
+                    <button type="submit" class="report-footer-button no-outline" id="delete-submit-button">Delete</button>
+                </div>
+                </form>
+              </div>
+            </div>
+        </div>
+   </body>

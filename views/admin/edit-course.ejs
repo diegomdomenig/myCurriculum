@@ -1,0 +1,43 @@
+<%- include('../includes/head.ejs') %>
+
+<link rel="stylesheet" href="/css/admin.css">
+
+</head>
+
+<body>
+    <h1>Edit Course</h1>
+    <h2><%= course.title %></h2>
+    <div class="edit-div">
+        <form action="/admin/edit-course" method="post">
+            title:<br>
+            <textarea class="text" cols="86" rows ="1" name="title"><%= course.title %></textarea> <br>
+            <br>
+
+            Short Title: (Basically just the title without the Extra Info)<br>
+            <textarea class="text" cols="86" rows ="1" name="shortTitle"><%= course.shortTitle %></textarea> <br>
+            <br>
+
+            Extra Info: (Example: Half, Classes I, II, & III)<br>
+            <textarea class="text" cols="86" rows ="1" name="extraInfo"><%= course.extraInfo %></textarea> <br>
+            <br>
+
+            description:<br>
+            <textarea class="text" cols="86" rows ="30" name="description"><%= course.description %></textarea> <br><br>
+
+            class: (for math, science, and computer science courses: -1, for english courses: 1, 2, 3, or 4, for arts courses: music, performing, or visual, for language courses: french, spanish, or chinese, for history courses: history or social, for classics courses: latin or greek)<br>
+            <input type="text" name="class" value="<%= course.class %>"><br><br>
+    
+            subject: (math, english, arts, sciecne, languages, history, classics, computer)<br>
+            <input type="text" name="subject" value="<%= course.subject %>"><br><br>
+
+            url: (Sample: U2c9, at https://generate.plus/en/base64 , length in bytes: 3, URL safe: on)<br>
+            <input type="text" name="url" value="<%= course.url %>"><br><br>
+
+            <input type="hidden" name="id" value="<%= course._id %>">
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

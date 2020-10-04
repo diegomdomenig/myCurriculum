@@ -1,0 +1,765 @@
+html {
+    visibility:hidden;
+}
+
+body, head {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background: rgb(249, 249, 249);
+}
+body {
+    height: auto;
+}
+.everything {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#all-container {
+    height: auto;
+}
+
+.course-title {
+    width: 100%;
+    height: 4rem;
+    position: relative;
+}
+
+button:focus {
+    outline: none;
+}
+
+#title-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 4rem;
+    text-align: center;
+    display: inline-block;
+    z-index: 1;
+}
+
+#back-link {
+    text-decoration: none;
+    z-index: 100;
+    color: rgb(63, 63, 63);
+    height: 4rem;
+    line-height: 3.7rem;
+    position: absolute;
+    top: 0;
+    left: 1.2rem;
+    font-size: 1.1rem;
+    padding-left: 0.3rem;
+    display: inline-block;
+}
+
+#back-link-link:before {
+    content: '\f104';
+    font-family: FontAwesome;
+    font-size: 1.3rem;
+}
+
+#back-link:hover {
+    transform: scale(1.15);
+    transition-duration: 0.2s;
+}
+
+.details-container {
+    height: auto;
+}
+
+#course-extras {
+    padding: 0 1rem 0 1rem;
+    height: 100%;
+    width: 25rem;
+    float: left;
+    background: rgb(249, 249, 249);
+}
+
+#course-specialties {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: auto;
+    min-height: 3%;
+    max-height: 6%;
+    line-height: 1.3rem;
+    font-style: italic;
+    font-size: 0.95rem;
+}
+
+#course-description {
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+    min-height: 20%;
+    max-height: 78%;
+    overflow: scroll;
+}
+
+#rating {
+    padding: 0.3rem 0 0.5rem 0;
+    height: 7.5rem;
+}
+
+.reviews-container {
+    height: 100%;
+    background: rgb(249, 249, 249);
+}
+
+.all-reviews {
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    height: auto;
+    overflow: scroll;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.25);
+}
+
+.add-reviews {
+    position: absolute;
+    height: auto;
+    float: right;
+    min-height: 3.5rem;
+    padding: 0.2rem 0.2rem 0.3rem 0.5rem;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+.add-reviews-container {
+    width: 100%;
+    height: auto;
+}
+
+.review-textarea {
+    resize: none;
+}
+
+.continue-button {
+    width: 8rem;
+    height: 3rem;
+    line-height: 3rem;
+    background: rgb(10, 95, 212);
+    border: none;
+    color: white;
+}
+
+.continue-button:disabled {
+    background: rgb(204, 204, 204);
+}
+
+.cancel-button {
+    width: 8rem;
+    height: 3rem;
+    line-height: 3rem;
+    background: rgb(249, 249, 249);
+    color: rgb(58, 58, 58);
+    border: none;
+    outline: none;
+}
+
+.cancel-button:focus {
+    outline: none;
+}
+
+#review-buttons {
+    display: none;
+    margin-bottom: 1vh;
+}
+
+#the-count {
+    display: inline;
+    padding: 0.2rem 0 0 0;
+    font-size: 0.875rem;
+}
+
+.just-buttons {
+    float: right;
+}
+
+#fieldset-container {
+    height: auto;
+    display: none;
+    padding-top: 0.2rem;
+    padding-right: 0.5rem;
+}
+
+#rating-fieldset {
+    margin: 0;
+    padding: 0;
+    /*border-top: 2px solid rgb(10,95,212);*/
+    border-radius: 1px;
+    height: 4rem;
+}
+
+#rating-legend {
+    width: auto;
+    margin: 0;
+    margin-left: 0.5rem;
+    padding: 0;
+    font-size: 0.7rem;
+    color: rgb(10, 95, 212);
+    line-height: 0;
+}
+
+.rating-stars {
+    float: left;
+    display: flex;
+    height: 100%;
+    flex-direction: row-reverse;
+    width: auto;
+    padding-left: 1vw;
+}
+
+.star-labels {
+    display: block;
+    cursor: pointer;
+    width: 3rem;
+    position: relative;
+}
+
+.rating-stars input {
+    display: none;
+    height: 4rem;
+}
+
+#rating-stars {
+    height: 100%;
+}
+
+.star-labels:before {
+    content: '\f005';
+    font-family: FontAwesome;
+    position: relative;
+    display: block;
+    font-size: 2.5rem;
+    color: rgb(215, 215, 215);
+}
+
+.star-labels:after {
+    content: '\f005';
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    display: block;
+    font-size: 2.5rem;
+    color: rgb(255, 180, 0);
+    opacity: 0;
+    transition: 0.3s;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.star-labels.test:after {
+    content: '\f005';
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    display: block;
+    font-size: 1rem;
+    color: rgb(255, 180, 0);
+    opacity: 0;
+    transition: 0.3s;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.star-labels:hover:after,
+.star-labels:hover~label:after,
+.rating-stars input:checked~label:after {
+    opacity: 1;
+}
+
+.rating-buttons {
+    float: right;
+}
+
+#star-continue {
+    margin-top: 0.5rem;
+}
+
+#star-cancel {
+    margin-top: 0.5rem;
+}
+
+#add-a-review {
+    width: 12rem;
+    margin-right: 0.5rem;
+    margin-top: 0.1rem;
+    float: right;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+#just-review {
+    margin: 0;
+    padding: 0;
+}
+
+#rating-and-review {
+    display: none;
+    padding-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.stars-outer {
+    position: relative;
+    display: inline-block;
+}
+
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.stars-outer::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: FontAwesome;
+    color: rgb(215, 215, 215);
+}
+
+.stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: FontAwesome;
+    color: rgb(255, 180, 0);
+}
+
+.review-container {
+    min-height: 5rem;
+    height: auto;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.upvotes-centering {
+    width: 4rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upvotes-centering-2 {
+    height: 5rem;
+    width: 4rem;
+}
+
+.upvotes-container {
+    width: 4rem;
+    height: 5rem;
+    position: relative;
+}
+
+.arrow-container {
+    height: 2.5rem;
+    width: 4rem;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+.upvotes-arrow {
+    left: 0.8rem;
+    position: absolute;
+    top: -0.6rem;
+    color: rgb(215, 215, 215);
+}
+
+.upvotes-arrow:hover {
+    cursor: pointer;
+}
+
+.upvotes-number {
+    position: absolute;
+    top: 2.5rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    height: 2.5rem;
+    color: rgb(215, 215, 215);
+}
+
+.upvote-radio {
+    display: none;
+}
+
+.review-content {
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    width: 100%;
+}
+
+.review-date {
+    color: rgb(169, 169, 169);
+}
+
+.review-header {
+    font-size: 0.8rem;
+}
+
+.user-anonymous {
+    color: rgb(80, 80, 80);
+}
+
+.review-rating {
+    font-size: 0.8rem;
+}
+
+.admin {
+    color: rgb(35, 155, 86);
+}
+
+.veteran {
+    color: rgb(218, 165, 32);
+}
+
+.master {
+    color: rgb(220, 20, 60);
+}
+
+.apprentice {
+    color: rgb(0, 139, 139);
+}
+
+.newbie {
+    color: rgb(100, 149, 237);
+}
+
+.review-review {
+    font-size: 0.7rem;
+    height: auto;
+}
+
+#rating-container {
+    height: 7rem;
+}
+
+#bars-container {
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+#rating-number-container {
+    width: 30%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+
+.outer-inner-container {
+    padding-top: 0.3rem;
+    height: 20%;
+}
+
+.bar-legend {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    width: 10%;
+    float: left;
+    height: 0.7rem;
+}
+
+.bars-outer {
+    height: 0.7rem;
+    border-radius: 10px;
+    width: 90%;
+    background: rgb(215, 215, 215);
+    float: right;
+    position: relative;
+}
+
+.bars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0.7rem;
+    border-radius: 10px;
+    width: 0;
+    background: rgb(255, 180, 0);
+}
+
+#rating-number {
+    height: 50%;
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 4rem;
+}
+
+#nOfRatings {
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 0.4rem;
+}
+
+#noReviews {
+    margin: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.menu-div {
+    display: inline-block;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    display: none;
+}
+
+.three-dots {
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(84, 84, 84);
+    border-radius: 3px;
+    background: rgb(249, 249, 249);
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.three-dots:focus {
+    outline: none;
+}
+
+.three-dots:before {
+    content: '\f142';
+    font-family: FontAwesome;
+    font-size: 1.1rem;
+}
+
+.menu-popover {
+    display: inline-block;
+    position: absolute;
+    top: 0.2rem;
+    right: 2.4rem;
+    height: auto;
+    width: auto;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.3);
+    z-index: 1000;
+    display: none;
+}
+
+.popover-button {
+    padding: 0 0.8rem 0 0.8rem;
+    height: 2rem;
+    width: 100%;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    text-decoration: none;
+    border: none;
+    background: rgb(249, 249, 249);
+    color: rgb(84, 84, 84);
+    text-align: left;
+}
+
+.popover-button:hover {
+    background: rgb(235, 235, 235);
+}
+
+.edit-button {
+    line-height: 2.2rem;
+}
+
+.report-button:before {
+    content: '\f024';
+    font-family: FontAwesome;
+    font-size: 0.9rem;
+}
+
+.edit-button:before {
+    content: '\f044';
+    font-family: FontAwesome;
+    font-size: 0.9rem;
+}
+
+.delete-button:before {
+    content: '\f1f8';
+    font-family: FontAwesome;
+    font-size: 0.9rem;
+}
+
+.popover-button:focus {
+    outline: none;
+}
+
+#report-modal-header {
+    padding-bottom: 0.5rem;
+    border: none;
+}
+
+#report-modal-body {
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+}
+
+#report-modal-body label {
+    overflow: wrap;
+}
+
+.report-footer-button {
+    width: 5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background: white;
+    border: none;
+    outline: none;
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+#report-cancel-button {
+    color: rgb(58, 58, 58);
+}
+
+#report-cancel-button:focus {
+    outline: none;
+}
+
+#report-submit-button {
+    color: rgb(10, 95, 212);
+}
+
+#report-submit-button:focus {
+    outline: none;
+}
+
+#delete-cancel-button {
+    color: rgb(58, 58, 58);
+}
+
+#delete-submit-button {
+    background-color: rgb(209, 26, 42);
+    color: white;
+}
+
+#report-footer {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+#delete-footer {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+#delete-modal-body {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#delete-modal-header {
+    padding-bottom: 0.5rem;
+    border: none;
+}
+
+@media only screen and (max-width: 1100px) {
+    .star-labels {
+        width: 2rem;
+    }
+    .star-labels:before {
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
+    .star-labels:after {
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
+    .continue-button {
+        width: 5rem;
+        height: 2.5rem;
+        font-size: 0.9rem;
+        line-height: 2.5rem;
+    }
+    .cancel-button {
+        width: 5rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #course-extras {
+        padding: 0 1rem 0 1rem;
+        height: auto;
+        width: 100%;
+        float: top;
+        background: rgb(249, 249, 249);
+    }
+    .reviews-container {
+        float: bottom;
+    }
+    .add-reviews {
+        position: static;
+        margin-top: 0;
+        width: 100%;
+    }
+    #rating {
+        padding: 0.7rem 0 0 0;
+        margin-bottom: 0.7rem;
+    }
+    .all-reviews {
+        box-shadow: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    #back-link {
+        left: 0.3rem;
+        font-size: 0.85rem;
+        padding-left: 0.2rem;
+    }
+    #title-title {
+        text-align: center;
+        display: inline-block;
+        z-index: 1;
+        font-size: 0.9rem;
+    }
+    .menu-div {
+        display: inline-block;
+    }
+    #course-description {
+        font-size: 0.7rem;
+    }
+    .logo-div {
+        width: 8rem;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    #title-title {
+        font-size: 0.8rem;
+    }
+    #back-link {
+        left: 0.2rem;
+        font-size: 0.75rem;
+        padding-left: 0.1rem;
+    }
+    #back-link-link:before {
+        content: '\f104';
+        font-family: FontAwesome;
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #title-title {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #title-title {
+        font-size: 0.6rem;
+    }
+}

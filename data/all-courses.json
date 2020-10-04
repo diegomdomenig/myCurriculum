@@ -1,0 +1,1673 @@
+[{
+        "title": "Algebra I with Geometry",
+        "extraInfo": "none",
+        "description": "This course is designed for students who have not taken a full-year algebra course, or who need to strengthen their algebra skills. The course also helps students to learn the fundamentals of geometry. This course will use geometric and graphing software to explore the key concepts, which include: linear, quadratic, exponential, and absolute value functions and equations; parallel lines, triangles, polygons, congruent and similar figures; and circles, area and volume. Upon successful completion of this course, students will proceed to Algebra 2. Enrollment in this course is limited and is granted by permission of the department.",
+        "class": "-1",
+        "url": "3TP4",
+        "subject": "math"
+    },
+    {
+        "title": "Geometry",
+        "extraInfo": "none",
+        "description": "Students come to this course with a substantial store of information about geometric relationships gained in previous coursework and through informal experiences. This course formalizes and extends their knowledge by emphasizing an axiomatic development of these relationships. Through explorations using software programs such as GeoGebra that allow the user to construct dynamic geometric models, students make conjectures about, and then investigate and prove, geometric relationships. Topics covered in this course include parallel lines, triangles, polygons, congruent and similar figures, circles, triangle trigonometry, coordinate geometry, area and volume, and a basic introduction to computer programming in Java.",
+        "class": "-1",
+        "url": "0Fyc",
+        "subject": "math"
+    },
+    {
+        "title": "Algebra 2 (Regular)",
+        "extraInfo": "none",
+        "description": "This course builds upon the foundation developed in Algebra 1 and extends students’ knowledge and understanding of algebraic concepts. The course emphasizes visual and symbolic analyses of linear, quadratic and exponential functions, as well as exponents, logarithms, sequences and series, optimization, transformations and triangle trigonometry. Other topics may include introductions to data analysis, conic sections and the properties of real and complex numbers. (Prerequisite: Geometry)",
+        "class": "-1",
+        "url": "YVO+",
+        "subject": "math"
+    },
+    {
+        "title": "Algebra 2 (Honors)",
+        "extraInfo": "none",
+        "description": "This course builds upon the foundation developed in Algebra 1 and extends students’ knowledge and understanding of algebraic concepts. The course emphasizes visual and symbolic analyses of linear, quadratic and exponential functions, as well as exponents, logarithms, sequences and series, optimization, transformations and triangle trigonometry. Other topics may include introductions to data analysis, conic sections and the properties of real and complex numbers. (Prerequisite: Geometry)",
+        "class": "-1",
+        "url": "FGX/",
+        "subject": "math"
+    },
+    {
+        "title": "Algebra 2 (Foundations)",
+        "extraInfo": "none",
+        "description": "This course builds upon the foundation developed in Algebra 1 and extends students’ knowledge and understanding of algebraic concepts. The course emphasizes visual and symbolic analyses of linear, quadratic and exponential functions, as well as exponents, logarithms, sequences and series, optimization, transformations and triangle trigonometry. Other topics may include introductions to data analysis, conic sections and the properties of real and complex numbers. (Prerequisite: Geometry)",
+        "class": "-1",
+        "url": "VPfM",
+        "subject": "math"
+    },
+    {
+        "title": "Precalculus (Regular)",
+        "extraInfo": "none",
+        "description": "This course examines the structure, application and connections between polynomial, exponential, logarithmic and trigonometric functions, along with rational functions and limits. The course also considers some discrete math topics, including combinatorics, probability and an introduction to statistics. Projects will allow students to pursue particular interests and see real-world connections. Goals of this course include building critical thinking and mathematical communication skills. (Prerequisite: Algebra II)",
+        "class": "-1",
+        "url": "xl84",
+        "subject": "math"
+    },
+    {
+        "title": "Precalculus (Honors)",
+        "extraInfo": "none",
+        "description": "This course examines the structure, application and connections between polynomial, exponential, logarithmic and trigonometric functions, along with rational functions and limits. The course also considers some discrete math topics, including combinatorics, probability and an introduction to statistics. Projects will allow students to pursue particular interests and see real-world connections. Goals of this course include building critical thinking and mathematical communication skills. (Prerequisite: Algebra II)",
+        "class": "-1",
+        "url": "pOMG",
+        "subject": "math"
+    },
+    {
+        "title": "Precalculus (Foundations)",
+        "extraInfo": "none",
+        "description": "This course examines the structure, application and connections between polynomial, exponential, logarithmic and trigonometric functions, along with rational functions and limits. The course also considers some discrete math topics, including combinatorics, probability and an introduction to statistics. Projects will allow students to pursue particular interests and see real-world connections. Goals of this course include building critical thinking and mathematical communication skills. (Prerequisite: Algebra II)",
+        "class": "-1",
+        "url": "Y34I",
+        "subject": "math"
+    },
+    {
+        "title": "Calculus (Regular)",
+        "extraInfo": "none",
+        "description": "In this course students use limits of infinite processes to develop differential and integral calculus; they then use these concepts to create mathematical models. The abstract properties of elementary functions are reexamined in light of these new techniques; problems drawn from the natural and social sciences provide opportunities to apply these new concepts. (Prerequisite: Precalculus)",
+        "class": "-1",
+        "url": "SXUD",
+        "subject": "math"
+    },
+    {
+        "title": "Calculus (Honors)",
+        "extraInfo": "none",
+        "description": "In this course students use limits of infinite processes to develop differential and integral calculus; they then use these concepts to create mathematical models. The abstract properties of elementary functions are reexamined in light of these new techniques; problems drawn from the natural and social sciences provide opportunities to apply these new concepts. (Prerequisite: Precalculus)",
+        "class": "-1",
+        "url": "Eu3C",
+        "subject": "math"
+    },
+    {
+        "title": "Calculus and Applied Economics (Honors)",
+        "extraInfo": "none",
+        "description": "This class will introduce students to the essentials of single variable calculus and the principles of economics. Students will explore the central concepts of calculus: limits, derivatives, integrals and the Fundamental Theorem while emphasizing applications to economics. The course will also illuminate the central concepts of economics, particularly microeconomics. Economics is the study of the way consumers and producers interact in markets, and the economic way of thinking centers on cost benefit analysis. The course will use the tools of calculus to model consumer and producer behavior and to analyze the social welfare effects of government policies. (Prerequisite: Precalculus. Students may not take this course if they have taken, or are planning on taking Microeconomics)",
+        "class": "-1",
+        "url": "SChO",
+        "subject": "math"
+    },
+    {
+        "title": "Calculus (Accelerated)",
+        "extraInfo": "none",
+        "description": "This course uses limits of infinite processes to study rates of change and areas under curves. We will then reexamine abstract properties of elementary functions in light of these new techniques. Problems drawn from the natural and social sciences provide opportunities to apply these concepts. Additional topics include infinite series, parametric equations, vector analysis, and an introduction to differential equations. (Prerequisite: Precalculus Honors and permission of the department chair.)",
+        "class": "-1",
+        "url": "sFid",
+        "subject": "math"
+    },
+    {
+        "title": "Statistics (Regular)",
+        "extraInfo": "none",
+        "description": "Statistics is the science of collecting, organizing and interpreting data. Students in this course learn how to analyze data from existing data sources as well as data collected from student-designed surveys and experiments. Students will also learn the importance of randomization in the collection of data and critique the validity of third-party data. This course investigates the underpinnings of probability theory, random variables and probability distributions as the basis for inferential statistics. Finally, students will apply all of these techniques to real-world and self-designed studies. Students gain mastery using a variety of technologies, including, but not limited to: MyStatLab, StatCrunch, spreadsheets and the calculator. (Prerequisite: Precalculus or permission of the department chair.)",
+        "class": "-1",
+        "url": "JRWK",
+        "subject": "math"
+    },
+    {
+        "title": "Statistics (Honors)",
+        "extraInfo": "none",
+        "description": "Statistics is the science of collecting, organizing and interpreting data. Students in this course learn how to analyze data from existing data sources as well as data collected from student-designed surveys and experiments. Students will also learn the importance of randomization in the collection of data and critique the validity of third-party data. This course investigates the underpinnings of probability theory, random variables and probability distributions as the basis for inferential statistics. Finally, students will apply all of these techniques to real-world and self-designed studies. Students gain mastery using a variety of technologies, including, but not limited to: MyStatLab, StatCrunch, spreadsheets and the calculator. (Prerequisite: Precalculus or permission of the department chair.)",
+        "class": "-1",
+        "url": "zDU2",
+        "subject": "math"
+    },
+    {
+        "title": "Advanced Statistical Methods (Honors)",
+        "extraInfo": "none",
+        "description": "This course will begin with a brief review of the four stages of the statistical process that are learned in Statistics: producing data, exploratory data analysis, probability theory, and statistical inference. From there, students will explore more advanced statistical topics, including: linear regression, multiple regression (including inference and variable selection), logistic regression, one-way and multi-factor ANOVA, non-parametric methods, bootstrapping, and time series analysis. The learning of these concepts will be accompanied by hands-on exploration, including using the free statistical software program: R. In the second semester, students will use the concepts and analytical skills learned in the first semester to complete class-designed and student-designed research projects. Students will be encouraged to engage in cross-curricular exploration and utilize real-world data in their analysis. Students should be interested in collaborating with their peers, working on long-term projects, and grappling with serious inquiries about the world around them. (Prerequisite: Statistics and Calculus, which could be taken concurrently.)",
+        "class": "-1",
+        "url": "NfAR",
+        "subject": "math"
+    },
+    {
+        "title": "Advanced Calculus and Mathematical Statistics (Honors)",
+        "extraInfo": "none",
+        "description": "This course is a calculus-based introduction to mathematical statistics. The course will cover basic probability, random variables, probability distributions, the central limit theorem and statistical inference, including parameter estimation and hypothesis testing. There are three main goals of this course: to learn the language of probability, to improve statistical intuition, and to use calculus to express and prove random concepts. Set theory, limits, sequences and series, additional methods of integration, multiple integrals and elementary differential equations will be covered. (Prerequisite: Calculus)",
+        "class": "-1",
+        "url": "kqvI",
+        "subject": "math"
+    },
+    {
+        "title": "Multivariable Calculus",
+        "extraInfo": "none",
+        "description": "This course will cover topics in multivariable calculus, including vectors, vector functions, partial derivatives, multiple integrals and vector calculus. Additional advanced topics may be included, at the discretion of the instructor. (Enrollment by permission of the department chair. With departmental permission, this course may be taken concurrently with Advanced Calculus and Mathematical Statistics (Honors) or Abstract Algebra and Group Theory.)",
+        "class": "-1",
+        "url": "vZMC",
+        "subject": "math"
+    },
+    {
+        "title": "Abstract Algebra and Group Theory",
+        "extraInfo": "none",
+        "description": "This course is a proof-oriented introduction to the study of concrete categories such as sets, groups, abelian groups, fields, and vector spaces, focusing on the morphisms (functions), sub-structures, quotients, and actions within each category. Within Group Theory, topics include Lagrange’s Theorem, Cayley’s Theorem, The Isomorphism Theorems, and possibly Sylow’s Theorems. Within Linear Algebra, the course will focus on coordinate vectors, dimension, matrix representations of linear transformations, change of basis, determinants, and possibly eigenvectors. In the spring term, Linear Algebra will be applied to the study of Differential Equations. If time permits, rings, modules and topologies may also be considered. Specific attention will be given to the interplay between categories, which may involve the study of diagrams and functors. (Enrollment by permission of the department chair. With departmental permission, this course may be taken concurrently with any course beyond Precalculus.)",
+        "class": "-1",
+        "url": "ONXj",
+        "subject": "math"
+    },
+    {
+        "title": "Advanced Topics in Mathematics",
+        "extraInfo": "Semester",
+        "description": "This course permits students to pursue explorations in the field of mathematics at an advanced level, for students who have already studied calculus and statistics. Topics may include number theory, topology, combinatorics, field theory, game theory or graph theory. Designed to meet the needs of the students with mathematical ideas they wish to explore in depth, this course is a seminar style exploration of a particular field. Note: When there is a need, and staffing permits, this course may be offered as a half course. (Prerequisite: Calculus and Statistics and permission of the department chair.)",
+        "class": "-1",
+        "url": "4j6V",
+        "subject": "math"
+    },
+    {
+        "title": "Discrete Methemaics Seminar",
+        "extraInfo": "Half",
+        "description": "Students will study introductory graph theory and combinatorics, which are the foundations for understanding a wide range of problems in probability, computer programming and discrete applied mathematics. Students will use specific motivating questions to direct topic exploration. Motivating questions include: What is the fewest number of colors necessary to color a map of the United States so that any pair of neighboring states are different colors? If a five-card poker hand is chosen at random, what is the probability of obtaining a flush? Can a knight move around a chessboard, landing on every square exactly once? These questions are limited to the use of discrete number systems (i.e., the counting numbers and the integers). Specific topics may include: Planar Graphs, Euler Cycles, Hamilton Circuits, Coloring Theorems, Trees, Permutations, Combinations and Recursion. Classwork will include numerical problems as well as introductory logical proofs. (This course may be taken concurrently with Algebra II or Precalculus only.)",
+        "class": "-1",
+        "url": "SWqn",
+        "subject": "math"
+    },
+    {
+        "title": "Mathematics and Art",
+        "extraInfo": "Half, Grades I, II, & III",
+        "description": "Art and mathematics do not intersect so much as overlap. From Penrose tiling and M.C. Escher’s work to Mandelbrot and Julia sets to Margaret Wertheim’s crocheted coral reef and Frank Gehry’s oeuvre, mathematical art and artistic mathematics both transform our world and help us make sense of it. Students will work in a range of media from digital design and 3D printing to fiber arts. In this half course, students will spend the first part of the fall providing a foundation for the work through readings, discussions, and virtual (and actual, as logistics permit) field trips, and develop an introductory project designed by individual students and the instructor at midyear. In the spring, students will work to develop independent projects incorporating the structures and concepts studied in the first semester.",
+        "class": "-1",
+        "url": "zJnA",
+        "subject": "math"
+    },
+    {
+        "title": "Mathematics and Social Justice",
+        "extraInfo": "Half, Grades I, II & III",
+        "description": "This course will encourage students to explore issues of equity and justice through a mathematical lens. We will discuss our intersecting identities, learn to question our assumptions, and think critically about how bias influences the presentation of information. Students will then work with the instructor to design and complete mathematical analyses of social issues that interest them. The specific topics and mathematical tools used by an individual will depend on that student’s interests and knowledge. For example, one student might use geometry to investigate gerrymandering, while another might use calculus to analyze mass incarceration.",
+        "class": "-1",
+        "url": "qktr",
+        "subject": "math"
+    },
+    {
+        "title": "Class IV English",
+        "extraInfo": "Class IV",
+        "description": "This course emphasizes basic skills in reading and interpreting major literary genres; in writing clear, coherent exposition; and in developing a shared vocabulary for talking about writing and about literature. Texts include a Shakespeare play, anthologies of short fiction and poetry, and examples of personal narrative. In addition to four class meetings per week, students attend a weekly workshop developing grammar and writing skills.",
+        "class": "4",
+        "url": "CoFn",
+        "subject": "english"
+    },
+    {
+        "title": "Perspectives: Genre and Culture",
+        "extraInfo": "Class III",
+        "description": "Examining texts grouped by genre—short story, novel, play, and poem—to create a basis for comparison, students will explore how different cultural contexts treat major literary themes such as coming of age, tragedy, love, and the individual versus society. At the forefront of essays and class discussions will be the question of how a broad spectrum of cultures, eras and traditions shape universal human stories. A typical unit, for example, may examine short stories about coming of age from three distinct countries, or love poetry from three different centuries. Texts might include titles such as The Nick Adams Stories, Drown, The Things They Carried, and The Dew Breaker.",
+        "class": "3",
+        "url": "LmWY",
+        "subject": "english"
+    },
+    {
+        "title": "Founding Voices: Literature from the Ancient World through the Renaissance",
+        "extraInfo": "Class III",
+        "description": "This course will explore texts that have shaped the world’s literature and influenced writers and readers from early times to the present. Through units on epic heros, drama, short-form poetry, and storytelling, we will discuss themes such as the hero’s journey, the ethical implications of cultural values, and the role of the individual in the world. After summer reading, the course will begin with Gilgamesh, the oldest story in the world, and will likely include texts such as Homer’s Odyssey, The Ramayana, The Sundiata, Dante’s Inferno, Tang Dynasty poetry, and The One Thousand and One Arabian Nights.",
+        "class": "3",
+        "url": "wfky",
+        "subject": "english"
+    },
+    {
+        "title": "Performing Literature",
+        "extraInfo": "Class III",
+        "description": "The readings in this course present a mixture of classical and modern works from the major literary genres. The course covers the same writing curriculum as the other Class III electives; what distinguishes it is the addition of oral interpretation. In addition to writing about the literature, students will perform it by conducting poetry readings, staging scenes, and writing and speaking in the voice of individual characters. When possible, students will read the plays being presented on the Milton Academy stage or in Boston theaters and analyze those performances.",
+        "class": "3",
+        "url": "btIH",
+        "subject": "english"
+    },
+    {
+        "title": "Seeing Literature",
+        "extraInfo": "Class III",
+        "description": "From the imagery of a poem to the point of view of a short story or novel, literature often encodes in words important visual messages and commentary on human perspective. This course examines a diverse raft of literary works with special attention to the perspectival project within literature. With traditional books at the forefront, the course will also use paintings, films, and graphic novels to deepen understanding of the human complexities of seeing at the heart of each text, as well as to embrace the reading and writing goals of the Class III curriculum. Titles may include The Handmaid’s Tale, Maus, and Persepolis.",
+        "class": "3",
+        "url": "quQZ",
+        "subject": "english"
+    },
+    {
+        "title": "Contemporary Literature in Context",
+        "extraInfo": "Class II",
+        "description": "This course guides students in approaching literature from a number of analytical perspectives. Beginning with close reading—the detailed examination of a variety of texts for what the language will yield—the course moves to grouping texts by genre, by common theme, by historical period, and by a single author. In the late spring, the class applies all of these approaches to a single work, studying the text closely while also considering its form and theme, the period from which it came, and the influence of events in the author’s life. Past units include Hemingway, civil rights, the Feminist Movement, and the Vietnam War.",
+        "class": "2",
+        "url": "vwLI",
+        "subject": "english"
+    },
+    {
+        "title": "Literature and Human Condition",
+        "extraInfo": "Class II",
+        "description": "Pursuing a broad philosophical inquiry into what it means to be a person, to form relationships, to make decisions, and to live with their consequences, students read works from many literary traditions and discuss the subtopics that emerge: heroism and villainy; masculinity and femininity; self and other; rationality, the unconscious, and chaos; mortality, embodiment, and divinity; innocence, guilt, and redemption. Students argue their own ideas about the course’s central themes in critical essays, personal essays, and creative responses. Texts include Paradise Lost, Hamlet, and Heart of Darkness.",
+        "class": "2",
+        "url": "FzOC",
+        "subject": "english"
+    },
+    {
+        "title": "American Literature",
+        "extraInfo": "Class II",
+        "description": "This course is a survey of American literature, presenting an overview of American culture through its literary figures. The form and content of the readings offer great variety, and students’ written responses range from straightforward literary criticism to creative imitations of styles. Texts may include The Scarlet Letter, Love Medicine, and Their Eyes Were Watching God. Students who take United States History in the Class II year find that the two courses complement each other.",
+        "class": "2",
+        "url": "WB2N",
+        "subject": "english"
+    },
+    {
+        "title": "People and the Natural World",
+        "extraInfo": "Class II",
+        "description": "This course explores varied human responses to the natural world through literature selected for its provocative response to nature and the ways in which mankind marks their presence on the land. The tension between urban and rural visions will help students understand ideas of the wilderness and of the city in the human imagination and the ways in which memory and imagination help define place in the world. Literature ranges from novels, poetry, and essays to explorers’ journals and diaries. The course includes contemporary authors such as Leslie Marmon Silko and Annie Dillard as well as older writers such as Thoreau and Faulkner. Writing assignments will range from nature journals to essays of literary analysis and response papers.",
+        "class": "2",
+        "url": "PzGv",
+        "subject": "english"
+    },
+    {
+        "title": "Studies in English and American Literature",
+        "extraInfo": "Two-Year, Class II",
+        "description": "This course introduces students to major English and American writers and demonstrates the connections between English and American literary traditions. Structured chronologically, it begins with the major writers in England who form the basis for all subsequent developments. The second and third semesters of the sequence emphasize the similarities and dissimilarities of British and American writers and some ways in which they influenced each other and were influenced by their cultures. In scope, the course studies works of some 30 writers, from Chaucer through Virginia Woolf, in a year and a half. In the second semester of the Class I year, students study some modern and postmodern dramas, and then subdivide into specialized groups to study 20thcentury texts by a limited number of writers. (Note: In electing this course, a student makes a two-year commitment that cannot be broken at the end of Class II.)",
+        "class": "2",
+        "url": "zkmh",
+        "subject": "english"
+    },
+    {
+        "title": "Reading Consciousness",
+        "extraInfo": "Class II",
+        "description": "What makes us Human? Is it our body, our soul, our consciousness? Through an interdisciplinary study of literature, philosophy, and religion, this course will investigate and interrogate our notions of humanity from antiquity to the contemporary era. By exploring topics such as the institution of slavery, the struggle for human rights, and the nature of spiritual transcendence, students will develop an understanding of the evolving definition of the human and insert their own voices into the current debate. Assessments may include critical essays, personal reflections, student-led discussions, and creative work. Readings will come from a diverse range of authors and thinkers, including Ralph Ellison, Charlotte Brontë, Harriet Jacobs, Kazuo Ishiguro and Plato.",
+        "class": "2",
+        "url": "O+lm",
+        "subject": "english"
+    },
+    {
+        "title": "Fictions",
+        "extraInfo": "Class I",
+        "description": "We begin our philosophical journey with The Magus, the course’s required summer reading. On the island of Phraxos in 1953, the mysteries of Bourani become the thematic and artistic questions of the course. Exploring the myths, creeds, and psychological and scientific principles that we live by in the Western world, we move from our encounters with freedom and truth to 19th- and 20th-century fiction. Continuing our historical and thematic exploration, we examine the fictions that man lives by as we study modern and contemporary literature. Reading selections vary from year to year. The following is a sample of works taught recently: American Pastoral, Oryx and Crake, The Road, Beloved, Body and Soul, Kafka on the Shore, and A Farewell to Arms.",
+        "class": "1",
+        "url": "TNpE",
+        "subject": "english"
+    },
+    {
+        "title": "The Craft of Non-Fiction",
+        "extraInfo": "Class I",
+        "description": "This course is designed for students interested in the craft of writing and who wish to write about ideas, personal experience, and the sort of general interest topics (e.g., the arts, medicine, sports, nature, science, education) that appear in magazines such as The New Yorker and The Atlantic Monthly. It addresses three different genres of nonfiction: the feature article, a 4,000--word piece of investigative reporting; the essay of ideas, a 1,500-word reflective essay; and the memoir, a 4,000--word personal narrative. In each genre, students first read models and complete short, experimental writing assignments. The course differs from other Class I English courses in its high ratio of writing to reading and in its requirement that students revise each major piece of work to a high standard of professionalism. Critique by peers is an essential part of the writing process; students should expect to share their work with the class and to read and comment on the work of their classmates.",
+        "class": "1",
+        "url": "dPss",
+        "subject": "english"
+    },
+    {
+        "title": "Intersectionality: Womanhood in American Culture",
+        "extraInfo": "Class I",
+        "description": "In the early 1980s, two key texts confronted our nation with a powerful question: If all the women are white, and all of the people of color are men, who is left out? The anthologies This Bridge Called My Back (1981) and Some of Us Are Brave (1982) highlighted the need for voices from women of color in feminist dialogue and inspired legal scholar Kimberlé Crenshaw to coin the term intersectionality: a position at the cross-section of gender and race, occupied by Black women in particular and, in more contemporary application, women of color in general. This interdisciplinary course in literature and feminist theory examines the interventions of American women who identify as Black, Latina, Native, and Asian into a discourse that excluded them through identity and class. It also considers how those interventions redefine American feminism for not only women of color but also their white counterparts. Assessments will include critical essays, personal reflections, and creative work. In addition to the anthologies and the writing of Crenshaw, readings may also include works from Audre Lorde, Yuri Kochiyama, Gloria Anzaldúa, Adrienne Rich, and Louise Erdrich.",
+        "class": "1",
+        "url": "k7ot",
+        "subject": "english"
+    },
+    {
+        "title": "Literature and the Nature of Reality",
+        "extraInfo": "Class I",
+        "description": "This course looks at a variety of texts that explore, question, and prod at the boundaries of the nature of reality. In studying novels, plays, movies, short stories, and poems, we look not only at ideas in literature, but also at theories in psychology, science, morality, language theory, and art. The class is divided into thematic units, though many texts will cross from one theme into others. Central to the class are the big questions: What is real? How do we judge reality? How and why does literature explore it? Possible authors include Albee, Beckett, Borges, Fadiman, Frayn, Kushner, Pirandello, Sacks, Stoppard, Twain and Woolf.",
+        "class": "1",
+        "url": "Xan8",
+        "subject": "english"
+    },
+    {
+        "title": "Modern Comparative Literature",
+        "extraInfo": "Class I",
+        "description": "The course begins with summer reading of Dickens and Dostoevsky, two writers who were contemporaries but wrote in very different styles. Dostoevsky anticipates much of what is thought to be “modern” in the arts. From his example, students move to Kafka— who casts the longest shadow over modern literature—Joyce, Woolf, and Camus. The last three writers of the fall term, García Márquez, Coetzee, and Morrison, writing in the postmodern era, face the question of what artists do to distinguish their work when earlier authors seem to have tried everything. In the spring semester, students trace the same evolution of style and content in drama, immersing themselves in sixteen plays ranging from Ibsen and Strindberg in the late-19th century to contemporary playwrights Suzan Lori Parks and Caryl Churchill; the class meets in King Theatre so that students can see plays in performance rather than on the page. During the spring project period, students will study film; in past years, subjects have included film noir, the changing image of women in film, five great directors, great examples of five film genres, and five autobiographical films.",
+        "class": "1",
+        "url": "c886",
+        "subject": "english"
+    },
+    {
+        "title": "Philosophy and Literature",
+        "extraInfo": "Class I",
+        "description": "This course investigates theories about the nature of humanity and moral philosophy, emphasizing a reasoned approach to thinking about complex and abstract problems. Topics include the basis of human knowledge, questions of freedom and determinism, the nature of evil, the nature of moral and aesthetic judgment, and the definition of social and political justice. Each unit takes its form around a main literary text and complementary philosophical readings. Students read traditional philosophers such as Plato, Aristotle, Descartes, and Kant as well as more modern thinkers such as Marx, Nietzsche, and Freud. Titles may include Lightman’s Einstein’s Dreams, Levi’s The Drowned and the Saved, McCarthy’s No Country for Old Men, Greene’s The Heart of the Matter, and Shakespeare’s Measure for Measure.",
+        "class": "1",
+        "url": "KmL1",
+        "subject": "english"
+    },
+    {
+        "title": "Shakespeare",
+        "extraInfo": "Class I",
+        "description": "In this course, students read a dozen of Shakespeare’s plays, including comedies, tragedies and histories, excluding those normally studied in previous years at Milton. Though the course touches on historical context and linguistic development, its main emphasis is on the plays as theater—the creativity they continue to stimulate in actors and directors and the response they continue to evoke from audiences. In addition to reading and writing (both critical and creative), the class compares movie versions, engages in impromptu performances, and may attend live theater as the opportunity presents itself. A self-designed project each semester gives students the chance to pursue in depth their interests in scholarship, art, photography, video production, music, theater design, and other fields.",
+        "class": "1",
+        "url": "sQty",
+        "subject": "english"
+    },
+    {
+        "title": "Themes in Contemporary World Literature",
+        "extraInfo": "",
+        "description": "What does it mean to be a global citizen? How has globalization shaped contemporary fiction? This course recognizes the multiplicity of narratives around us, not only from different countries, but also from different walks of life within those countries. In order to begin the conversation about the many stories that define each of us, we will read pairs of texts selected from several regions around the world. Pairs will likely include: The Farming of Bones by Edwidge Danticat and The Brief Wondrous Life of Oscar Wao by Junot Díaz (the Caribbean); Slumdog Millionaire, produced by Danny Boyle and White Tiger by Arvind Adiga (India); Americanah by Chimamanda Ngozi Adichie and We Need New Names by NoViolet Bulawayo (Africa); and Snow Country by Yasunari Kawabata and Kitchen by Banana Yoshimoto (Japan). Assessments in this course will include opportunities to write critically, to write in the style of a contemporary author, and to write one’s own contemporary world literature story. Two sections of this course will follow this plan: In September of 2019, Swedish climate change activist Greta Thunberg participated in The Global Week for Future, a movement that included a Climate Strike with four million young people across the globe demanding that nations secure their futures by preserving our planet. In that spirit, the theme of this course –The Global Climate – examines the following essential questions: How has the climate crisis changed our relationship to our world? As global citizens, what responsibilities do we have to the cultures, communities, and environment around us? How do we create positive change for our future? We will attempt to answer these questions through an examination of texts from Africa, the Americas, Asia, and Europe. Assessments will include critical essays, personal reflections, and the opportunity to participate in The Humanities Workshop, a consortium of secondary schools that uses the humanities to examine issues of social justice. Texts may include: The Emissary by Yoko Tawada, Gun Island by Amitav Ghosh, The Year of the Flood by Margaret Atwood, The Parable of the Sower by Octavia Butler, and The Three-Body Problem by Cixin Liu.",
+        "class": "1",
+        "url": "xarq",
+        "subject": "english"
+    },
+    {
+        "title": "Three Writers in Depth",
+        "extraInfo": "Class I",
+        "description": "By limiting the number of writers we study, this course allows students to examine each writer longer and more intensively than is possible in other courses. Opportunities presented by the course include following the evolution of an author’s style and choice of subject matter and theme; exploring one author’s approach to different literary genres; and placing an author in historical and biographical context. Written work consists of both critical essays and creative pieces, perhaps using as inspiration the style or thematic content of the works being studied. The teacher selects the first two writers; after the school year has begun, teacher and students together will select the third. The following list suggests the stature of the writers likely to be chosen: Auden, Austen, Baldwin, Beckett, Conrad, Dante, Eliot, Faulkner, Frost, García Márquez, Hemingway, Ibsen, James, Joyce, Morrison, O’Neill, Swift,Thoreau, Tolstoy, Williams, Woolf, and Yeats.",
+        "class": "1",
+        "url": "7eA2",
+        "subject": "english"
+    },
+    {
+        "title": "We Are What We Read",
+        "extraInfo": "Class I",
+        "description": "“You must write, and read, as if your life depended on it” (Adrienne Rich). In this course, students will read fiction and write several personal, creative, and analytical essays examining the intersection of the literature and the reader reading and how literature works when we feel, as Dickinson has said, “as if the top of [our] head were taken off.” We will ask how we read the texts, and how the texts read us. The work includes a rereading of a resonant novel of the student’s choice, fiction (shorter and longer), possibly including Woolf, Adichie, Hemingway, Senna, Amis, Austen, Ondaatje, and Murakami, and poetry, contemporary and not. Additionally, we will read essayists writing about reading, including Rich, Calvino, Gay, Oates, Yardley, Dubus, Baldwin, Lorde, and others. A final project will involve students’ examinations of a small body of work by a single author of each student’s choice.",
+        "class": "1",
+        "url": "rNPQ",
+        "subject": "english"
+    },
+    {
+        "title": "Advanced Creative Writing",
+        "extraInfo": "Half, Class I",
+        "description": "Meeting twice a week in a format that consists of a writers’ workshop and individual conferences, this course provides the student writer the opportunity to continue to develop talents. (Prerequisites: Creative Writing and permission of the creative writing teachers.) Note: Advanced Creative Writing and Advanced Creative Writing 2 may be offered as semester courses should there be sufficient interest and with permission of the department chair.",
+        "class": "1",
+        "url": "M6FO",
+        "subject": "english"
+    },
+    {
+        "title": "Advanced Creative Writing 2",
+        "extraInfo": "Half, Class I",
+        "description": "This course allows those who have successfully completed Advanced Creative Writing to continue working in the same format. (Prerequisites: Advanced Creative Writing and permission of the creative writing teachers.) Note: Advanced Creative Writing and Advanced Creative Writing 2 may be offered as semester courses should there be sufficient interest and with permission of the department chair.",
+        "class": "1",
+        "url": "I4j9",
+        "subject": "english"
+    },
+    {
+        "title": "Exposition",
+        "extraInfo": "Classes III & IV",
+        "description": "The English department offers a diploma credit course for students in Classes III and IV who desire intensive instruction for improvement of verbal skills. The course focuses on developing the skills necessary for clear, correct, and forceful expository writing of the sort required by all disciplines at Milton. This course includes a thorough study of grammar; an introduction to key concepts about writing; and a series of essays and longer projects aimed at helping students learn to write in a step-by-step process that includes planning, drafting, revising, and editing. Enrollment in this course is limited and is granted by permission of the department chair. A Class IV student who wishes to take Exposition in Class III must first consult with his or her current English teacher.",
+        "class": "3+4",
+        "url": "m3yk",
+        "subject": "english"
+    },
+    {
+        "title": "Hamlet",
+        "extraInfo": "Half, Classes I & II",
+        "description": "By devoting a full year to the play that is widely regarded as the greatest in English, this course, team-taught by a member of the English department and a member of the performing arts department, offers students several unique opportunities: (1) to enjoy the in-depth study of a single text, with no pressure to move on; and to experience fully the richness that a very complex literary text provides; (2) to approach a Shakespeare play actively by performing, directing and designing parts of the text, and in doing so discover a full range of possible interpretation; (3) to join the literate world in knowledge and appreciation of a classic work; (4) to explore the deep personal resonances that this work, perhaps more than any other, always seems to evoke; (5) to gain familiarity with the problems and processes of literary scholarship. Most class time is spent reading and discussing Hamlet and comparing different film versions. Students, individually or in groups, formulate long-term projects that they complete during homework time. Projects, which may be critical or creative, have covered a broad range, including theatre design, filmmaking, creative writing, textual analysis, memorization and performance, graphic art, psychology, music, and research into the play’s historical and literary background.",
+        "class": "1+2",
+        "url": "PJFr",
+        "subject": "english"
+    },
+    {
+        "title": "Journalism",
+        "extraInfo": "Half, Classes II & III",
+        "description": "In today’s digital and highly saturated media environment, students need to learn media literacy early; they need to understand the role of journalists and the role a free press plays in a democracy. In this course, students will learn how to gather facts, conduct interviews, research background material, and craft and edit news stories. We will examine the differences between hard news coverage, feature pieces, and opinion pieces and write in all three styles. We will also learn how today’s newsrooms work; they aim for noble purposes, but most are for-profit businesses, so we will discuss that balance. We will cover the basics of communication law, exploring questions such as: What is freedom of speech? Freedom of press? Libel? We will examine media in all its forms -- print, television/video, radio/podcasts, and social media channels -- comparing and contrasting how current events are covered, looking at what’s effective and what’s not. Working journalists will visit class periodically to discuss their work.",
+        "class": "2+3",
+        "url": "0Zf5",
+        "subject": "english"
+    },
+    {
+        "title": "It was all a dream...: The Power of Poetry through Close Reading and Analysis",
+        "extraInfo": "Half, Classes I, II & III",
+        "description": "This course is geared towards students who have a deep interest in poetry and its many forms and want to expand their repertoire of rhetorical devices. This course will push students to dig deep into the text through close reading strategies that refine their analytical writing. We will also explore the ways in which poetry both captures and transcends time through its influence on popular culture.",
+        "class": "1+2+3",
+        "url": "Bdd1",
+        "subject": "english"
+    },
+    {
+        "title": "Project Story: Narrative Journalism and Performance",
+        "extraInfo": "Half, Classes I, II & III",
+        "description": "From competitive story slams performed for packed venues to storytelling courses designed to empower workplace professionals, sharing narrative with live audiences has never felt more current or relevant. In this course, students will study the art of storytelling through moving their own and others’ stories from page to stage. During the first half of the semester, students will learn narrative journalism skills, performance skills, and peer workshop practice, to collect and shape stories of our School. They will work collaboratively during the second half of the semester to identify, research, write, and perform a story that originates beyond Milton Academy. Throughout the year, students will read and view storytelling models, attend performances, and hear from visiting artists and activists who promote storytelling around the country, believing that shared stories strengthen and sustain human connection. (This course is listed under both the English and performing arts departments.)",
+        "class": "1+2+3",
+        "url": "yy1F",
+        "subject": "english"
+    },
+    {
+        "title": "Creative Writing",
+        "extraInfo": "Classes I, II & III, Satisfies Arts Requirement",
+        "description": "This course offers workshops in shaping ideas, personal observations, and memories into fiction and poetry. It teaches techniques of each genre and employs frequent reading and discussion of student works within the class.",
+        "class": "1+2+3",
+        "url": "2cRd",
+        "subject": "english"
+    },
+    {
+        "title": "Music Theory",
+        "extraInfo": "Half, Classes I, II & III",
+        "description": "Starting with the fundamentals of music, this course explores a wide variety of music theory topics and theoretical problems. Music is examined through harmonic and melodic analysis. Besides the written analysis, music is examined from an aural standpoint through ear training and sight-singing. No past musical experience is necessary, although it is helpful.",
+        "class": "music",
+        "url": "vc54",
+        "subject": "arts"
+    },
+    {
+        "title": "Chamber Singers",
+        "extraInfo": "Half, Classes I, II & III",
+        "description": "This is a performing organization that emphasizes tone and detail of phrasing. Students study and perform great choral literature from every period, especially literature that is written for smaller choral groups. Individuals improve their sight-reading skills, their vocal technique and their knowledge of musical styles. Membership in Glee Club and an audition are required.",
+        "class": "music",
+        "url": "myfs",
+        "subject": "arts"
+    },
+    {
+        "title": "Orchestra",
+        "extraInfo": "Half, Classes I, II & III",
+        "description": "The orchestra is open to any woodwind, brass, string or percussion player. Besides standard, full orchestral literature, students will experience music of other ensemble types (e.g., wind band, string orchestra).",
+        "class": "music",
+        "url": "UrQv",
+        "subject": "arts"
+    },
+    {
+        "title": "Chamber Orchestra",
+        "extraInfo": "Half, Classes I, II & III",
+        "description": "The orchestra is open to woodwind, brass, string or percussion players. Besides standard, full orchestral literature, students will experience music of other ensemble types (e.g., wind band, string orchestra). Chamber Orchestra is open by audition only. Chamber Orchestra students rehearse one additional period per week.",
+        "class": "music",
+        "url": "pQgq",
+        "subject": "arts"
+    },
+    {
+        "title": "Music Package",
+        "extraInfo": "Classes I, II & III, Satisfies Arts Requirement",
+        "description": "In place of a single Arts Program course, students with special interest in music may satisfy the arts requirement through a combination of musical activities. The Music Package, designed by and for each student, includes one of the half courses offered by the department, comprising performance experience through choral singing, chamber music, or orchestral playing. Students are required to participate in a course-based performing ensemble each year they are at Milton. Additionally, students must complete a class in music theory or music history, either at Milton or by a faculty-approved equivalent course outside of school. Music lessons may be part of the package but, by themselves, do not fulfill the performance component. In lieu of music history or theory, students can propose an independent project, using their musical abilities to create social and civic impact in their community. A written application for the Music Package should specify the components of the package and requires the approval of both the music department chair and the academic dean. Applications must be completed by March of the Class II year.",
+        "class": "music",
+        "url": "Hc9o",
+        "subject": "arts"
+    },
+    {
+        "title": "Jazz Improvisation",
+        "extraInfo": "Classes I, II & III, Satisfies Arts Requirement",
+        "description": "This course gives students experience in ensemble playing and improvisation in the jazz and jazz/rock idioms. Students learn and play tunes in a group and explore the tunes for structure and harmony. This course emphasizes listening to recordings integral to the course work. Elementary knowledge of scales is required. The focus is on the development of improvisational and ensemble skills through playing. (Permission of the department chair is required.)",
+        "class": "music",
+        "url": "lo3n",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Jazz Improvisation",
+        "extraInfo": "Classes I, II & III",
+        "description": "In this continuation of the introductory course, greater emphasis is placed on performing, and the music is more challenging. Students explore complex chord scales, rhythms and structures. The course usually focuses on one artist or one style of jazz music per semester. Additional years in this course allow the advanced jazz student to continue studying and performing under the guidance of our jazz faculty. (Prerequisite: Permission of the department chair.)",
+        "class": "music",
+        "url": "jYC2",
+        "subject": "arts"
+    },
+    {
+        "title": "Private Instrumental and Vocal Lessons",
+        "extraInfo": "non-credit",
+        "description": "Milton Academy facilitates private music instruction on campus (in the Kellner Performing Arts Center) to provide individualized instruction for voice, winds, brass and string instruments. Private music teachers hail from a variety of backgrounds, including classical, jazz, and pop style performance. The music department will assist with finding teachers for students wishing to have instruction in instruments not listed. Session I Music lessons begin in October and end in January. Session II begins in February, and continues through the end of the school year. There are twelve 45-minute lessons in each session. Lessons are generally scheduled after school but may also be scheduled during the school day depending on a student’s schedule. As such, lessons are arranged individually by the teachers and students based on mutual availability. Financial aid for private music lessons is available to Upper School students who receive financial aid for tuition.",
+        "class": "music",
+        "url": "f6s9",
+        "subject": "arts"
+    },
+    {
+        "title": "Dance",
+        "extraInfo": "Classes I, II & III, Satisfies Arts Requirement",
+        "description": "This comprehensive course is designed both for students who have had little or no previous formal dance experience and for the intermediate level dancer. Students explore and practice the principles of dance technique, improvisation and composition, working to develop greater awareness, freedom and control in the use of the body as an instrument of expression. Ballet, modern and jazz dance styles will be introduced and practiced.",
+        "class": "performing",
+        "url": "BLM+",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Dance: Modern",
+        "extraInfo": "Half, Classes I & II",
+        "description": "This course is designed for students prepared to work at the advanced or intermediate level in modern dance technique. Students practice advanced warm-up exercises, center combinations and movement patterns. Students may learn repertory from established modern dance choreographers. In addition to technique, students explore improvisation and dance composition in a more in-depth manner, culminating in a collaborative performance in the Winter Dance Concert. (Prerequisite: Arts Program Dance or permission of the department chair.)",
+        "class": "performing",
+        "url": "uBUv",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Dance: Ballet",
+        "extraInfo": "Half, Classes I & II",
+        "description": "This course is designed for dancers prepared to work at the advanced or intermediate level in ballet technique. Students practice advanced warm-up exercises, center combinations and movement patterns. In addition to technique, students may learn repertory from choreographed ballets. (Prerequisite: Arts Program Dance or permission of the department chair.)",
+        "class": "performing",
+        "url": "a34K",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Dance: Choreography",
+        "extraInfo": "Half, Classes I & II",
+        "description": "This course explores the path from improvisational dancing to sophisticated dance making. In a fun and supportive atmosphere, students cultivate their natural movement resources, developing movement ideas into fully shaped dance and movement pieces. Students also study relevant and well established choreographers. No formal dance training is required; however, the ability and the desire to move are necessary. Students in this course will work collaboratively to create and perform a dance for the Winter Dance Concert. This course is strongly recommended for students interested in choreographing as individuals for the Winter Dance Concert. (Prerequisite: Permission of the department chair.)",
+        "class": "performing",
+        "url": "dt4C",
+        "subject": "arts"
+    },
+    {
+        "title": "Drama",
+        "extraInfo": "Classes I, II & III, Satisfies Arts Requirement",
+        "description": "This course teaches basic skills for the beginning actor. Exercises and scene work aim at developing concentration, freedom and power of expression, connection with a text and with acting partners, and a process for approaching characterization. The emphasis is on representational acting techniques and contemporary, realistic texts. Attendance at all Upper School performances is required. Excursions to professional productions may be required.",
+        "class": "performing",
+        "url": "AiPz",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Drama: Directing",
+        "extraInfo": "Half, Classes I & II",
+        "description": "This course introduces students to the principles and practices of directing for the stage. The course is project-based and emphasizes hands-on instruction and exploration in the directing of scenes and short plays. Students learn the basics of concept development, actor coaching, and blocking. The course is highlighted with a public presentation of student directed work in the spring. Students will also shadow faculty directors and may act as assistant directors for current season productions. (Prerequisite: Arts Program Drama or equivalent experience and permission from the department chair.)",
+        "class": "performing",
+        "url": "Xv9a",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Drama: Musical Theatre",
+        "extraInfo": "Half, Classes I & II",
+        "description": "This course focuses on developing skills in acting, singing and dancing for musical theatre. The course is team-taught by members of the performing arts and music departments and combines exercises and scene work from contemporary Broadway musical theatre. The course culminates in a public performance by members of the class. (Prerequisite: Arts Program Drama or or equivalent experience and permission of the department chair.)",
+        "class": "performing",
+        "url": "oRo8",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Drama: Improvisation",
+        "extraInfo": "Half, Classes I & II",
+        "description": "This course covers the many aspects of improvisation such as quick and thorough thinking on one’s feet; creating believable characters; the use of subtext, concentration, imagination and observation in short and long-form non-scripted scenes; working cooperatively with an ensemble and audience; creating truthful relationships; and the use of the body and voice as communicative instruments. Through participating in class activities, attending two off-campus shows, and performing in public, students will become more spontaneous, trusting and cooperative performers. (Prerequisite: Permission of the department chair.)",
+        "class": "performing",
+        "url": "vu3N",
+        "subject": "arts"
+    },
+    {
+        "title": "Spoken Word Performance",
+        "extraInfo": "Classes I, II & III, Satisfies Arts Requirement",
+        "description": "This course introduces students to the interactive power of literature and performance. Using the written and spoken word including short stories, plays, spoken word poetry, podcasts and TED talks as inspiration, students will jump into stories that connect with each of them in unique and current ways. They will develop skills to become exciting and effective performers and story-tellers by exploring the use of voice, physicality, and interpretation. The emphasis is on finding fun and meaningful ways to make stories come to life. Students will present their work to the community at open mics and other performance venues and may attend performances off campus. This course will culminate in students creating and performing a short original piece.",
+        "class": "performing",
+        "url": "XxDE",
+        "subject": "arts"
+    },
+    {
+        "title": "Spoken Word Poetry",
+        "extraInfo": "Half,  Classes I, II & III",
+        "description": "Students will immerse themselves in the world of spoken word poetry by reading, listening to, and watching the work of accomplished poets, and engaging in the daily practice of writing and performing their own original poems. Through a variety of approaches, students will craft their words and use their voices and bodies to create meaningful group and individual live performances. They will perform their work, as well as the work of others, in the forms of spoken word, slam and hip hop.",
+        "class": "performing",
+        "url": "Jpx6",
+        "subject": "arts"
+    },
+    {
+        "title": "Design for the Theatre",
+        "extraInfo": "Classes I, II & III, Satisfies Arts Requirement",
+        "description": "This course introduces students to the collaborative art of scenic design, lighting design and costume design. In the first semester, students will explore the elements and principles of design through hands-on projects in perspective drawing, technical drafting, watercolor rendering, and scale model construction. Two-dimensional work will be explored using Vectorworks and other digital design tools along with free-hand drawing and drafting techniques. In the second semester, students will form a design team for a spring production. Through play analysis, hands-on projects, and collaboration, each student will create a complete design for an actualized project. These projects may include a full design or specific projects within a design. The course culminates in a presentation of a design portfolio comprised of drafting, renderings and models illustrating growth throughout the year.",
+        "class": "performing",
+        "url": "Fv8J",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Drama: Costume Design",
+        "extraInfo": "Half, Classes I & II",
+        "description": "This course explores costume design and construction through theoretical and practical projects. Students will learn basic sketching, hand and machine sewing techniques, pattern reading and adaptation, millinery techniques, and costume jewelry making. In addition, through play reading and analysis, as well as historical research, students will develop and present costume plots, individual character costume sketches, and design concepts.",
+        "class": "performing",
+        "url": "m9wF",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Drama: The Female Role in Theatre",
+        "extraInfo": "Half, Classes I & II",
+        "description": "This advanced acting course focuses on how the female experience has been represented in theatre over time. We will look at texts that range from classic to contemporary. We will also examine work created by female playwrights and theatre artists. Students will perform scenes and monologues from these plays, interact with working playwrights, and write about their discoveries throughout the course. (Prerequisite: Arts Program Drama or Oral Interpretation or equivalent experience and permission from the department chair.)",
+        "class": "performing",
+        "url": "jBYH",
+        "subject": "arts"
+    },
+    {
+        "title": "Drawing|Painting + Design",
+        "extraInfo": "Classes I, II & III, Satisfies Arts Requirement",
+        "description": "In this intensive, year-long foundations course, students will be introduced to the foundations of drawing and painting in the fall semester. In the spring semester, they will apply those techniques with design thinking in printmaking, digital imaging and composition, and new media. This course, for students who like making and creating, allows beginners to succeed and experienced students to be challenged. All assignments are hands-on and studio-based, with basic exercises culminating in major projects. Students will learn visual language, apply techniques, and solve problems by means of a creative process, all supplemented by a broad introduction to art history, aesthetics and criticism, and the most contemporary modes of art-making. Each student will be urged to explore ideas, experiment with an open mind, and make expressions personal, dramatic and original. The course will include field trips to art museums and contact with professional artists.",
+        "class": "visual",
+        "url": "yfbC",
+        "subject": "arts"
+    },
+    {
+        "title": "Photography|Digital Imaging + Design",
+        "extraInfo": "Classes I, II & III, Satisfies Arts Requirement",
+        "description": "This course introduces students to the art of seeing and picture-making from its analog origins to today’s digital contemporary practices. In the first semester, students will learn the concepts of exposure with a digital camera before shifting to a 35mm film camera where the techniques of film development and wet darkroom printing will be taught. Students will develop their eye and composition skills through hands-on projects that also provide exposure to the great canon of photographic masters; deepen their own expressive ability; and gain an understanding of how photography was developed from the late 19th century through the first half of the 20th century. In the second semester, students will shift into the digital realm, working with DSLRs and becoming fluent with industry standard programs such as Adobe Bridge, Photoshop and CameraRaw, all through application tutorials and project based learning. All projects will introduce contemporary photographers and address the growth of this medium, with the advent of color and digital technology. Students will feel confident in their understanding of the medium both technically and artistically, and with their ability to access the visual language to express their ideas.",
+        "class": "visual",
+        "url": "IltR",
+        "subject": "arts"
+    },
+    {
+        "title": "Sculpture|Ceramics + 3-D Design",
+        "extraInfo": "Classes I, II & III, Satisfies Arts Requirement",
+        "description": "This course introduces students to the foundations of three-dimensional design and the construction of functional and artistic objects. Students solve a series of design problems with hands-on projects, acquire skill in the use of hand and power tools, and learn design principles that inform both industrial and fine arts. Projects will be designed to explore a variety of techniques in diverse sculptural media such as wood, metal, clay, plaster and plastics. Students will address design challenges through creative processes, while learning about underlying concepts of art through discussions of art history, aesthetics and criticism. Digital processes including 3-D printing will also be explored. Students will be encouraged to investigate ideas, experiment with an open mind, and produce original and personal expressions.",
+        "class": "visual",
+        "url": "Etuf",
+        "subject": "arts"
+    },
+    {
+        "title": "Technology|Media + Design",
+        "extraInfo": "Classes I, II & III, Satisfies Arts Requirement",
+        "description": "This course introduces the basic principles and practices of design using contemporary, new and rising technologies. The course is project-based, emphasizing hands-on instruction, experimentation and exploration in new media, including digital imaging and graphic design, animation, industrial design with 3-D modeling and printing, and environmental/installation art. Particular emphasis will be placed on imaginative innovation and critical thinking, and the exploration of both existing and new interpretations of design in contemporary art. Students will be expected to reach beyond current definitions and boundaries of traditional art forms and applications in a collaborative spirit of discovery.",
+        "class": "visual",
+        "url": "SovK",
+        "subject": "arts"
+    },
+    {
+        "title": "Film|Moving-Image + Design",
+        "extraInfo": "Classes I, II & III, Satisfies Arts Requirement",
+        "description": "This course introduces students to the basic principles and practices of digital movie making, visual storytelling, and cinematography. The course is project-based, emphasizing hands-on instruction and exploration in the creation of short films. Students learn the basics of pre-production, effective camera technique, the editing process, and production management.",
+        "class": "visual",
+        "url": "zEcy",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Drawing",
+        "extraInfo": "Semester 1, Classes I & II",
+        "description": "In this course, students will explore major genres of drawing in both black and white and in color. After an intensive review of line, volume, space and light, students will focus on how to see and draw in “relational” terms. Both collaborative and individual projects will guide students in drawing the human face and figure, the landscape, architecture, abstraction or the use of alternative materials (including sculptural drawing and printmaking). The class will take drawing excursions around campus and to other nearby areas, including Boston museums. The culmination of the course is a large-scale drawing project blending realistic observational drawing with drawing from imagination, fantasy and abstraction. (Prerequisite: Drawing|Painting + Design or permission of the department chair.)",
+        "class": "visual",
+        "url": "K6wa",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Photography: Digital Imaging",
+        "extraInfo": "Semester 1, Classes I & II",
+        "description": "This course builds upon foundational skills to explore photography in the digital age. In a hands-on, project-based curriculum, students work exclusively with DSLRs and push their understanding of the medium and their own personal creativity. Projects will introduce some of today’s most revolutionary photographers, and will ask students to reimagine how photography can be manipulated as a mode for personal and artistic expression. Students will increase their fluency in programs such as Adobe Bridge, Photoshop and CameraRaw, learning advanced editing techniques through supplemental tutorials and projects. Throughout the semester, students will explore studio lighting, still life photography, advanced compositing and retouching, and printing with large format printers. A portfolio of finished and mounted prints will be expected, including large format display prints. Support for the creation of portfolios for college admission will be integral to early work. (Prerequisite: Photography|Digital-Imaging + Design or permission of the department chair.)",
+        "class": "visual",
+        "url": "u8Un",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Sculpture",
+        "extraInfo": "Semester I, Classes I & II",
+        "description": "Advanced Sculpture builds upon foundational skills to explore a range of ideas and possibilities through a variety of three dimensional projects. Students will be introduced to more advanced sculptural techniques involving additive and subtractive processes in materials such as wood, metal, plaster and stone. Students will be able to communicate concepts and intentions through the manipulation of subject matter, organizational components, media and processes. Projects will include both figurative and abstract creations and will explore design applications through contemporary modes of production. Working together in a classroom structure, students will benefit from dialogue with each other, critiques and field trips. (Prerequisite: Sculpture|Ceramics + Design or permission of the department chair.)",
+        "class": "visual",
+        "url": "dwTJ",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Technology: Graphic Design",
+        "extraInfo": "Semester 1, Classes I & II",
+        "description": "Building upon the technology foundations course that surveys many design genres, this class delves into a semester-long study of graphic design. Otherwise known as communication design, this art form focuses on how to effectively express ideas through visual art and textual content. Students will study art and images, typography, and layout for both the physical and virtual world (print versus digital content). Projects will emphasize originality and hands-on experimentation of advanced applications in technology. Two dimensional work will be primarily composed in Adobe Illustrator, InDesign and Photoshop but may also include animation with Flash and 3-D modeling and printing. (Prerequisite: Technology|Media + Design or permission of the department chair.)",
+        "class": "visual",
+        "url": "YD4Z",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Filmmaking",
+        "extraInfo": "Semester 1, Classes I & II",
+        "description": "Building on the foundation of knowledge, skills, and techniques learned in the Film|Moving-Image + Design course, this course seeks to strengthen students’ mastery of story writing, production management, directing, camera use, and editing. Students will study and create short films using digital video. (Prerequisite: Film|Moving-Image + Design or permission of the department chair.)",
+        "class": "visual",
+        "url": "ByHO",
+        "subject": "arts"
+    },
+    {
+        "title": "Histroy of Western Art",
+        "extraInfo": "Semester 1, Classes I, II & III",
+        "description": "This course traces the trajectory of European and Western Art from roots in ancient cultures to the 19th Century and includes examples of contemporary art for comparison. Art can reveal to its audience the morals and priorities of a culture or simply allow us a glimpse into their fantasies. Onlookers may feel understood, inspired or excluded. We will contextualize works of art and artists in social and political context to better understand the tensions or harmonies therein, incorporating in-depth coverage of select artworks, periods, and artistic movements. The focus of our study is to critically engage with works of art with considerations of material, historical context, artist, and audience. Students will hone skills of visual analysis through close observation of artworks. In support, readings in art theory and art historical analysis from primary sources will be shared and students will be asked to synthesize ideas in essay writing. Insight into processes of various disciplines of artmaking will be gained through short hands-on studio assignments, as well as local field trips to Boston-area museums and galleries; and the course will also include an introduction to curatorial and editorial practice in Milton’s Nesto Gallery. Recommended in conjunction with Contemporary and Global Art Studies.",
+        "class": "visual",
+        "url": "_kjl",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Painting ",
+        "extraInfo": "Semester 2, Classes I & II",
+        "description": "In this course, students will explore painting technique across a variety of media, primarily using water-soluble oils, but also acrylic or watercolor. Students will be challenged to “think in color” and to “see the light” in relation to form and space; they will paint both from “life” and from their imaginations. Subjects may range from abstract works, still life, the human face and figure, and the landscape, to stories and fantasies of surrealistic and invented worlds. Each student will work to develop his or her own personal vision through an experience of different styles and techniques. Field trips may be part of this course, intended to expose students to the contemporary art scene. (Prerequisite: Drawing|Painting + Design or permission of the department chair.)",
+        "class": "visual",
+        "url": "Mncr",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Photography: Alternative Processes",
+        "extraInfo": "Semester 2, Classes I & II",
+        "description": "This course builds upon foundational techniques in digital and analog photography, working both in the digital/technical design realm and returning to the darkroom to explore alternative processes in photography. In a hands-on, project-based curriculum, students experiment with new kinds of cameras such as medium format Holgas, camera obscuras, pinhole cameras, and others. Darkroom skills will be refined and different printing techniques, such as multiple exposures, solarizations, photo transfers, and cyanotypes will be explored. Digital processes and alternative image manipulation in Photoshop will also be an integral part of this exploratory course. Students will study photographic masters from the past and present who have challenged the traditional uses of the medium, pushing both the technical and expressive boundaries of creativity. A portfolio of finished and mounted prints will be expected, including large format display prints. Support for the creation of portfolios for college admission will be integral to early work. (Prerequisite: Photography|DigitalImaging + Design or permission of the department chair.)",
+        "class": "visual",
+        "url": "75Hq",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Ceramics",
+        "extraInfo": "Semester 2, Classes I & II",
+        "description": "This course builds upon the foundational techniques of working with clay: sculptural hand-building, slab and coil construction, wheel throwing, mold-making, and glazing. Individual expression in clay, whether artistic or functional, will be emphasized. Students will be able to communicate concepts and intentions through the manipulation of subject matter, organizational components, and surface treatments. Projects will include traditional functional objects such as teapots and bowls, repetitive casting, and large abstract sculptural expressions. Students will gain a deeper understanding of both the historical and contemporary significance of ceramics through class discussions, critiques, and field trips. (Prerequisite: Sculpture|Ceramics + Design or permission of the department chair.)",
+        "class": "visual",
+        "url": "szqp",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Technology: Industrial Design",
+        "extraInfo": "Semester 2, Classes I & II",
+        "description": "This course builds off foundational art and design skills in Technology, Media and Design and explores Industrial Design in greater depth. Coursework will be project based with an emphasis on experimentation, expression, and collaboration. Students will gain an increasing command of visual 3-D design through virtual and physical projects including 3D-modeling and printing, sculpture, and/ or installation and environmental work. Students will refine their visual sensibility, push their creativity, and deepen their design knowledge while using advanced applications of the latest technology. (Prerequisite: Technology|Media + Design or permission of the department chair.)",
+        "class": "visual",
+        "url": "Utjj",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Documentary Film",
+        "extraInfo": "Semester 2, Classes I & II",
+        "description": "This course is an exploration of the research techniques, methods and skills associated with creating documentaries. In the course students will produce a documentary from exploration, to implementation, to execution and presentation. With room for creativity and invention, students will explore the “raw material of reality” and endeavor to construct an account that is visually engaging and conceptually appealing to a broad audience. After selecting topics and finding mentors in their area of interest, students will shoot and edit their documentaries, then present their work publicly. (Prerequisite: Film|MovingImage + Design or permission of the department chair.)",
+        "class": "visual",
+        "url": "h76D",
+        "subject": "arts"
+    },
+    {
+        "title": "Contemporary and Global Art Studies",
+        "extraInfo": "Semester 2, Classes I, II & III",
+        "description": "This class will provide an introduction to global and contemporary art in terms of cultural, social, and political values from ancient civilizations to the present. The focus is on exposure to works of art from different times and diverse cultures. Art can reveal to its audience the morals and priorities of a culture or simply allow us a glimpse into their fantasies. Art may be state sponsored propaganda or personal dissent, and has the power to change the course of history. Viewers may feel understood, inspired, or excluded. We will seek to better understand the inclusion and exclusion of artists in the traditional canon of Western Art. We will read recent scholarship and scientific analysis that call into question the foundations of the traditional art historical timeline and hierarchy. We will contextualize works of art and artists in social and political context to better understand the tensions or harmonies. We will critically engage in looking at and reading works of art with considerations of material, historical context, artist, and audience. Students will discuss select works from different periods and cultures using comparative analysis and appropriate terminology. Through close observation of artworks, we will hone skills of visual analysis. Readings in art theory and art historical context from primary sources will be assigned and students will synthesize ideas and observations in essay writing. Students will gain insight into processes of various disciplines of artmaking through short hands-on studio assignments, a field trip to New York City museums and galleries, and practice of curatorial and editorial skills in Milton’s Nesto Gallery. Recommended in conjunction with History of Western Art.",
+        "class": "visual",
+        "url": "4p9V",
+        "subject": "arts"
+    },
+    {
+        "title": "Architecture",
+        "extraInfo": "Half, Classes I, II & III",
+        "description": "This course offers a project-based introduction to the concepts and processes of architectural design through the lens of the local community around us. Students will explore both two-dimensional and three-dimensional design through drawing formats of sketching, orthographic plan views, conceptual renderings of form, building structural studies, model making, Google Sketch-Up, and photography. Architectural styles and conceptual studies of form will also be reviewed and integrated within each project. (Prerequisite: permission of the department chair.)",
+        "class": "visual",
+        "url": "zSRU",
+        "subject": "arts"
+    },
+    {
+        "title": "Printmaking",
+        "extraInfo": "Half, Classes I, II & III",
+        "description": "In this course, students will explore the basics of four major forms of printmaking: monoprint, intaglio, woodcut and silkscreen. The course begins with understanding image making, using a matrix or indirect source, and then investigating drawing, line, shape and tone through black and white imagery. Students will learn to create small editions of prints, multiple-color images, and large poster-size prints. Both traditional and contemporary techniques will be emphasized, using hand printing methods as well as incorporating digital media. The course will also speak to the historical development of printmaking and its role and influence on today’s society. Field trips and guest speakers may be a part of the course, to introduce students to movements in contemporary printmaking, from journalism to poster art. (Prerequisite: permission of the department chair.)",
+        "class": "visual",
+        "url": "8uhb",
+        "subject": "arts"
+    },
+    {
+        "title": "Textile Design",
+        "extraInfo": "Half, Classes I, II & III",
+        "description": "In this course, students will explore the endless possibilities of fabric art with projects that push the boundaries of their technical skills and expand their creative thought. Students will learn the principles of textile design and the elements associated, including color, texture, and form. While using this adaptable medium students will encounter the themes of community that have brought many groups of fabric artists together throughout history. There will be a wide scope of assignments in this class, from apparel design, embroidery, sculpture, quilt making, and more, all with an emphasis on individual growth and portfolio development. Both traditional and contemporary techniques will be taught. Field trips and guest speakers may be utilized to introduce students to contemporary artists in the area. (Prerequisite: permission of the department chair.)",
+        "class": "visual",
+        "url": "8Zel",
+        "subject": "arts"
+    },
+    {
+        "title": "UX Design",
+        "extraInfo": "Half, Classes I, II & III",
+        "description": "This project-based introduction to the user interface design process is oriented toward practical methods for approaching a design problem for web-based and app design. The focus of the course is to develop conceptual designs based on the needs of users. Students will receive grounding in the following topics: Digital Design Principles, User Research Methods, Design Sketching, and Design Validation Aims. Students will cultivate and develop an appreciation for concepts and sensibilities of user experience design, and develop skills in the use and application of specific methods in user experience design. Lessons on design will include color theory, typology, and layout principles. Sketch and InVision will be used for wireframing and prototyping. Students will incorporate and improve individual and collaborative skills in design problem solving. (Prerequisite: permission of the department chair.)",
+        "class": "visual",
+        "url": "IjgG",
+        "subject": "arts"
+    },
+    {
+        "title": "Film Production",
+        "extraInfo": "Half, Classes I, II & III",
+        "description": "During this year-long, half-credit course students will work closely together and with a faculty director to produce a film. Students will be intently involved in each aspect of production, from scripting in pre-production in the fall, to casting, designing and shooting in production in the winter, to final edits in post production and screening in the spring. Individual interests can be explored throughout the process, allowing students to hone their filmmaking skills. Students in this course must commit to spending the winter season in production after school as a co-curricular afternoon option, when other students will join the production during the winter as the cast and as additional crew. A school-wide viewing will take place late in the spring. (Prerequisite: prior experience in film production and editing, and permission of the department chair.)",
+        "class": "visual",
+        "url": "REIU",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Portfolio: Drawing|Painting",
+        "extraInfo": "Semester 1, Class I",
+        "description": "This is a seminar-based course for Class I students, designed to meet the individual needs of students with visual ideas they wish to explore in-depth in drawing, painting and/or printmaking, through an extended series of works around a particular theme or concept. Most students will use this class to complete work for their college portfolios. Interested students could also complete the requirements for the Advanced Placement Studio Art: Drawing portfolio with continued study in the spring semester through the Advanced Portfolio: Independent Studio Seminar class. Working together in a classroom format, students will benefit from dialogue with each other, critiques and field trips. (Prerequisite: At least one, and preferably more than one, related advanced semester elective, or permission of the department chair.)",
+        "class": "visual",
+        "url": "J7QR",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Portfolio: Sculpture|Ceramics",
+        "extraInfo": "Semester 1, Class I",
+        "description": "This is a seminar-based course for Class I students, designed to meet the individual needs of students with visual ideas they wish to explore in-depth in sculpture and/ or ceramics, through an extended series of works around a particular theme or concept. Most students will use this class to complete work for their college portfolios. Interested students could also complete the requirements for the Advanced Placement Studio Art: 3-D Design portfolio with continued study in the spring semester through the Advanced Portfolio: Independent Studio Seminar class. Working together in a classroom format, students will benefit from dialogue with each other, critiques and field trips. (Prerequisite: At least one, and preferably more than one, related advanced semester elective, or permission of the department chair.)",
+        "class": "visual",
+        "url": "mkg0",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Portfolio: Photography|Digital Imaging",
+        "extraInfo": "Semester 1, Class I",
+        "description": "This is a seminar-based course for Class I students, designed to meet the individual needs of students with visual ideas they wish to explore in-depth in photography and/ or digital imaging, through an extended series of works around a particular theme or concept. Most students will use this class to complete work for their college portfolios. Interested students could also complete the requirements for the Advanced Placement Studio Art: 2-D Design portfolio with continued study in the spring semester through the Advanced Portfolio: Independent Studio Seminar class. Working together in a classroom format, students will benefit from dialogue with each other, critiques and field trips. (Prerequisite: At least one, and preferably more than one, related advanced semester elective, or permission of the department chair.)",
+        "class": "visual",
+        "url": "Pqoc",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Portfolio: Technology|Media",
+        "extraInfo": "Semester 1, Class I",
+        "description": "This is a seminar-based course for Class I students, designed to meet the individual needs of students with visual ideas they wish to explore in-depth the creation of art with technology, through an extended series of works around a particular theme or concept. Most students will use this class to complete work for their college portfolios. Interested students could also complete the requirements for the Advanced Placement Studio Art: 2-D or 3-D Design portfolio with continued study in the spring semester through the Advanced Portfolio: Independent Studio Seminar class. Working together in a classroom format, students will benefit from dialogue with each other, critiques and field trips. (Prerequisite: At least one, and preferably more than one, related advanced semester elective, or permission of the department chair.)",
+        "class": "visual",
+        "url": "zpwV",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Portfolio: Filmmaking",
+        "extraInfo": "Semester 1, Class I",
+        "description": "This is a seminar-based course for Class I students, designed to meet the individual needs of students with visual ideas they wish to explore in-depth in film, through an extended series of works around a particular theme or concept. Most students will use this class to complete work for their college portfolios. Interested students could also complete the requirements for the Advanced Placement Studio Art: 2-D Design portfolio with continued study in the spring semester through the Advanced Portfolio: Independent Studio Seminar class. Working together in a classroom format, students will benefit from dialogue with each other, critiques and field trips. (Prerequisite: At least one, and preferably more than one, related advanced semester elective, or permission of the department chair.)",
+        "class": "visual",
+        "url": "4hmO",
+        "subject": "arts"
+    },
+    {
+        "title": "Advanced Portfolio: Independent Studio Seminar",
+        "extraInfo": "Semester 2, Class I",
+        "description": "This seminar is a capstone course offering Class I students the opportunity to explore subjects beyond the traditional studio art curriculum, either as a series of independent works or as class projects. Assignments will span contemporary art modes and will include a variety of media and ideas. Genres may include digital imaging, traditional or alternative processes of photography/digital imaging, film/moving-image, printmaking, installation art, ceramics, sculpture, painting or drawing. Students may also explore cross disciplinary connections, particularly regarding the use of technology in creating art, or with the sciences or humanities. Interested students could also complete the requirements for the Advanced Placement Studio Art portfolio in Drawing, 2-D or 3-D Design. Projects may be inspired by work with professional artists, including Nesto Gallery exhibitors. The course culminates in a major independent project that may precede or extend into a senior project. (Prerequisite: A full-year Arts Program course in Visual Art, at least one, and preferably more than one, advanced semester elective, an Advanced Portfolio elective, and permission of the department chair.)",
+        "class": "visual",
+        "url": "hWf1",
+        "subject": "arts"
+    },
+    {
+        "title": "Class IV Physics",
+        "extraInfo": "Class IV",
+        "description": "In Class IV Physics, students are introduced to the fundamental concepts of physics as well as basic methods of scientific investigation. Many of the exercises and experiments are inquiry-based, which allows students to experience the physics phenomena first hand and learn to draw conclusions from data. Topics covered will include Newton’s Laws of Motion, momentum, energy, electricity and magnetism. These topics, taught in combination with fundamental science skills, will prepare Class IV students for higher level science courses. The double-period class meetings allow students to investigate topics in depth with guidance from the instructor, research a topic of interest to them, develop questions, and create an experiment to test their hypotheses. Students culminate their work in Class IV Physics by conducting an independent, self-designed experiment.",
+        "class": "-1",
+        "url": "RteE",
+        "subject": "science"
+    },
+    {
+        "title": "Physics",
+        "extraInfo": "Classes I, II & III",
+        "description": "The course covers many of the major topics in the discipline with an emphasis on qualitative understanding of concepts as well as problem solving techniques. Topics covered in the first semester include: Kinematics, Newton’s Laws of Motion, Momentum, Energy, Circular Motion and Gravitation. The term will culminate with a comprehensive exam. The second semester includes the study of Waves, Sound, Light, Electricity and Magnetism. The weekly lab activities reinforce and/or expand on the concepts discussed in class and stress the experimental procedures of science. Many of these labs use an inquiry-based approach. Students will complete their physics experience by conducting a Design-Your-Own experimental project in place of a final exam.. This course provides solid preparation for students to move on to other science courses.",
+        "class": "-1",
+        "url": "Ex4z",
+        "subject": "science"
+    },
+    {
+        "title": "Chemistry",
+        "extraInfo": "Classes I, II & III",
+        "description": "Chemistry is a full-year survey course in general chemistry. Topics include an introduction of the study of matter, measurement, atomic theory, stoichiometry, gas laws, nomenclature, and equilibria. The curriculum is skills centered, emphasizing student mastery of problem solving methods in the laboratory and the classroom. Moreover, the symbiosis of applying qualitative and quantitative analysis facilitates proficiency in the laboratory through the inquiry method. Students will find that formal lab investigations become progressively more inquiry driven. Laboratory work culminates in the “design your own” independent lab project.",
+        "class": "-1",
+        "url": "1DqW",
+        "subject": "science"
+    },
+    {
+        "title": "Chemistry (Honors)",
+        "extraInfo": "Classes I, II & III",
+        "description": "Chemistry (Honors) is a rigorous course in which students study the properties and behavior of matter and the laws governing chemical reactions. Among others, the course covers the following topics: quantum atomic theory, molecular structure, stoichiometry, gas laws, thermochemistry, electrochemistry, acids and bases, equilibrium systems and reaction kinetics. The laboratory work emphasizes an inquiry process by requiring students to design independent investigations based on the formulation of open-ended questions, while also stressing the process involved in real-world scientific research. Both the class work and the laboratory work of this course build on a lab-based physics course. (Prerequisite: a course in physics and permission of the department chair.)",
+        "class": "-1",
+        "url": "OUFI",
+        "subject": "science"
+    },
+    {
+        "title": "Biology",
+        "extraInfo": "Class I & Class II, or permission of the department chair",
+        "description": "Biology is the study of life. Designed to follow a course in chemistry, this course will explore the evolutionary and ecological diversity of life through an inquiry-teaching model. Broad themes in Biology include ecology and energetics, cell structure and function, genetics, heredity and molecular biology. As the year progresses, we emphasize connections between broad biological concepts—ecology and human biology, for example.",
+        "class": "-1",
+        "url": "zq82",
+        "subject": "science"
+    },
+    {
+        "title": "Biology (Honors)",
+        "extraInfo": "Classes I & II, or permission of the department chair",
+        "description": "Designed to follow a course in chemistry, this accelerated course will explore molecular, cellular, organismal and ecological biology through an inquiry-teaching model. Broad themes in Biology (Honors) include biochemistry, ecology and energetics, cell structure and function, molecular biology, genetics and heredity. Students will explore the material through class discussions, review of scientific literature and work in the laboratory; they will practice critical thinking and writing as well as designing, conducting and analyzing experiments. There is a substantial out-of-class lab component in Biology (Honors) that students will need to coordinate with their lab partner(s). (Prerequisite: a course in chemistry and permission of the department chair.)",
+        "class": "-1",
+        "url": "cziO",
+        "subject": "science"
+    },
+    {
+        "title": "Advanced Biology",
+        "extraInfo": "Class I or permission",
+        "description": "This course allows students to deepen their understanding of biological concepts and hone their laboratory technique, skills and writing. Much of the work in class will integrate molecular biology techniques to elucidate principles studied. In the first semester students will study cell signaling and prokaryotic gene expression. In the second semester students will study evolutionary biology. Studying evolution will allow students to integrate all areas of biology with understanding the process and outcome of evolution. Possible explorations include analysis and synthesis of synthetic DNA devices; assay of gene function in bacteria; analysis of mc1r sequence and mitochondrial DNA in the student’s genome; tissue regeneration in flatworms; sexual development of c-ferns, and behavior of c. elegans. Students will practice laboratory techniques necessary in the study of the organisms, and they will further their understanding of the concepts and protocols of molecular biology. Students should enjoy working in the lab and want to push themselves in studying biological sciences. We will use primary scientific articles as models of research and as a means of learning the material.",
+        "class": "-1",
+        "url": "xSRM",
+        "subject": "science"
+    },
+    {
+        "title": "Advanced Chemistry",
+        "extraInfo": "Class I or permission",
+        "description": "The goal of this course is to provide students with the knowledge and skills to investigate chemistry as it relates to their own scientific interests. Students will be introduced to advanced laboratory equipment and will more deeply study technology used in previous classes. Mini “DYO” labs are incorporated into the class every six to eight weeks to enable students to design and execute projects that apply the skills we have mastered to areas of personal interest in science. Topics of study include qualitative and quantitative analysis, kinetics, equilibrium, and electrochemistry, as well as more innovative fields such as nanotechnology, polymers, and molecular gastronomy. Assessment in this class is laboratory based and includes a wide range of reporting formats, as well as creative projects. A successful student must be able to work well independently and in close partnerships; demonstrate a strong commitment to safe lab work; and be willing to take intellectual risks in pursuit of creative research.",
+        "class": "-1",
+        "url": "8oG6",
+        "subject": "science"
+    },
+    {
+        "title": "Advanced Environmental Science",
+        "extraInfo": "Class I or permission",
+        "description": "The study of Environmental Science is driven by the relationship between humans and the natural environment. In this class, students will explore this relationship using an interdisciplinary approach that builds on students’ science backgrounds with new material from Earth system science. Our focus is on understanding how nature works, and on finding solutions to real environmental problems through the “doing” of real science. Coursework is heavily weighted towards fieldwork, and as such, students should be excited about frequent outdoor field activities. Our proximity to the Blue Hills, the Neponset River Estuary (the only remaining salt marsh estuary in Boston Harbor), and numerous local wetlands and streams provide an unusually rich natural laboratory learning resource. In recent years, this course has focused on a long-term ecological monitoring study of a local ecosystem in collaboration with the Neponset River Watershed Association, a local watershed authority.",
+        "class": "-1",
+        "url": "Hftb",
+        "subject": "science"
+    },
+    {
+        "title": "Advanced Physics",
+        "extraInfo": "Class I or permission",
+        "description": "In Advanced Physics, students study Newtonian mechanics in the fall and the experimental foundations of quantum mechanics in the spring. Throughout the fall, students develop a fluency in problem solving skills through weekly problem sets, and engage in weekly lab challenges that make relevant the theoretical mechanics to the actual world. Further, students engage with the real world applications through two major lab reports. In the spring semester, having constructed a solid foundation in Newtonian mechanics, students explore the classic experiments that indicated to us that Newtonian mechanics alone is not an apt description of our Universe. As they study a series of the classic experiments in modern physics, students uncover strong evidence for wave-particle duality. Finally, students end the year by designing and conducting their own physics experiments to be presented to both the other advanced science students and the science faculty.",
+        "class": "-1",
+        "url": "uihu",
+        "subject": "science"
+    },
+    {
+        "title": "Neuroscience",
+        "extraInfo": "Clases I & II",
+        "description": "We will begin this course by venturing into the scientific study of the brain with a focus on the anatomical structures of the brain and their functions. We will follow with in-depth exploration of neuronal communication. We will explore concepts in neuroplasticity, learning and memory. As we finish the course, these topics will be applied through investigation of stress and relaxation, addiction, mental health disorders, and neurodegenerative diseases. A few relevant dissections and labs will be performed. As this is an ever changing field, students will learn to read and investigate scientific literature in the latter part of the course to understand the most recent theories and latest pharmacological interventions for what we study. (Prerequisite: a course in biology.",
+        "class": "-1",
+        "url": "QXGp",
+        "subject": "science"
+    },
+    {
+        "title": "Human Anatomy and Physiology",
+        "extraInfo": "Semester 1 or 2, Classes I & II",
+        "description": "Human Anatomy and Physiology challenges students with a variety of approaches geared toward developing a strong fundamental understanding of the structure and functioning of the human body. Classroom discussions emphasize physiological concepts, with special attention to the anatomical features of the system being studied. The course begins with an overview of cellular anatomy and physiology. The systems addressed over the course of the semester typically include the skeletomuscular system, cardiovascular system, lymphatic system, respiratory system, endocrine system and excretory system. Other body systems are touched upon in the context of discussions of the previously mentioned systems. Evaluation for the class is based on participation in class discussions and in group work, in-class and take-home assessments, dissections, and one or two in class presentations.",
+        "class": "-1",
+        "url": "ekK-",
+        "subject": "science"
+    },
+    {
+        "title": "Marine Science",
+        "extraInfo": "Semester 1 or 2, Classes I & II",
+        "description": "This course investigates the biology, ecology and adaptations of marine life, as well as the most recent and intriguing research in this content area. The course will emphasize independent and small-group lab work, research into current topics, and presentations of these investigations. Major topics studied will be biological oceanography, the fundamental concepts of biology that relate to the marine environment, a survey of marine life, and important, timely issues in marine science. Lab work is a key component of this course, as students will work in the lab every week exploring the concepts of the course. Additional assignments require students to take advantage of the resources available in the area, such as the New England Aquarium and visits to local marine and estuarine habitats. Lab work includes comparative anatomy done through dissection and direct observation of live marine animals.",
+        "class": "-1",
+        "url": "Gd42",
+        "subject": "science"
+    },
+    {
+        "title": "Issues in Environmental Science: Solutions for a Sustainable Future",
+        "extraInfo": "Semester 1 or 2, Classes I & II",
+        "description": "The world faces a number of urgent environmental issues such as human population growth, air and water pollution, and climate change. While many of these topics seem overwhelming, all can be addressed with existing or emerging technologies ranging from the obvious (e.g., renewable energy, urban farming, and electric vehicles) to the futuristic (e.g.,lab grown meat, floating cities, and geoengineering). This course will begin with environmental science fundamentals and move to the development of practical solutions based on that science. By investigating changes that we can make on a personal or local level, students will gain insight into how to affect change on the national and global stage. This project-based curriculum uses current scientific literature, interaction with professionals in the environmental field, and podcasts, TED talks and other media to give students a variety of perspectives. (Prerequisites: A course in both physics and chemistry.)",
+        "class": "-1",
+        "url": "26A8",
+        "subject": "science"
+    },
+    {
+        "title": "Observational Astronomy",
+        "extraInfo": "Semester 1, Classes I & II",
+        "description": "In this course we study all things astronomical, from the life and death of stars to the evolution of the universe, from the solar system to the history of astronomy. Students conduct semester-long projects of their own choosing in consultation with the instructor. In the past, students have observed variable stars, sunspots, the moons of Jupiter, and the setting position of the sun. In the weekly observing sessions, students locate objects discussed in lectures using the Robert C. Ayer double-domed observatory that is equipped with permanently mounted 9- and 12-inch reflecting telescopes as well as several portable telescopes. Students also take pictures of celestial objects using the special cameras provided.",
+        "class": "-1",
+        "url": "FD-M",
+        "subject": "science"
+    },
+    {
+        "title": "Molecular Genetics 1",
+        "extraInfo": "Semester 1, Classes I & II",
+        "description": "This course educates students about the science and technology of the field of molecular genetics. Students briefly review the basic structure and function of DNA. For the first half of the semester students will isolate, amplify and sequence their TASR38 gene. Students will determine their haplotype and correlate it with their ability to taste a bitter tasting chemical. Students then complete a set of cloning and sequencing protocols of a plant housekeeping gene. After completion of these protocols, students will have the fundamental skills necessary to clone and sequence a gene in the laboratory. Our second major topic will be synthetic biology. Students will work with various assembly techniques to build genetic devices. Skills developed in the course include nucleic acid extraction, performance and analysis of nested polymerase chain reaction (PCR), electrophoresis, size exclusion chromatography, DNA ligation and bacterial transformation, microbial culturing, and sequencing and bioinformatics. The majority of the work in this class is laboratory-based. (Prerequisite: A course in biology.)",
+        "class": "-1",
+        "url": "_uM8",
+        "subject": "science"
+    },
+    {
+        "title": "Organic Chemistry 1",
+        "extraInfo": "Semester 1, Classes I & II",
+        "description": "Enter the world of medicines and plastics, of skunk spray and gasoline, of steroids and sugars. Enter the world of organic chemistry—the chemistry of carbon! This challenging course will focus on the fundamentals of organic chemistry and will include an introduction to molecular structure, stereochemistry, and the mechanisms of synthesis reactions. These fundamental ideas will be exemplified in discussions revolving around relevant synthetic molecules as well as important, naturally occurring biological entities. To deepen their understanding of the course material, students will be expected to participate in, and ultimately drive, laboratory experiments exploiting an inquiry based learning approach. In total, knowledge gained from this class will equip the students with the critical rudiments in organic chemistry, a common collegiate requirement for science and engineering, pre-medicine, pre-dentistry, and pre-pharmacy majors. (Prerequisite: a course in chemistry and biology; biology may be taken concurrently.)",
+        "class": "-1",
+        "url": "bOfb",
+        "subject": "science"
+    },
+    {
+        "title": "Quantum Mechanics and Epistemology",
+        "extraInfo": "Semester 1, Classes I & II",
+        "description": "In this course, students will traverse the increasingly blurred line between physics and philosophy. What is it to make a scientific observation, and how do we know that we know what we know? Why is it the case that time flows from past to future? How is it possible that from this universe governed by quantum mechanics, self-aware free moral agents have emerged? The course will consist of three major strands: statistical mechanics and time asymmetry, quantum mechanics and the nature of reality, and cosmology and philosophy of religion. Through each unit, students will develop an understanding of the physical formalism before pondering emergent paradoxes and their various philosophical implications. Through careful inquiry that utilizes both the tools of science and philosophy, students will interrogate the very notions of truth, knowledge, and meaning.",
+        "class": "-1",
+        "url": "zPmx",
+        "subject": "science"
+    },
+    {
+        "title": "Molecular Genetics 2",
+        "extraInfo": "Semester 2, Classes I & II",
+        "description": "Molecular Genetics 2 is a laboratory course where students apply the skills, techniques and knowledge learned in Molecular Genetics 1 to explore topics including Drosophila genetics, gene regulation by RNAi in C. elegans and molecular cloning of GAPDH genes and bioinformatics. Topics change periodically depending on student interest and skills. Several topics provide opportunities to engage with professional researchers in the Boston area. Students should be interested in planning and conducting long-term projects in the lab. Students are required to present their work at the Science Symposium at the conclusion of the second semester. (Prerequisite: a course in biology and Molecular Genetics 1.)",
+        "class": "-1",
+        "url": "DbmJ",
+        "subject": "science"
+    },
+    {
+        "title": "Cosmology and Modern Physics",
+        "extraInfo": "Semester 2, Classes I & II",
+        "description": "Discoveries made during the last 60 years in physics have radically changed our view of the universe. Astronomers and physicists use their understanding of the very small structures of matter, such as quarks, to explain the very large structures, such as the distribution of galaxies in the universe. In this course, students learn about the wave particle duality of matter, the quark model of matter, elementary particle discovery and classification, the grand unification of forces, the Big Bang theory, black holes, and the end of the universe. (Prerequisites: A course in both physics and chemistry.)",
+        "class": "-1",
+        "url": "WXFo",
+        "subject": "science"
+    },
+    {
+        "title": "Organic Chemistry 2",
+        "extraInfo": "Semester 2, Classes I & II",
+        "description": "This course is designed to directly follow and build upon the content from Organic Chemistry 1. Specifically, students will garner a thorough understanding of both substitution and elimination reactions and their respective mechanisms. This knowledge will then be utilized in both laboratory and thought exercises aimed at predicting product formation from a given set of reactants as well as deliberate molecular design. The semester in Organic Chemistry 2 concludes with a major project in which students will profile a complex, biologically relevant organic molecule of their choosing. (Prerequisite: A course in chemistry and biology; biology may be taken concurrently. Students must also have completed Organic Chemistry 1.)",
+        "class": "-1",
+        "url": "9gXX",
+        "subject": "science"
+    },
+    {
+        "title": "Introduction to Aerodynamics",
+        "extraInfo": "Half, Classes I & II",
+        "description": "In this course students will explore what makes airplanes work: from lift, thrust and drag to control surfaces, stalls and spins. We will cover the conceptual framework for flight as well as the theoretical basis for unconventional aircraft like the Piaggio Avanti and Burt Rutan’s canard aircraft. Students will build wing-in-ground effect models to explore the difference between pressure and lift and work toward a major project in the spring: designing a 21st-century ERCoupe, an airplane with simplified controls meant to appeal to a wider flying market. Students will evaluate their design ideas by building a flying model of their aircraft.",
+        "class": "-1",
+        "url": "gItX",
+        "subject": "science"
+    },
+    {
+        "title": "Engineering the Future",
+        "extraInfo": "Half, Classes I & II",
+        "description": "This course introduces students to concepts in engineering, beginning with investigations into structures and the basics of structural analysis. Students will build various structures and then test them in our ADAMET load-testing machine to experimentally verify the concepts of stress, strain, shear and moment. Using this knowledge, students will build skyscrapers as tall and thin (proportionally) as the tallest buildings in the world, then turn them horizontally to test whether they remain in one piece. This tower/cantilever project is followed by a theoretical investigation of how materials fail and an overview of other types of engineering. We conclude with team and individual projects where students evaluate a concept and design improvements.",
+        "class": "-1",
+        "url": "LmU3",
+        "subject": "science"
+    },
+    {
+        "title": "Geology",
+        "extraInfo": "Half, Classes I & II",
+        "description": "Have you ever wondered about how rocks form, and what stories can they tell us about the Earth’s history? Why are there mountains, canyons, and coastlines, and how have these features formed over time? What are volcanoes and earthquakes, and how do we know if we’re living in an area that might be prone to natural disaster? This course is designed to introduce students to the world of geology, including the Earth’s origin, composition and structure; minerals and rocks; and the major Earth processes that have shaped and continue to shape the surface of our planet. Plate tectonic theory is a theme central to the course: mountains and rivers, geologic hazards, weather and climate, and even the evolution of life on Earth is intimately linked to this theory. Another overarching theme will be exploring the relationship between humans and geology, defined by our place in geologic time: the Anthropocene. The study of geology is, at its core, a field science. The proximity of Milton to the Blue Hills, in addition to other local resources, provides unique field opportunities to learn about major rock types, plate tectonics, weathering and erosion, and glacial processes, as well as the human impact. As such, students should be eager to participate in regular outdoor fieldwork that promotes the learning and practice of geology.",
+        "class": "-1",
+        "url": "NqtC",
+        "subject": "science"
+    },
+    {
+        "title": "Science in the Modern Age",
+        "extraInfo": "Half, Classes I & II",
+        "description": "The need for students to be scientifically literate and able to detect bias in the media is critical. Students must not only be informed of current science topics, but they must also be able to critically examine issues at hand and consider multiple perspectives. Through a seminar-style format, Class I and II students will be encouraged to examine their basic assumptions about science and will investigate the interplay between science and society. Students may interact with the greater scientific community in a variety of ways, including interviews, guest speakers, and a field trip. Using multimodal assessment, students’ learning will be measured by discussions, reading responses, debates, persuasive and journalistic writing, journaling, presentations and projects. With citizens and future voters in mind, this course promotes scientific literacy, critical analysis and good decision-making. Topics could include, but will not be limited to, bioethics, public health, epidemiology, DNA technology, genes and health, forensic science, sustainability, pharmacology, biodiversity, reproductive technology, and medical dilemmas. Students will read current science publications as their primary resource.",
+        "class": "-1",
+        "url": "9blB",
+        "subject": "science"
+    },
+    {
+        "title": "Making Science Visible: Field Sketching and Illustration in Science",
+        "extraInfo": "Half, Classes I & II",
+        "description": "Creating imagery while learning about science can be influential in students’ learning. The craft of looking closely at the world and sharing those observations through illustration requires exposure to nature and the development of tools and strategies to visually represent experiences. This process can also engender responsible stewardship for our planet and a greater connection to the facts of the world around us. This course will provide opportunities for student-centered investigations utilizing active focused observation, questioning the meaning behind observed phenomena, and developing habits of nature drawing and journaling.",
+        "class": "-1",
+        "url": "hVK8",
+        "subject": "science"
+    },
+    {
+        "title": "French 1",
+        "extraInfo": "none",
+        "description": "This course provides an introduction to French through essential grammatical structures, idiomatic expressions and everyday vocabulary. Students use French in skits, dialogues, and oral and written presentations. Students learn to express themselves in real life situations. They also learn about various French-speaking cultures through activities, songs, art and short stories.",
+        "class": "french",
+        "url": "oL_1",
+        "subject": "languages"
+    },
+    {
+        "title": "French 1P (Prior Study)",
+        "extraInfo": "none",
+        "description": "This course is intended for students who have previously studied French but who need to strengthen their foundational language skills before taking French 2. This course has the same objectives as French 1 but allows for a greater depth and variety of activities, given the students’ previous experience with the language and culture.",
+        "class": "french",
+        "url": "qZbm",
+        "subject": "languages"
+    },
+    {
+        "title": "French 2",
+        "extraInfo": "none",
+        "description": "This course continues to develop oral and written command of all basic structures in French and introduces the reading of short books such as Le Petit Nicolas and Le Petit Prince. Many other cultural readings, projects and audio-visual materials connect students to various aspects of daily life in France and in the French-speaking world.",
+        "class": "french",
+        "url": "GNx0",
+        "subject": "languages"
+    },
+    {
+        "title": "French 2 (Honors)",
+        "extraInfo": "none",
+        "description": "The goal of French 2 Honors is to continue to develop oral and written command beyond basic structures in French and to inspire integrated and creative use of the language. Students continue to acquire grammar skills and vocabulary through readings such as Le Petit Prince and short stories by Le Clezio and Anne Gavalda. In this course students will start with an introduction to reading to advance to literary analysis. Great emphasis will be placed upon communicating accurately and effectively in the four modalities: listening, speaking, reading, and writing. Students will expand their knowledge and deepen their cultural understanding and sensitivity. Placement is at the discretion of the department.",
+        "class": "french",
+        "url": "Qo-s",
+        "subject": "languages"
+    },
+    {
+        "title": "French 3",
+        "extraInfo": "none",
+        "description": "This course continues to develop the requisite skills of this level in speaking, listening, reading and writing. It makes use of authentic sources such as film, art, songs and media. Literature is introduced through readings by francophone authors. French 3 includes a systematic review of grammar and practice of the language through frequent writing assignments, speaking practice, and discussion of cultural and current events.",
+        "class": "french",
+        "url": "COED",
+        "subject": "languages"
+    },
+    {
+        "title": "French 3 (Honors)",
+        "extraInfo": "none",
+        "description": "This course provides a rapid expansion of vocabulary and grammar through reading and writing. Students will be asked to write compositions of increasing complexity. Students continue to strengthen oral skills through activities ranging from review of current events to literary discussions. Reading skills are developed through an introduction to classical and modern authors such as Molière, La Fontaine, Maupassant and Pagnol. (Placement is at the discretion of the department chair.)",
+        "class": "french",
+        "url": "zOEk",
+        "subject": "languages"
+    },
+    {
+        "title": "French 4",
+        "extraInfo": "none",
+        "description": "In French 4, students embark on a journey into contemporary French culture and literature while strengthening their language skills. Students will study grammar and vocabulary in context and practice using French through a variety of oral and written activities. French 4 gives students all the necessary linguistic tools to analyze works of literature, to articulate their opinion on current events, and to review films. Among the materials included in this course are the play Huis Clos by Jean-Paul Sartre, No et Moi by Delphine de Vigan, and several short stories from contemporary French authors. These works are the base of a much broader exploration of the French culture through the use of different media.",
+        "class": "french",
+        "url": "YftS",
+        "subject": "languages"
+    },
+    {
+        "title": "French 4 (Honors)",
+        "extraInfo": "none",
+        "description": "French 4 Honors , “French language, literature and culture”, the continuation of French 3 Honors, is an advanced class that allows French students to continue to develop fluency in the four language skills: listening comprehension, reading comprehension, writing and speaking. French 4 honors provides extensive grammar review and exposes students to the key events and concepts of French culture and history. Our study in French literature is not limited to, and will range from the classical literature of Sartre to the contemporary work of Delphine de Vigan. Students enrolled in this course will be expected to read extensively. In addition, students will regularly write analytical, critical and comparative essays. Students must be able to express themselves at a written level appropriate to honors-level study. (Open to students who have completed French 3 (Honors) and French 3 with permission from the department chair.)",
+        "class": "french",
+        "url": "K_EF",
+        "subject": "languages"
+    },
+    {
+        "title": "French 5 (Honors): A further Exploration of Literature",
+        "extraInfo": "none",
+        "description": "This course is intended for students who have completed French 4 Honors and who have expressed an appreciation of French literature in previous courses. Covering classic writings—from the poetry of Baudelaire to contemporary works of French speaking authors from Africa and the Caribbean— this course aims to refine the skills that are essential to enjoying and studying literature at an advanced level. This course prepares students for the study of French at the college level and, specifically, the college-level technique of close literary analysis. This course requires intensive reading and writing in French. (Placement is at the discretion of the department chair.)",
+        "class": "french",
+        "url": "fRc8",
+        "subject": "languages"
+    },
+    {
+        "title": "French 5: The Francophone World",
+        "extraInfo": "Semester 1",
+        "description": "This multimedia and multi-disciplinary course introduces students to the diversity of the French-speaking world. Through the study of films, documentaries, novels, visual art, poetry and music, students will learn about French culture outside of France and will become familiar with the following concepts: colonial history and postcolonial identity, oral tradition, acculturation, bilingualism, race and identity. Students will complete projects in multiple forms, but the focus is on oral communication in French. (Open to students who have completed French 4 Honors , French 4 with permission from the department chair.)",
+        "class": "french",
+        "url": "1Ac0",
+        "subject": "languages"
+    },
+    {
+        "title": "French 5: Twentieth-Century France Through Its Cinema",
+        "extraInfo": "Semester 2",
+        "description": "This course focuses on the issues of coming of age and living in French society as seen through the eyes of major French and Francophone directors ranging from Francois Truffaut to Cédric Klapish. The course also looks at cinema as a language of its own, starting with early silent movies by the Lumière Brothers and culminating with the experimental technique of directors such as Claire Denis. Students taking this course will become familiar with the French attitude toward what is called the “Seventh Art.” They will also learn to write creatively about film the way the French “cinéphiles” do, using both technical and analytical perspectives. Students will complete projects in multiple forms, but the focus is on oral communication in French. (Open to students who have completed French 4 Honors , French 4 or with permission from the department chair.)",
+        "class": "french",
+        "url": "Wuh5",
+        "subject": "languages"
+    },
+    {
+        "title": "French 6: Advanced Studies",
+        "extraInfo": "Half",
+        "description": "French 6 explores French civilization through its national symbolism and iconic figures. Class time is dedicated to exploring different aspects of French culture in its historical context. Students will work independently on a variety of projects to deepen their knowledge of modern France. Students will complete projects in multiple forms, but the focus is on oral communication in French. (Open to students who have completed at least one semester of French 5, French 5 (Honors) or with permission from the department chair.)",
+        "class": "french",
+        "url": "G4eQ",
+        "subject": "languages"
+    },
+    {
+        "title": "Intensive French",
+        "extraInfo": "Class I or Class II with special permission",
+        "description": "This is an accelerated course designed for Class I students (and students in Class II with special permission). It is the equivalent in difficulty and pace to a first-year college language course and is open only to students who have completed the language requirement through study of another language.",
+        "class": "french",
+        "url": "wd9z",
+        "subject": "languages"
+    },
+    {
+        "title": "Spanish 1",
+        "extraInfo": "none",
+        "description": "This course provides an introduction to Spanish including everyday vocabulary, idiomatic expressions, and essential structures of grammar. Special focus is placed on present and past tense conjugations, pronunciation and the use of pronouns. Students develop competence and confidence in Spanish as they learn to express themselves, writing and speaking in real-life situations. They learn about the Spanish-speaking world through readings, presentations and projects.",
+        "class": "spanish",
+        "url": "Tzy5",
+        "subject": "languages"
+    },
+    {
+        "title": "Spanish 1P (Prior Study)",
+        "extraInfo": "none",
+        "description": "This course focuses on developing a solid foundation in essential language skills. It is intended for students who have previously studied Spanish but have not mastered the skills or grammar required for Spanish 2, particularly the past tenses. Considering the student’s previous experience with the language, they will develop their Spanish proficiency through readings, compositions, projects and presentations.",
+        "class": "spanish",
+        "url": "Slyf",
+        "subject": "languages"
+    },
+    {
+        "title": "Spanish 2",
+        "extraInfo": "none",
+        "description": "This course is a continuation of the development of essential language skills. It completes the foundation of Spanish grammar, including the indicative, imperative and present subjunctive. Students hone their skills through a variety of activities: paired and small-group speaking practice, skits, projects and presentations. Through short stories and cultural readings, students explore various aspects of life in the Spanish-speaking world.",
+        "class": "spanish",
+        "url": "VecJ",
+        "subject": "languages"
+    },
+    {
+        "title": "Spanish 2 (Honors)",
+        "extraInfo": "none",
+        "description": "This course covers the same content as Spanish 2, but with more extensive readings, more frequent writing assignments, and a greater variety of projects. Spanish 2 (Honors) develops critical reading and writing as well as creative writing skills that prepare students for work in upper level courses. (Placement is at the discretion of the department chair and enrollment is normally limited to 12 students.)",
+        "class": "spanish",
+        "url": "IDS_",
+        "subject": "languages"
+    },
+    {
+        "title": "Spanish 2/3 (Accelerated)",
+        "extraInfo": "none",
+        "description": "The goal of Spanish 2/3 is to inspire integrated and creative use of the language. The course takes a contextualized approach to language learning, using authentic content and context as a way to improve and inspire language learning. Students master grammar and vocabulary through readings, discussions and essays on selected topics. Spanish 2/3 also introduces students to the study of literature through short stories and poetry. The course meets five times per week. Placement is at the discretion of the department and enrollment is normally limited to 12 students. Students who take this course are expected to continue their study of Spanish at level 4. (Note: Class I students taking this course to complete their foreign language requirement must remain throughout the spring semester.)",
+        "class": "spanish",
+        "url": "hMQf",
+        "subject": "languages"
+    },
+    {
+        "title": "Spanish 3",
+        "extraInfo": "none",
+        "description": "In this course, students review and study grammatical structures in depth, paying careful attention to the more complex aspects of the language through activities and practice. The course takes a contextualized approach to language learning. The units and readings are centered on current, compelling themes. Upon completing this course, students will be able to express themselves not only in everyday situations, but also in social and literary discussions. This course introduces the study of art and literature from Spain and Latin America.",
+        "class": "spanish",
+        "url": "rTCs",
+        "subject": "languages"
+    },
+    {
+        "title": "Spanish 3 (Honors)",
+        "extraInfo": "none",
+        "description": "This course covers the same content as Spanish 3, but with a more extensive reading list, more frequent writing assignments, and a greater variety of projects. Spanish 3 (Honors) develops critical reading and writing as well as creative writing skills that prepare students for work in upper level courses. (Placement is at the discretion of the department chair and enrollment is normally limited to 12 students).",
+        "class": "spanish",
+        "url": "lL4Z",
+        "subject": "languages"
+    },
+    {
+        "title": "Spanish 4: Topics in Hispanic Culture and Literature",
+        "extraInfo": "none",
+        "description": "This course examines themes in Latin American history, literature, art and society from pre-Columbian times to the present. The course considers how the past continues to shape current issues related to identity, religion, and sociopolitical structures in our hemisphere. Students explore these issues in creative and critical writing to advance their mastery of Spanish.",
+        "class": "spanish",
+        "url": "rxu0",
+        "subject": "languages"
+    },
+    {
+        "title": "Spanish 4 (Honors)",
+        "extraInfo": "none",
+        "description": "This course is an introduction to the formal study of Hispanic literature. The focus of the course is the “Boom” in Latin American literature and the cultural, political and social factors that contributed to it. Students will read, analyze and discuss the works of authors such as Jorge Luis Borges, Gabriel García Márquez, Carlos Fuentes and Julio Cortázar. Through the study of these authors, students will gain understanding of their impact on world literature and their influence on Post Boom authors such as Isabel Allende, Ángeles Mastretta and Laura Esquivel. Students enrolled in this course will be expected to read extensively. In addition, students will regularly write analytical, critical and comparative essays. Students must be able to express themselves at a written level appropriate to honors-level study. (Open to students who have completed Spanish 2/3, Spanish 3, Spanish 3 (Honors) with permission from the department chair.)",
+        "class": "spanish",
+        "url": "58zA",
+        "subject": "languages"
+    },
+    {
+        "title": "Spanish 5 (Honors)",
+        "extraInfo": "none",
+        "description": "This course expands on the works and themes of Spanish 4 (Honors). Through a close, contextualized reading of a variety of works by Spanish and Latin American writers, students will continue to build analytical skills and expand their global awareness. Students will explore all literary genres and respond to the works with critical, analytical and comparative essays as well as creative projects. Students will explore works and ideas in a cultural, contextual framework appropriate for honors-level study. (Open to students who have completed Spanish 4 (Honors), and who receive permission from the department chair.)",
+        "class": "spanish",
+        "url": "IyIh",
+        "subject": "languages"
+    },
+    {
+        "title": "Spanish 5: Inside Latin America",
+        "extraInfo": "Semester 1",
+        "description": "This course will guide students through some of Latin America’s most significant historical, political and social changes. These topics will be explored through both literature and film. In this semester course students will examine countries in Central and South America, considering their shared histories and their unique position in the modern world. (Open to students who have completed Spanish 4 or Spanish 4 (Honors).)",
+        "class": "spanish",
+        "url": "GnZT",
+        "subject": "languages"
+    },
+    {
+        "title": "Spanish 5: Discovering El Caribe",
+        "extraInfo": "Semester 2",
+        "description": "This course will provide students with a more comprehensive understanding of the culture, history and unique geographic importance of El Caribe. Students will examine the Caribbean islands of Cuba, the Dominican Republic or Puerto Rico through literature, art and film. Students will come to understand the individuality and interconnectedness of the islands of the Caribbean while studying concepts of ethnic, racial, cultural and sexual identity. (Open to students who have completed Spanish 4, Spanish 4 (Honors) or Spanish 5 fall semester.)",
+        "class": "spanish",
+        "url": "wiZD",
+        "subject": "languages"
+    },
+    {
+        "title": "Advanced Topics in Spanish",
+        "extraInfo": "Half",
+        "description": "This half course provides students an opportunity to develop their advanced composition and rhetorical skills while they take a deeper, more self-directed look at renowned texts and relevant topics. This course will be devoted to a close study of a chosen body of literary works. Students will consider these works for their literary and historical significance. Emphasis will be on conversation and essay writing. (Open to students in Class I or II who have completed Spanish 5 or 5 (Honors), or with permission from the department chair.)",
+        "class": "spanish",
+        "url": "mn8e",
+        "subject": "languages"
+    },
+    {
+        "title": "Intensive Spanish",
+        "extraInfo": "Class I or Class II with special permission",
+        "description": "This is an accelerated course designed for Class I students (and students in Class II with special permission). It is the equivalent in difficulty and pace to a first-year college language course and is open only to students who have completed the language requirement through study of another language.",
+        "class": "spanish",
+        "url": "SuOp",
+        "subject": "languages"
+    },
+    {
+        "title": "Chinese 1",
+        "extraInfo": "none",
+        "description": "This course is an introduction to Mandarin Chinese, the official language of China. The course emphasizes spoken Mandarin and written characters, paying particular attention to the tones and proficiency in handling everyday situations in the language. Reading and listening skills are also introduced so that students can begin to feel comfortable expressing themselves verbally and in writing. By the end of the first year, students will have mastered more than 350 characters.",
+        "class": "chinese",
+        "url": "7Hp1",
+        "subject": "languages"
+    },
+    {
+        "title": "Chinese 1P (Prior Study)",
+        "extraInfo": "none",
+        "description": "This course is intended for students who have previously studied or been exposed to Chinese but have not mastered the skills, the grammar or characters required for Chinese 2. This course may be combined with Intensive Chinese.",
+        "class": "chinese",
+        "url": "CCk0",
+        "subject": "languages"
+    },
+    {
+        "title": "Chinese 2",
+        "extraInfo": "none",
+        "description": "Chinese 2 continues to build on the foundation of Chinese 1 or Chinese 1P, presenting additional vocabulary that allows students to handle increasingly complicated situations in the language. Through both writing and speaking, students will master most of the basic grammatical structures of the Chinese language. By the end of the year, students can expect to have mastered around 800 characters.",
+        "class": "chinese",
+        "url": "CmqS",
+        "subject": "languages"
+    },
+    {
+        "title": "Chinese 2 (Honors)",
+        "extraInfo": "none",
+        "description": "This course continues to focus on proficiency in daily situations. Its goal is to enable the integrated and creative use of the language with limited vocabulary and language structures. Through mimicking, parroting back and generating simple sentences, students are able to communicate in very familiar and everyday topics. This course covers the same content as Chinese II, but with a more extensive reading list, more frequent writing assignments, and a greater variety of projects such as skits and short presentations. This course requires strong self-motivation and much more assignment time outside the classroom. This course is for (1) incoming students from other schools who have learned more than the first ten lessons of the textbook Integrated Chinese (Level 1, Part 1) but have not yet reached the level of Chinese III, (2) students who have completed 1P at Milton and wish to challenge themselves, and (3) students who have produced an outstanding performance in Chinese 1 and are recommended for 2 Honors by the Chinese department chair.",
+        "class": "chinese",
+        "url": "6cho",
+        "subject": "languages"
+    },
+    {
+        "title": "Chinese 3",
+        "extraInfo": "none",
+        "description": "Chinese 3 prepares students to handle more complex situations in Mandarin. The length of written work increases as students learn characters and gain confidence. The course also continues to stress listening comprehension and speaking about Chinese culture in the target language. By the end of the year, students can expect to have mastered around 1,250 characters.",
+        "class": "chinese",
+        "url": "w9NO",
+        "subject": "languages"
+    },
+    {
+        "title": "Chinese 4",
+        "extraInfo": "none",
+        "description": "Chinese 4 covers a wide range of topics related to current events, social sciences, and Chinese culture. Students reinforce fluency through written work and oral presentations. By the end of the year, students can expect to have mastered around 1,750 characters.",
+        "class": "chinese",
+        "url": "8GFs",
+        "subject": "languages"
+    },
+    {
+        "title": "Chinese 5",
+        "extraInfo": "none",
+        "description": "Chinese 5 deals with topics related to history, culture and current events. Students will increase their vocabulary by discussing topics in the language, giving oral presentations, and writing summaries and essays about what they have read. Much of this course is content driven, and language becomes the tool rather than the objective.",
+        "class": "chinese",
+        "url": "Vq46",
+        "subject": "languages"
+    },
+    {
+        "title": "Chinese 5 (Honors)",
+        "extraInfo": "none",
+        "description": "This honors course is designed for students who already possess native or near-native written and oral Chinese language skills and will explore in depth Chinese language, culture and literature with a focus on contemporary China in the past century. Placement is at the discretion of the department.",
+        "class": "chinese",
+        "url": "nnpk",
+        "subject": "languages"
+    },
+    {
+        "title": "Advanced Topics in Chinese",
+        "extraInfo": "Half",
+        "description": "The teacher will determine course materials based on students’ interests and abilities. In the past, topics have included modern short stories, Chinese history and other historical, social and cultural issues. Reading level in Chinese must be sufficient to allow students to read several pages of Chinese in a short period of time. (Open to students who have completed Chinese 5 or higher, rising seniors who have completed Chinese 4, or with permission from the department.)",
+        "class": "chinese",
+        "url": "XSHJ",
+        "subject": "languages"
+    },
+    {
+        "title": "Chinese Literature",
+        "extraInfo": "none",
+        "description": "This course is an introduction to Chinese literature designed for students with native or near-native level Chinese and a strong familiarity with Chinese culture. This course offers an overview of major themes of Chinese literature from different historical periods of China and an introduction to China’s most representative literary works. Students will examine representative literary selections from various time periods in Chinese history, such as The Analects, Tang Poetry, novels in Ming and Qing Dynasty, and modern and contemporary writings. Through reading these selected works of traditional Chinese literature, we will examine some of the major features of traditional Chinese society: religious and philosophical beliefs, the imperial system and dynastic change, gender relations, notions of class and ethnicity, family, romance and sexuality.",
+        "class": "chinese",
+        "url": "hB2O",
+        "subject": "languages"
+    },
+    {
+        "title": "Chinese: Major Issues in 20th Century China",
+        "extraInfo": "none",
+        "description": "This course is taught in Chinese. Students will develop their Chinese language skills through close reading and interpretation of primary sources and original documents in Chinese. This course focuses on Chinese history since 1912. Through the study of major historical events and tensions like feudalism and modernization, colonialism and independence, communism and capitalism, dictatorship and democracy, and separation and unification, we will examine how the Chinese people have been searching for a “new” China that they envision. Since 1949, China has evolved into two testing grounds, and both societies have been developing in parallel. After examining the development of two societies culturally, politically and economically, students will be able to understand and analyze some current issues in the Chinese world through the historical perspective.",
+        "class": "chinese",
+        "url": "IwbF",
+        "subject": "languages"
+    },
+    {
+        "title": "Intensive Chinese",
+        "extraInfo": "Class I or Class II with special permission",
+        "description": "This is an accelerated course designed for Class I students (and students in Class II with special permission). It is the equivalent in difficulty and pace to a first-year college language course and is open only to students who have completed the language requirement through study of another language. Chinese Intensive may be combined with students from Chinese 1P in the same section. (Offered subject to sufficient demand.)",
+        "class": "chinese",
+        "url": "9mPd",
+        "subject": "languages"
+    },
+    {
+        "title": "Ancient Civilizations",
+        "extraInfo": "Class IV",
+        "description": "This course serves as an introduction to the study of history. It examines a wide range of societies across the ancient world from East Asia to Western Europe to sub-Saharan Africa. Readings focus on the effects of geography on the growth of civilization, the interaction of cultures, the evolution of social and political institutions, religion and philosophy. Students read a significant number of primary sources as well as secondary accounts and interpretations. The course emphasizes building analytical thinking and reading and writing skills. In the spring semester, students conduct a major project in library research. (Class III students may enroll in Ancient Civilizations with permission of the department chair.)",
+        "class": "history",
+        "url": "Jz5X",
+        "subject": "history"
+    },
+    {
+        "title": "Modern World History: Class IV",
+        "extraInfo": "Class IV",
+        "description": "This course serves as an introduction to the study of history. It examines the chaotic and fragmented world of Eurasia after the Mongol imperium; out of this general chaos, the Chinese and Islamic empires established their preeminence in an already long-interconnected Asia. At the same time, European states—through exploration, exploitation, colonization and revolution—created the beginnings of a globally-connected modern world. Hence, we will trace the world from the 1500s to the end of the 20th century, and we will examine closely the ideas, individuals and events that shaped this new world. Students read a significant number of primary sources, as well as secondary accounts and interpretations. The course emphasizes developing analytical thinking, reading and writing skills. In the spring semester, students will conduct a major project in library research.",
+        "class": "history",
+        "url": "l5Dt",
+        "subject": "history"
+    },
+    {
+        "title": "Modern World History",
+        "extraInfo": "Classes II & III",
+        "description": "This course begins with an intensive study of the early modern world—a period characterized by increasing global contact and parallel evolution of economies, states and cultures. We compare Confucianism in Ming China, Islam in the Ottoman and Mughal Empires, and Christianity in Reformation Europe. We will consider the developments and repercussions of the French and Haitian revolutions, triangle trade, the Industrial Revolution and the onset of nationalism, Marxism and feminism. Our study will conclude with an examination of power and supremacy in the 20th century. We will emphasize the skills of close reading, interpretation of primary and secondary documents, and essay writing. Students will complete a major library research project in the second semester.",
+        "class": "history",
+        "url": "sH7_",
+        "subject": "history"
+    },
+    {
+        "title": "The United States in the Modern World 1",
+        "extraInfo": "Classes II & III",
+        "description": "The story of economic and political revolution—where its origins lie in the 15th and 16th centuries, how it is carried out in the 17th and 18th centuries, and how it re-shapes the world in the 19th century—is the story of this course. Students will study the modern history of the great empires of Eurasia, encounters between the peoples of Europe and the Americas, expansion of trade and technology, and the development of political ideologies. The American experience, from the voyages of Columbus to the Civil War, will be placed within the larger context of the modern world. Students will complete a major library research project in the spring semester.",
+        "class": "history",
+        "url": "rCHT",
+        "subject": "history"
+    },
+    {
+        "title": "The United States in the Modern World 2",
+        "extraInfo": "Classes I & II",
+        "description": "The United States takes a central role in the second year of this course, beginning with the impact of the Civil War and industrialization on both domestic and foreign policies. Questions of new thought in social relations, in the application of science and technology, and in governmental roles and responsibilities in the United States and in selected other nations will be studied, so that the discussion of revolutionary change begun in the first year continues and broadens. A close consideration of several Cold War topics in the second semester will enable students to reach a greater understanding of the problems faced by the 21st-century world, in particular the impact of human history on the natural world. Students will complete a major library research project early in the second semester.",
+        "class": "history",
+        "url": "ipOt",
+        "subject": "history"
+    },
+    {
+        "title": "United States History",
+        "extraInfo": "Classes I, II & III",
+        "description": "Conceptual and interpretive in nature, this course examines both the important documents (e.g., Declaration of Independence, United States Constitution, Gettysburg Address, and speeches of Frederick Douglass, Susan B. Anthony, Martin Luther King, Jr. and John Kennedy) and the multiple historical interpretations of an event or personality in the American past. Looking at the tension between freedom and order, democracy and slavery, urbanization and populism, gender and politics, localism and nationalism, students begin to see and understand that the principles and ideas fought for at the time of the American Revolution are unresolved in the later 19th and 20th centuries. Students will complete a major library research project in the spring semester. (Prerequisite: Ancient Civilizations or Modern World History)",
+        "class": "history",
+        "url": "s0NB",
+        "subject": "history"
+    },
+    {
+        "title": "African-American History",
+        "extraInfo": "Semester 1",
+        "description": "In this course, students examine the AfricanAmerican experience with an emphasis on individual and collective agency, political protest, and efforts to initiate social change. The course is organized chronologically. Students begin their study in 15th century Africa before moving quickly to the trans-Atlantic slave trade, and the historical foundations of black life in the antebellum and postbellum periods. The second half of the course stresses more contemporary issues of the 20th and 21st centuries. Throughout, students will grapple with questions that pertain to isolation and identity; individualism and collectivity; race and struggle; resistance and joy; and African American history as United States history.",
+        "class": "history",
+        "url": "v8D9",
+        "subject": "history"
+    },
+    {
+        "title": "History of Modern China",
+        "extraInfo": "Semester 2",
+        "description": "Since the late 20th century, China has been the most dynamic country. After suffering national decline, famines, foreign invasions and domestic chaos, China has re-emerged as a confident, powerful and influential country. Boasting the world’s second largest economy, China is beefing up its military, buying up natural resources and influence worldwide, and staking its flag in faraway places like the South Pole and closer to home in the South China Sea. Foreign governments eagerly accept Chinese investments across a wide range of industries, but they also complain about Chinese trade practices and attitudes. The Belt and Road Initiative (BRI), a signature Chinese global project under the Xi government worth approximately $6 trillion, is both an example of China’s vision and a testament to its ambition. The initiative is designed to tie China’s economy to the rest of the world by developing a series of multinational railway systems, airports and deep water ports that stretch from China all the way to Western Europe. With trade, China hopes to bring about mutual economic development and prosperity. All this sounds wonderful, but critics of BRI point to a series of problems ranging from unfair Chinese trade practices and environmental degradation to corruption. So what is the real picture of today’s China? Is it a benign and rapidly developing power who is ready to take on the mantle as a defender of the global economic order? Or is it a neo-colonial upstart with a mercantile streak ready to exploit others for its own benefit? The truth lies somewhere in between, and we will use this course to uncover some of the major issues at stake. We will examine them critically using a historical lens so that China’s position, perspective and motivation can be better understood.",
+        "class": "history",
+        "url": "6XOd",
+        "subject": "history"
+    },
+    {
+        "title": "History of the Middle East",
+        "extraInfo": "Semester 1",
+        "description": "This course examines the history of the Middle East from 1900 to the present. The geographic focus will be Egypt, Iraq, Iran, Israel, Saudi Arabia and Turkey. We will keep two broad questions in mind as we follow the current political and social developments in the region: 1) What impact did Western imperialism and the process of decolonization have on society and politics in the Middle East? and 2) How did the US invasion of Iraq in 2003 start a process that has led to a reordering of the modern Middle East? Students will conduct individual research on the topics of their choice at the end of the semester. For students wanting to continue their study of the contemporary Middle East, the course of Globalization and Islam in the second semester builds on themes covered in this course.",
+        "class": "history",
+        "url": "VGHe",
+        "subject": "history"
+    },
+    {
+        "title": "Topics in Modern World History: In the Aftermath: Case Studies in Transitional Justice",
+        "extraInfo": "Semester 1",
+        "description": "What should happen after a government’s violence against its citizens? Who should decide? The class will focus on specific case studies to explore three kinds of responses to government crimes against citizens: the policies of official forgetting (e.g., post-Franco Spain; Argentina); truth telling and reconciliation movements (e.g., post-apartheid South Africa; Australia); international prosecutions (e.g., Khmer Rouge in Cambodia); and reparations (e.g., Canada/First Nation Peoples; US government/slavery). We will also explore responses from artists, filmmakers, theologians, psychologists and survivors to understand the challenges and promise of transitional justice. Projects will include persuasive and analytical writing along with training for and practice of interviews, mediation and mock trials.",
+        "class": "history",
+        "url": "vs1e",
+        "subject": "history"
+    },
+    {
+        "title": "Asian American History",
+        "extraInfo": "Semester 2",
+        "description": "Asian Americans constitute the fastest growing population in the United States. Students will explore the history of this diverse community from 1850 to the present. Throughout this period, Asian Americans have been characterized as either the “model minority” or the “yellow peril.” By focusing on the experiences of Chinese, Japanese, Korean, Filipino, Asian Indian and Vietnamese Americans, students will develop a dynamic understanding of the documentation and interpretation of this history. Documentary films and readings about immigration policy, international relations, labor history, community development and political empowerment will be the focus of our studies. Students will conduct an oral history project at the end of the semester.",
+        "class": "history",
+        "url": "pij6",
+        "subject": "history"
+    },
+    {
+        "title": "The Aztecs to Hight-Tech: A History of Latin America and the Caribbean in the World",
+        "extraInfo": "Semester 2",
+        "description": "Drug trafficking, poverty, political revolution. These are just a few of the images that the mention of Latin America and the Caribbean conjures. Not inaccurate, these images are also easy generalizations that obscure the realities of a region rich in history, and social and cultural complexities that have profoundly contributed to the entire pageant of humanity. This course examines that complicated, historical process. Arranged chronologically and thematically, it begins with the earliest indigenous communities and concludes with an exploration of the region’s role as a provider of cheap labor for technologically sophisticated multinational corporations like Ford and Motorola. The course deliberately integrates a global perspective that challenges participants to consider the ways the people of Latin America and the broader world have shared mutually constituted historical experiences.",
+        "class": "history",
+        "url": "cSW7",
+        "subject": "history"
+    },
+    {
+        "title": "Globalization and Islam",
+        "extraInfo": "Semester 2",
+        "description": "This course will explore the relationship between globalization and the Middle East in the post-9/11 world. Using readings from current scholarship, we will examine ways in which the Arab world has been shaped by economic, political and social realities created by globalization. The first part of the course will introduce students to broad topics in globalization. Then we will apply these theories to our case studies of Egypt and Jordan. The third part of the course will focus on the complex relationship between globalization, American foreign policy and the rise of religious extremism in Europe and the Middle East. To better connect our classroom learning to the Middle East, students will work with an NGO in Jordan to create a final project that helps raise awareness of issues related to the Syrian Refugee crisis. This course offers an optional trip to Jordan during the March vacation.",
+        "class": "history",
+        "url": "cxFp",
+        "subject": "history"
+    },
+    {
+        "title": "History of Civil Rights",
+        "extraInfo": "Semester 2",
+        "description": "In this course, we will examine a number of questions about the struggle for justice and equality in the United States. What did the civil rights workers of the 1960s hope to accomplish? What were they able to achieve? How did American society respond to this movement for social change? The first half of the course is devoted to understanding the relationship between oppression and resistance, focusing on the legacy of segregation. Students will then look at the events that shaped the modern civil rights movement. Course work includes journal writing, reaction papers, and a final research project about a contemporary civil rights issue. This course challenges students to develop a clear historical perspective about one of the most revolutionary periods in U.S. history.",
+        "class": "history",
+        "url": "ZSpM",
+        "subject": "history"
+    },
+    {
+        "title": "American Government and Politics",
+        "extraInfo": "Semester 1",
+        "description": "The heart of this course is an examination of the interactions between the policy-making institutions of the United States government (Congress, the presidency and the executive branch, and the Supreme Court) and the nature of American political parties, interest groups, the media, and the American electoral practices. With a focus on current events and the 2016 elections, we will begin to see how the United States’ constitutional underpinnings are enforced and complicated by political culture. Through this course, students will be engaged in following political events in and out of the class, as well as partaking in independent research as a way to understand and contribute to political processes. Ultimately, this course will equip students with the foundational understandings to engage thoughtfully and purposefully in politics, while also allowing for the practice of political communication and discourse— all of which are incredibly important in our increasingly polarized political climate. (Note: To enroll in this course, students must have taken or be taking United States History or U.S. in the Modern World.)",
+        "class": "social",
+        "url": "FOme",
+        "subject": "history"
+    },
+    {
+        "title": "Comparative Government",
+        "extraInfo": "Semester 2",
+        "description": "In this course, we will develop the skills and habits of mind required to study and thoughtfully participate in our global political landscape. Through concrete historical and present day examples, we will analyze the current literature and theoretical basics of comparative politics, and question why governments and institutions around the world take the form they do. We will ground our conversations in case studies from states around the world. In doing so, we will address two essential questions: What defines and complicates democracy? And how does change occur and endure? By questioning the legitimacy of governments, the distribution of power, and the roles of culture, leaders, and institutions, we will use history to explain current trends and make future predictions. Ultimately, every aspect of the course will culminate in project-based assessments that apply comparative politics to the case of the Arab Spring.",
+        "class": "social",
+        "url": "GAuk",
+        "subject": "history"
+    },
+    {
+        "title": "Microeconomics: The Power of Markets",
+        "extraInfo": "Semester 1 or 2",
+        "description": "This course studies the behavior of individual firms and households within specific markets, like health care, the automotive industry, and retailing. It covers such economic concepts as scarcity, opportunity cost, supply and demand, elasticity, price, and economic efficiency. Focused on the interactions within different markets, the course examines both competitive and non-competitive structures and explores the consequences of market failures. As we explore how markets operate, we will pay particular attention to a company’s costs, labor markets, capital markets and government regulation. (This course will prepare students for both Macroeconomics and Behavioral Economics. Students may not take this course if they have taken, or are planning on taking Calculus and Applied Economics.)",
+        "class": "social",
+        "url": "dOlm",
+        "subject": "history"
+    },
+    {
+        "title": "Macroeconomics: The Federal Government and the National Economy",
+        "extraInfo": "Semester 1 or 2",
+        "description": "This course focuses on the whole U.S. economy. It covers such economic concepts as gross domestic product, economic growth, unemployment, inflation, and trade. Economic models for a market-based national economy are examined; topics of discussion include GDP growth, fiscal policy, monetary policy, the Federal Reserve, and taxation. We will also spend some time discussing the U.S. economy in the context of the global marketplace and tackle issues of international trade, trade policy, and sustainable development. (This course will prepare students for Behavioral Economics.)",
+        "class": "social",
+        "url": "a9C3",
+        "subject": "history"
+    },
+    {
+        "title": "Behavioral Economics: The Burdens of Decision-Making",
+        "extraInfo": "Semester 2",
+        "description": "This course explores the relatively new field of behavioral economics and works to revise standard economic models of human behavior by integrating psychology and economic thought. We will quickly discuss and dissect conventional economic theory and use that as a jumping off point to answer questions of behavior such as: How do people make decisions on what cereal to eat? Why do people feel more comfortable paying a dinner bill with a credit card instead of cash? What is the role of altruism, equity and fairness in our society and world? We will discuss these questions and many others throughout the semester. This course relies on the basic principles of economics to understand human decision making. (prerequisite (one of the following: Microeconomics, Macroeconomics, Calculus and Applied Economics, Psychology Seminar or Topics in Psychology)",
+        "class": "social",
+        "url": "cew4",
+        "subject": "history"
+    },
+    {
+        "title": "Psychology Seminar",
+        "extraInfo": "Full",
+        "description": "This college-level course introduces students to the field of psychology, the scientific study of the mind and behavior, through hands-on experiences with research design, projects, discussion and lessons. In addition to learning about major areas within the field of psychology—including cognition, neurobiology, development, behaviorism, socioculturalism and mental health —students will often be required to work in teams and expected to improve their observation, leadership, collaboration and presentation skills. Students will work towards thinking like a psychologist where they reflect critically about the theories and research presented and thoughtfully consider the human experience and the carrying influences on it. Although it is not required, students may find it helpful to have taken or be taking biology and statistics. (Topics in Psychology is NOT a prerequisite for this course.)",
+        "class": "social",
+        "url": "V5mu",
+        "subject": "history"
+    },
+    {
+        "title": "Topics in Psychology",
+        "extraInfo": "Half",
+        "description": "This course explores topics within the discipline of psychology, including development, personality theory, abnormal psychology, social psychology and learning. Through these topics, students also study the thought of foundational and contemporary theorists within the field of psychology. Course content integrates reading from the textbook and primary sources, as well as watching film from a psychological perspective. Students are encouraged to reflect on the material in both personal and academic ways and are evaluated through interactive learning projects, analytical essays, and classroom discussions.",
+        "class": "social",
+        "url": "WiEX",
+        "subject": "history"
+    },
+    {
+        "title": "Religions in the Middle East",
+        "extraInfo": "Semester 1",
+        "description": "The Middle East is the birthplace of three of the world’s great religious traditions— Judaism, Christianity and Islam. It is also a center of conflict, often stemming from religious differences. In our shrinking and pluralistic world, having knowledge of religion has become increasingly important in order to be an informed citizen. Taking a global and historical view, this course examines the development of each of the Middle Eastern religions, analyzes their connections, and contemplates the source of their tension. Students will study each religion on its own terms through class discussion, primary texts, film, and inquiry into the spiritual and religious practices of each tradition.",
+        "class": "social",
+        "url": "VMs1",
+        "subject": "history"
+    },
+    {
+        "title": "Religions of Asia",
+        "extraInfo": "Semester 2",
+        "description": "Modern historical events such as the liberation movement in India, the Chinese invasion of Tibet, and globalization have resulted in a closer association between the Western world and Asia. Throughout the 20th century, the West’s intrigue with Asian beliefs, philosophy and practices has intensified. This course explores the growing interest in Asian culture by focusing on the religions of the region—Hinduism, Buddhism, Taoism and Zen—and charting their histories and influence in the global community. Students will study each religion on its own terms through class discussion, primary texts, film, and inquiry into the spiritual and religious practices of each tradition.",
+        "class": "social",
+        "url": "O7-w",
+        "subject": "history"
+    },
+    {
+        "title": "Activism for Justice in a Digital World",
+        "extraInfo": "Half, Classes I, II & III",
+        "description": "How do activists work to create a more just society in the United States and in the world? How are they combining new social media tools and traditional service activities to address problems of poverty, homelessness, hunger, educational inequity, healthcare, the environment and immigration? How can you make a difference? This course will explore current issues through readings by contemporary authors and news sources, as well as historical documents, speakers, and field trips into Boston. An integral component of this exploration will be students’ firsthand experiences through weekly service commitments to local sites (with homework time allocated to this hands-on work). Course work includes journal writing, short papers, and action projects.",
+        "class": "social",
+        "url": "NpEP",
+        "subject": "history"
+    },
+    {
+        "title": "Latin 1",
+        "extraInfo": "none",
+        "description": "This introduction to the Latin language presents the basics of grammar and vocabulary, as well as background in Roman history, culture and mythology. Because students start Latin with different backgrounds in English grammar, we devote considerable time to examining the way English works. In addition, students learn to look for English cognates of the Latin words they study, thus strengthening their vocabulary in both languages. Students are introduced to all five declensions; the six indicative tenses and the infinitives (active and passive) of all conjugations; relative, personal, demonstrative and reflexive pronouns, the indirect statement, and the comparative system of adjectives and adverbs. Successful completion of this course qualifies students for Latin 2. Highly motivated and proficient students may request permission to enroll in the accelerated course, Latin 2/3.",
+        "class": "latin",
+        "url": "KKqP",
+        "subject": "classics"
+    },
+    {
+        "title": "Latin 2",
+        "extraInfo": "none",
+        "description": "Following a systematic review of Latin morphology and sentence structure, students in Latin 2 complete their study of forms and syntax while developing reading skills using adapted selections, primarily from Cicero. Starting in the spring, the course provides students with their first opportunity to read, in the native language, words written two millennia ago by authors who have influenced the development of Western literature and history. Some original Latin texts may serve as a starting point for exploring GrecoRoman mythology, culture and important periods of Latin history. This course prepares students to read Latin prose.",
+        "class": "latin",
+        "url": "cEks",
+        "subject": "classics"
+    },
+    {
+        "title": "Latin 3",
+        "extraInfo": "none",
+        "description": "A reading course with some grammar and composition, Latin 3 focuses on developing students’ reading skills. Students build vocabulary by identifying learned roots, prefixes and English derivatives. Prose readings include selections from Caesar’s commentaries and the works of Cicero, which we examine for rhetorical literary style as well as for content and political implications. Excerpts from Ovid’s Metamorphoses and Amores introduce meter and familiarize students with mythological stories. Successful completion of this course qualifies students for Latin 4. Highly motivated and proficient students may request permission to enroll in the Advanced Placement course, Latin Literature.",
+        "class": "latin",
+        "url": "pzJ0",
+        "subject": "classics"
+    },
+    {
+        "title": "Latin 2/3 (Accelerated)",
+        "extraInfo": "none",
+        "description": "This course combines all the grammar and authors studied in Latin 2 and 3. The class meets five times per week and assumes a solid foundation in level 1 Latin. Successful completion of this course qualifies students for Latin 4. Highly motivated and proficient students may request permission to enroll in the Advanced Placement course, Latin Literature. (Enrollment by permission of the department chair.)",
+        "class": "latin",
+        "url": "HKg2",
+        "subject": "classics"
+    },
+    {
+        "title": "Latin 4: Literature of the Golden Age",
+        "extraInfo": "none",
+        "description": "Students in this course develop their reading skills as they translate and engage with selections from first century B.C.E. authors. Readings are drawn from Cicero’s speeches and/or letters, Ovid’s Metamorphoses, Vergil’s Aeneid and other works of prose and poetry that are representative of the late Republican and Augustan age. These works introduce students to some of the most popular classical myths, to themes of love and the hero, and to the historical context that shaped the works. Students strengthen grammar skills, and increase reading speed and comprehension. They learn to scan dactylic hexameter and elegiac verse. This course introduces students to great works of Latin literature and prepares students for the Advanced Placement course, Latin Literature.",
+        "class": "latin",
+        "url": "0Uh5",
+        "subject": "classics"
+    },
+    {
+        "title": "Latin Literature (AP)",
+        "extraInfo": "none",
+        "description": "This reading course focuses on Vergil’s Aeneid and the selections of Caesar’s Commentaries on the Gallic War that are included on the Advanced Placement examination. Students consider the major themes of the works within their literary and historical contexts. Designed for highly motivated students, this rigorous course presents elements of Roman history, politics, mythology and the classical literary tradition. Through close textual study, students encounter literary criticism as a tool for understanding classical literature. (Permission of the department chair required; prepares students for the AP Latin examination.)",
+        "class": "latin",
+        "url": "QzdV",
+        "subject": "classics"
+    },
+    {
+        "title": "Advanced Latin: Roman Elegy and Lyric",
+        "extraInfo": "Half",
+        "description": "This course focuses on reading and understanding Latin poetry in its literary and historical contexts. Reading works by poets such as Catullus, Horace, Sulpicia and Ovid, students trace the development of meter, diction and poetic motifs. The class also explores how Roman poets adapted the conventions of love poetry to present an image of the Roman state under Augustus that is more personal than Vergil’s vision. Some important topics studied are first person narrative, gender and poetic allusion. (Prerequisite: Latin Literature (AP) or permission of the department chair.)",
+        "class": "latin",
+        "url": "A7tE",
+        "subject": "classics"
+    },
+    {
+        "title": "Advanced Latin: Roman Historians",
+        "extraInfo": "Half",
+        "description": "How did the Romans view their history? How did they want to be remembered? This course provides a look at Roman history through the eyes of some of Rome’s better known historians. A close reading of selected texts in Latin serves as a basis for examining questions of historiography and prose style. Principal selections are drawn from Livy, Tacitus and Sallust. (Prerequisite: Latin Literature (AP) or permission of the department chair.)",
+        "class": "latin",
+        "url": "HB6P",
+        "subject": "classics"
+    },
+    {
+        "title": "Advanced Latin: Roman Philosophical Writings",
+        "extraInfo": "Semester 1",
+        "description": "What role did the Roman gods have in shaping the world around us? What does it mean to live “a good life”? In this course, students read selections from Lucretius, Cicero, Horace and Seneca and examine their works for philosophical insight and poetic craft in their historical context. Students are introduced to important Greek influences on Roman philosophy. (Prerequisite: Latin Literature (AP) or permission of the department chair.)",
+        "class": "latin",
+        "url": "M5_k",
+        "subject": "classics"
+    },
+    {
+        "title": "Advanced Latin: Selected Readings",
+        "extraInfo": "Semester 2",
+        "description": "This course permits students to pursue their own interests in Latin and Greek literature at an advanced level. Working together with members of the department, students select authors and texts to read. Past classes have read comedy, satire, oratory and history. (Prerequisite: Latin Literature (AP) and one other Advanced Latin course or permission of the department chair.)",
+        "class": "latin",
+        "url": "gK-p",
+        "subject": "classics"
+    },
+    {
+        "title": "Intensive Latin",
+        "extraInfo": "Class I or Class II with special permission",
+        "description": "These are accelerated courses designed for Class I students (and students in Class II with special permission). Each is the equivalent in difficulty and pace to a first-year college language course and is open only to students who have completed the language requirement through study of another language.",
+        "class": "latin",
+        "url": "5Ph5",
+        "subject": "classics"
+    },
+    {
+        "title": "Advanced Greek: Plato",
+        "extraInfo": "none",
+        "description": "In this course, we continue the study of Greek grammar and syntax while reviewing the foundation built in the previous year. Students are introduced to Greek prose through a careful reading of selections from Plato’s Symposium, a text that serves as a basis for students’ study of 5th century Athenian culture and identity. In addition to the Symposium, students study related passages from other Platonic works and from other authors and poets. Over the course of the year, students explore topics in mythology, history, philosophy, drama, gender and sexuality.",
+        "class": "greek",
+        "url": "jN8V",
+        "subject": "classics"
+    },
+    {
+        "title": "Advanced Greek: Selected Readings",
+        "extraInfo": "none",
+        "description": "This course covers selected readings from Classical Greek writers such as Euripides, Herodotus, Homer and Xenophon. Students also choose particular aspects of the Greek world to explore in independent and collaborative projects in the fall and spring. (Prerequisite: Advanced Greek: Plato)",
+        "class": "greek",
+        "url": "6sRC",
+        "subject": "classics"
+    },
+    {
+        "title": "Intensive Classical Greek",
+        "extraInfo": "Class I or Class II with special permission",
+        "description": "This course covers the basic grammar and vocabulary of Attic Greek. Adapted texts from Homer, Plato, Herodotus, and Aristophanes serve as a basis for the study of Greek culture and its legacy. Students also choose particular aspects of the Greek world to explore in independent and collaborative projects in the fall and spring. Some topics include: democracy, art, drama, law, history and philosophy. (Prerequisite: current enrollment in or completion of level 4 of a language at Milton.)",
+        "class": "greek",
+        "url": "Gsgs",
+        "subject": "classics"
+    },
+    {
+        "title": "Computer Programming 1",
+        "extraInfo": "Half",
+        "description": "This project-based course is an introduction to computer programming. No prior knowledge of computing is needed. Using the development of video games, students learn the basic concepts of programming and the fundamentals of the Java programming language. Game topics covered include user control, decision-making, graphics, sound, character artificial intelligence and animation. Students develop problem solving and logical thinking skills through object oriented programming and algorithm design. Second semester projects allow students to explore more advanced topics and work on larger projects of their own choice. Past projects include writing multilevel video games, music composition software, and optical character recognition software. The design and implementation of this course is unique, allowing students to master many basic concepts in programming while also developing compelling projects.",
+        "class": "-1",
+        "url": "2Xs2",
+        "subject": "computer"
+    },
+    {
+        "title": "Computer Programming 2",
+        "extraInfo": "Half",
+        "description": "This course is intended for students who have completed Computer Programming 1 or who have learned equivalent material and received permission to enroll. It includes topics such as data structures, database programming, recursion, pathfinding algorithms, game AI programming, networking, graphical user interfaces, web programming and control systems. The content and emphasis of the course are adapted each year to the interests and experience of the students. The course is taught using Java, PHP and other languages. In recent years, students have written Internet network programs, studied artificial intelligence to fly a quad-copter (also built by students), created projects around Arduino and Raspberry Pi single board computers and written games based on harvested Twitter data. (Permission of the department chair is required.)",
+        "class": "-1",
+        "url": "DXFs",
+        "subject": "computer"
+    },
+    {
+        "title": "Computer Programming 2 & 3: Computer Programming and Applications",
+        "extraInfo": "Full",
+        "description": "This course is intended for students who have completed Computer Programming 1 or who have learned equivalent material and received permission to enroll. The course begins with topics such as data structures, database programming, recursion, pathfinding algorithms, game AI programming, networking, graphical user interfaces, web programming and control systems. The content and emphasis of the course are adapted each year to the interests and experience of the students. After learning the above concepts, students apply them to handheld app development (iPhone and Android). Students will design applications for Android and then for iOS, using a variety of programming languages, including Swift, Java, SQL and PHP. Recent class projects include the Milton Academy Students application (available at Google Play and iTunes for free), Internet network programs, a study of artificial intelligence to fly a quad-copter (also built by the students) and games based on harvested Twitter data. (Permission of the department chair is required.)",
+        "class": "-1",
+        "url": "_HuP",
+        "subject": "computer"
+    },
+    {
+        "title": "Computer Programming 3: Programming Applications",
+        "extraInfo": "Half",
+        "description": "This course exposes students to practical applications of programming. The focus is on developing applications for handheld devices (iPhone and Android). Other topics covered are based on student interest and emerging technologies. Students design applications for Android and then for iOS, learning the relevant material to do so. The coursework will use a variety of programming languages, including Swift, Java, SQL and PHP. A recent class project is the Milton Academy Students application (available at Google Play and iTunes for free). (Permission of the department chair and prior programming experience are required. With departmental permission, this course may be taken concurrently with Computer Programming 2.)",
+        "class": "-1",
+        "url": "-1LL",
+        "subject": "computer"
+    },
+    {
+        "title": "Computer Programming 4: Artificial Intelligence and Data Science",
+        "extraInfo": "Half",
+        "description": "This project-based course will introduce students to the basics of Artificial Intelligence and Data Science. We will cover many different types of applications in AI and AI concepts. Topics in the curriculum include kmean square, logistic regression, perceptron, feed forward network, and convolutional neural networks. The class will do projects that cover clustering, binary classifiers, categorical classification, image classification and natural language processing. Through all these projects students will get practice with curating and cleaning datasets. While students may choose to explore the mathematical depths of the AI concepts we discuss, they are not expected to learn more than just the most basic concepts within linear algebra necessary to understand machine learning models.",
+        "class": "-1",
+        "url": "EXCY",
+        "subject": "computer"
+    },
+    {
+        "title": "Applied Engineering & Design",
+        "extraInfo": "none",
+        "description": "This project-based course focuses on learning to design and create solutions for real world problems using programming, electronics and mechanical systems. Through investigation of how everyday machines, toys and devices work, students are introduced to basic engineering concepts, electronics circuits and systems design. Using Arduino and Raspberry Pi single board computers, students design and program embedded systems and interface them with the physical world. Students will go through the full product design cycle including writing proposals; designing with CAD software, and electronic and mechanical simulation software; fabricating and testing; and giving final presentations. Topics will vary with student interest and include robotics, electro-mechanical systems, audio systems, wearable technology, assistive technology and sustainable energy systems. (Permission of the department chair and prior programming experience required.)",
+        "class": "-1",
+        "url": "BVPA",
+        "subject": "computer"
+    }
+]

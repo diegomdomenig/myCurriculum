@@ -4,4 +4,4 @@ nodemon.json
 package-lock.json
 Procfile
 access.log
-
+.DS_Store
